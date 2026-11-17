@@ -87,30 +87,15 @@ main { flex: 1; }
 .brand-mark {
   width: 38px;
   height: 38px;
+  flex: 0 0 auto;
   display: grid;
   place-items: center;
-  transform: rotate(45deg);
   border: 1px solid var(--gold);
   border-radius: 11px 3px;
+  background: linear-gradient(145deg, #fffefa, #f4f0e5);
 }
 
-.brand-mark::before,
-.brand-mark span {
-  content: "";
-  width: 19px;
-  height: 19px;
-  position: absolute;
-  border: 1px solid var(--forest);
-  border-radius: 6px 1px;
-}
-
-.brand-mark span {
-  width: 7px;
-  height: 7px;
-  border: 0;
-  border-radius: 50%;
-  background: var(--gold);
-}
+.brand-mark svg { width: 27px; height: 27px; color: var(--forest); }
 
 .brand-copy {
   display: grid;
@@ -519,8 +504,8 @@ main { flex: 1; }
 
 .brand--compact .brand-name { color: #f4f1e8; }
 .brand--compact .brand-urdu { color: #c4b789; }
-.brand--compact .brand-mark { border-color: rgba(213, 183, 121, .7); }
-.brand--compact .brand-mark::before { border-color: #d7ddce; }
+.brand--compact .brand-mark { border-color: rgba(213, 183, 121, .7); background: rgba(255, 255, 255, .04); }
+.brand--compact .brand-mark svg { color: #d7ddce; }
 
 .footer-tagline { margin: 11px 0 0; color: #b6c4b9; font-size: 10px; }
 .footer-links { display: flex; gap: 24px; }
@@ -628,13 +613,25 @@ main { flex: 1; }
 .ahkam-card-heading { display: flex; justify-content: flex-end; }
 .reference-chip { padding: 7px 10px; border: 1px solid #ebe7dc; background: #fbfaf6; }
 .ahkam-title { margin: 23px 0; color: var(--forest-dark); font-family: var(--urdu-font); font-size: 22px; font-weight: 500; }
+.ahkam-title-english { margin: -14px 0 23px; color: #596258; font-family: Georgia, "Times New Roman", serif; font-size: 15px; }
+.ayah-block + .ayah-block { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); }
+.ayah-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .quran-text { margin: 0 0 24px; padding: 24px 16px; border-block: 1px solid #e8dfca; color: #304638; font-family: var(--arabic-font); font-size: 26px; line-height: 2; text-align: center; }
+.quran-text { overflow-wrap: anywhere; }
 .translation-block { margin-block: 19px; color: #454b44; font-size: 13px; line-height: 1.9; }
 .translation-block p,
 .explanation-grid p { margin: 0; }
 .field-label { margin-bottom: 6px !important; color: #96917f; font-size: 10px; }
 .translation-block[lang="ur"],
 .explanation-grid [lang="ur"] { font-family: var(--urdu-font); font-size: 14px; line-height: 2; }
+.translation-block > p:not(.field-label) { font-size: 16px; }
+.translation-block[lang="ur"] > p:not(.field-label) { font-size: 18px; }
+.entry-editorial-note { margin-top: 21px; padding: 13px 15px; border-inline-start: 2px solid var(--gold); background: #f7f4eb; color: #62685f; font-family: var(--urdu-font); font-size: 13px; line-height: 1.9; }
+.entry-editorial-note p { margin: 0; }
+.editorial-disclaimer { margin-bottom: 28px; padding: 17px 20px; border: 1px solid #e9e2d2; background: #f7f4eb; color: #62685f; font-size: 11px; line-height: 1.8; }
+.editorial-disclaimer h3 { margin: 0 0 8px; color: var(--forest-dark); font-size: 12px; font-weight: 600; }
+.editorial-disclaimer p { margin: 6px 0 0; }
+.editorial-disclaimer [lang="ur"] { font-family: var(--urdu-font); font-size: 12px; }
 
 .explanation-grid {
   display: grid;
@@ -764,6 +761,8 @@ main { flex: 1; }
   .ahkam-card { padding: 19px 16px; }
   .ahkam-title { font-size: 20px; }
   .quran-text { padding: 19px 7px; font-size: 22px; }
+  .ayah-heading { align-items: flex-start; }
+  .editorial-disclaimer { padding: 14px; }
   .explanation-grid { grid-template-columns: 1fr; gap: 16px; }
   .source-note { flex-direction: column; }
   .about-hero { padding-block: 55px; }

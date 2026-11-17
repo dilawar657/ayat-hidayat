@@ -1,8 +1,146 @@
 {
-    "surahNumber":  24,
-    "surahNameArabic":  "Ø§Ù„Ù†ÙˆØ±",
-    "surahNameEnglish":  "An-Nur",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 24,
+  "surahNameArabic": "النور",
+  "surahNameEnglish": "An-Nur",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی مفاہیم مختصر ادارتی مفہوم ہیں، شائع شدہ ترجمے کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو ان مفاہیم سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English meanings are concise editorial renderings, not verbatim quotations from a published translation. Quranic Arabic is shown separately."
+  },
+  "ahkamat": [
+    {
+      "id": "an-nur-zina-punishment-002",
+      "topicUrdu": "زنا کی سزا اور اس کا علانیہ نفاذ",
+      "topicEnglish": "Prescribed Punishment for Zina",
+      "references": ["24:2"],
+      "ayahs": [
+        {
+          "reference": "24:2",
+          "arabic": "ٱلزَّانِيَةُ وَٱلزَّانِى فَٱجْلِدُوا۟ كُلَّ وَٰحِدٍۢ مِّنْهُمَا مِا۟ئَةَ جَلْدَةٍۢ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌۭ فِى دِينِ ٱللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَآئِفَةٌۭ مِّنَ ٱلْمُؤْمِنِينَ ٢",
+          "urduMeaning": "زنا کرنے والی عورت اور زنا کرنے والے مرد میں سے ہر ایک کو سو کوڑے مارنے کا حکم دیا گیا ہے۔ اللہ کے دین کے معاملے میں اس حکم کے نفاذ کے دوران نرمی کو اس پر غالب نہ آنے دو، اور ان کی سزا کے وقت اہلِ ایمان کا ایک گروہ موجود ہو۔",
+          "englishMeaning": "The woman and man guilty of unlawful sexual intercourse are each prescribed one hundred lashes. Believers must not let misplaced compassion override Allah's ruling, and a group of believers should witness the punishment."
+        }
+      ],
+      "editorialNoteUrdu": "یہ ایک قانونی حکم ہے، نجی افراد یا ہجوم کو کسی کو سزا دینے کی اجازت نہیں۔ اس کا قانونی اطلاق، ثبوت کے تقاضے اور شرائط سنت، فقہ اور جائز عدالتی اختیار کے تحت سمجھے جائیں۔",
+      "sources": [
+        "https://quran.com/an-nur/translation/bayan-ul-quran",
+        "https://quran.com/an-nur/translations/ur",
+        "https://quran.com/an-nur"
+      ]
+    },
+    {
+      "id": "an-nur-chastity-marriage-003",
+      "topicUrdu": "نکاح میں پاک دامنی اور اخلاقی مطابقت",
+      "topicEnglish": "Chastity and Marriage",
+      "references": ["24:3"],
+      "ayahs": [
+        {
+          "reference": "24:3",
+          "arabic": "ٱلزَّانِى لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةًۭ وَٱلزَّانِيَةُ لَا يَنكِحُهَآ إِلَّا زَانٍ أَوْ مُشْرِكٌۭ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى ٱلْمُؤْمِنِينَ ٣",
+          "urduMeaning": "بدکار مرد کا تعلق عموماً بدکار یا مشرک عورت سے ہوتا ہے، اور بدکار عورت سے بدکار یا مشرک مرد ہی نکاح کرتا ہے۔ اور ایسا نکاح اہلِ ایمان کے لیے حرام قرار دیا گیا ہے۔",
+          "englishMeaning": "The verse describes the association of a fornicator with a female fornicator or polytheist, and of a female fornicator with a fornicator or polytheist, and declares this forbidden to believers."
+        }
+      ],
+      "editorialNoteUrdu": "علمی تفسیر اور سچی توبہ کے بعد نکاح سے متعلق احکام میں فقہی تفصیلات ہیں۔ ایسا تاثر نہ دیا جائے کہ توبہ کے بعد کسی شخص کے حالات کبھی تبدیل نہیں ہو سکتے۔",
+      "sources": [
+        "https://quran.com/an-nur/translation/bayan-ul-quran",
+        "https://quran.com/an-nur/translations/ur",
+        "https://quran.com/an-nur"
+      ]
+    },
+    {
+      "id": "an-nur-false-accusation-004-005",
+      "topicUrdu": "پاک دامن افراد پر زنا کی تہمت لگانے کی ممانعت",
+      "topicEnglish": "Prohibition of False Accusations",
+      "references": ["24:4–5"],
+      "ayahs": [
+        {
+          "reference": "24:4",
+          "arabic": "وَٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَـٰتِ ثُمَّ لَمْ يَأْتُوا۟ بِأَرْبَعَةِ شُهَدَآءَ فَٱجْلِدُوهُمْ ثَمَـٰنِينَ جَلْدَةًۭ وَلَا تَقْبَلُوا۟ لَهُمْ شَهَـٰدَةً أَبَدًۭا ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ ٤",
+          "urduMeaning": "جو لوگ پاک دامن عورتوں پر زنا کی تہمت لگائیں اور چار گواہ پیش نہ کر سکیں، ان کے لیے اسی کوڑوں کی سزا اور ان کی گواہی قبول نہ کرنے کا حکم ہے۔",
+          "englishMeaning": "Those who accuse chaste women of adultery but fail to produce four witnesses are prescribed eighty lashes, and their testimony is rejected."
+        },
+        {
+          "reference": "24:5",
+          "arabic": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ ٥",
+          "urduMeaning": "البتہ جو بعد میں توبہ کریں اور اپنی اصلاح کر لیں، تو اللہ بہت بخشنے والا، نہایت رحم کرنے والا ہے۔",
+          "englishMeaning": "Those who subsequently repent and reform are excepted, for Allah is Forgiving and Merciful."
+        }
+      ],
+      "editorialNoteUrdu": "میاں بیوی کے درمیان الزام کے لیے آیات 6–9 میں لِعان کا الگ طریقۂ کار بیان ہوا ہے۔",
+      "sources": [
+        "https://quran.com/an-nur/translation/bayan-ul-quran",
+        "https://quran.com/an-nur/translations/ur",
+        "https://quran.com/an-nur"
+      ]
+    },
+    {
+      "id": "an-nur-home-entry-027-029",
+      "topicUrdu": "دوسروں کے گھروں میں داخل ہونے کے آداب",
+      "topicEnglish": "Seeking Permission Before Entering Homes",
+      "references": ["24:27–29"],
+      "ayahs": [
+        {
+          "reference": "24:27",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتًا غَيْرَ بُيُوتِكُمْ حَتَّىٰ تَسْتَأْنِسُوا۟ وَتُسَلِّمُوا۟ عَلَىٰٓ أَهْلِهَا ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ لَعَلَّكُمْ تَذَكَّرُونَ ٢٧",
+          "urduMeaning": "اے ایمان والو! اپنے گھروں کے سوا دوسرے گھروں میں داخل ہونے سے پہلے اجازت حاصل کرو اور وہاں کے لوگوں کو سلام کرو۔",
+          "englishMeaning": "Believers must seek permission and greet the occupants before entering other people's homes."
+        },
+        {
+          "reference": "24:28",
+          "arabic": "فَإِن لَّمْ تَجِدُوا۟ فِيهَآ أَحَدًۭا فَلَا تَدْخُلُوهَا حَتَّىٰ يُؤْذَنَ لَكُمْ ۖ وَإِن قِيلَ لَكُمُ ٱرْجِعُوا۟ فَٱرْجِعُوا۟ ۖ هُوَ أَزْكَىٰ لَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌۭ ٢٨",
+          "urduMeaning": "اگر کوئی موجود نہ ہو تو اجازت ملنے تک داخل نہ ہو۔ اگر واپس جانے کو کہا جائے تو واپس چلے جاؤ۔",
+          "englishMeaning": "If nobody is present, they must wait for permission. If asked to leave, they should leave."
+        },
+        {
+          "reference": "24:29",
+          "arabic": "لَّيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَدْخُلُوا۟ بُيُوتًا غَيْرَ مَسْكُونَةٍۢ فِيهَا مَتَـٰعٌۭ لَّكُمْ ۚ وَٱللَّهُ يَعْلَمُ مَا تُبْدُونَ وَمَا تَكْتُمُونَ ٢٩",
+          "urduMeaning": "البتہ غیر رہائشی جگہوں میں جہاں تمہارا کوئی فائدہ یا ضرورت ہو، داخل ہونے میں حرج نہیں۔",
+          "englishMeaning": "There is no blame in entering uninhabited places where one has a legitimate need."
+        }
+      ],
+      "sources": [
+        "https://quran.com/an-nur/translation/bayan-ul-quran",
+        "https://quran.com/an-nur/translations/ur",
+        "https://quran.com/an-nur"
+      ]
+    },
+    {
+      "id": "an-nur-lowering-gaze-men-030",
+      "topicUrdu": "مردوں کے لیے نگاہیں نیچی رکھنا",
+      "topicEnglish": "Lowering the Gaze – Men",
+      "references": ["24:30"],
+      "ayahs": [
+        {
+          "reference": "24:30",
+          "arabic": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَـٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ ٣٠",
+          "urduMeaning": "اے نبی ﷺ! مؤمن مردوں سے کہہ دیجیے کہ وہ اپنی نگاہیں نیچی رکھیں اور اپنی شرم گاہوں کی حفاظت کریں۔ یہ ان کے لیے زیادہ پاکیزہ طریقہ ہے۔ بے شک اللہ ان کے اعمال سے باخبر ہے۔",
+          "englishMeaning": "Tell believing men to lower their gaze and guard their chastity. This is purer for them, and Allah is fully aware of what they do."
+        }
+      ],
+      "sources": [
+        "https://quran.com/an-nur/translation/bayan-ul-quran",
+        "https://quran.com/an-nur/translations/ur",
+        "https://quran.com/an-nur"
+      ]
+    },
+    {
+      "id": "an-nur-modesty-chastity-women-031",
+      "topicUrdu": "عورتوں کی پاک دامنی، نگاہوں اور زینت کی حفاظت",
+      "topicEnglish": "Modesty and Chastity – Women",
+      "references": ["24:31"],
+      "ayahs": [
+        {
+          "reference": "24:31",
+          "arabic": "وَقُل لِّلْمُؤْمِنَـٰتِ يَغْضُضْنَ مِنْ أَبْصَـٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُنَّ أَوِ ٱلتَّـٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ ٣١",
+          "urduMeaning": "مؤمن عورتوں سے کہہ دیجیے کہ وہ اپنی نگاہیں نیچی رکھیں، اپنی پاک دامنی کی حفاظت کریں، اپنی زینت کو ظاہر نہ کریں سوائے اس کے جو خود ظاہر ہو، اپنی اوڑھنیوں کو اپنے گریبانوں پر ڈالیں اور اپنی زینت مخصوص قریبی رشتوں کے سوا دوسروں پر ظاہر نہ کریں۔ اپنے پاؤں اس انداز سے نہ ماریں کہ چھپی ہوئی زینت ظاہر ہو۔ اے مؤمنو! سب اللہ کے حضور توبہ کرو تاکہ تم فلاح پاؤ۔",
+          "englishMeaning": "Tell believing women to lower their gaze, guard their chastity, and not display their adornment except what is ordinarily apparent. They should draw their head coverings over their chests and observe the specified limits concerning whom they may display their adornment before. They should not draw attention to hidden adornment by stamping their feet. All believers are called to repent to Allah so that they may succeed."
+        }
+      ],
+      "sources": [
+        "https://quran.com/an-nur/translation/bayan-ul-quran",
+        "https://quran.com/an-nur/translations/ur",
+        "https://quran.com/an-nur"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,137 @@
 {
-    "surahNumber":  14,
-    "surahNameArabic":  "Ø¥Ø¨Ø±Ø§Ù‡ÙŠÙ…",
-    "surahNameEnglish":  "Ibrahim",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 14,
+  "surahNameArabic": "ابراهيم",
+  "surahNameEnglish": "Ibrahim",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی عبارتیں فراہم کردہ سادہ مفہوم ہیں، شائع شدہ تراجم کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو مفہوم اور وضاحتی رہنمائی سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English text is the supplied simplified meaning, not a verbatim quotation from a published translation. Quranic Arabic is shown separately from the meanings and guidance."
+  },
+  "ahkamat": [
+    {
+      "id": "ibrahim-prefer-hereafter-003",
+      "topicUrdu": "آخرت کے مقابلے میں دنیا کو ترجیح نہ دینا",
+      "topicEnglish": "Prefer the Hereafter over Worldly Life",
+      "references": ["14:3"],
+      "ayahs": [
+        {
+          "reference": "14:3",
+          "arabic": "الَّذِينَ يَسْتَحِبُّونَ الْحَيَاةَ الدُّنْيَا عَلَى الْآخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ اللَّهِ وَيَبْغُونَهَا عِوَجًا ۚ أُولَٰئِكَ فِي ضَلَالٍ بَعِيدٍ",
+          "urduMeaning": "جو لوگ آخرت کے مقابلے میں دنیا کی زندگی کو ترجیح دیتے ہیں، اللہ کے راستے سے روکتے ہیں اور اس میں کجی تلاش کرتے ہیں، وہ دور کی گمراہی میں ہیں۔",
+          "englishMeaning": "Those who prefer worldly life over the Hereafter and hinder others from Allah's path are far astray."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: دنیا کی محبت کو آخرت کی کامیابی پر ترجیح نہ دو، اور دوسروں کو اللہ کے راستے سے نہ روکو۔",
+      "sources": [
+        "https://quran.com/ibrahim",
+        "https://quran.com/ibrahim/translations/ur",
+        "https://quran.com/ibrahim/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "ibrahim-patience-gratitude-005",
+      "topicUrdu": "صبر اور شکر کی صفات اپنانا",
+      "topicEnglish": "Learn Patience and Gratitude",
+      "references": ["14:5"],
+      "ayahs": [
+        {
+          "reference": "14:5",
+          "arabic": "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِآيَاتِنَا أَنْ أَخْرِجْ قَوْمَكَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ وَذَكِّرْهُم بِأَيَّامِ اللَّهِ ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+          "urduMeaning": "ہم نے موسیٰؑ کو اپنی نشانیوں کے ساتھ بھیجا کہ اپنی قوم کو اندھیروں سے روشنی کی طرف نکالو اور انہیں اللہ کے دن یاد دلاؤ۔ یقیناً اس میں ہر بہت صبر کرنے والے اور شکر کرنے والے کے لیے نشانیاں ہیں۔",
+          "englishMeaning": "Allah sent Moses with signs to lead his people from darkness into light. In these events are lessons for those who are steadfast and grateful."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: اللہ کی آزمائشوں میں صبر کرو اور اس کی نعمتوں پر شکر ادا کرو۔ وضاحت: یہ صبر اور شکر کرنے والوں کی صفات کے بارے میں سبق ہے، قاری کو براہِ راست مخاطب کرنے والا حکم نہیں۔",
+      "sources": [
+        "https://quran.com/ibrahim",
+        "https://quran.com/ibrahim/translations/ur",
+        "https://quran.com/ibrahim/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "ibrahim-gratitude-007",
+      "topicUrdu": "اللہ کا شکر ادا کرنا",
+      "topicEnglish": "Be Grateful to Allah",
+      "references": ["14:7"],
+      "ayahs": [
+        {
+          "reference": "14:7",
+          "arabic": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِي لَشَدِيدٌ",
+          "urduMeaning": "اور جب تمہارے رب نے اعلان فرمایا کہ اگر تم شکر ادا کرو گے تو میں تمہیں اور زیادہ دوں گا، اور اگر ناشکری کرو گے تو یقیناً میرا عذاب بہت سخت ہے۔",
+          "englishMeaning": "If you are grateful, Allah will surely increase His favours upon you; but if you are ungrateful, His punishment is severe."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: ہر حال میں اللہ کی نعمتوں کا شکر ادا کرو اور ناشکری سے بچو۔",
+      "sources": [
+        "https://quran.com/ibrahim",
+        "https://quran.com/ibrahim/translations/ur",
+        "https://quran.com/ibrahim/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "ibrahim-trust-patience-011-012",
+      "topicUrdu": "اللہ پر توکل اور صبر کرنا",
+      "topicEnglish": "Put Your Trust in Allah and Remain Patient",
+      "references": ["14:11", "14:12"],
+      "ayahs": [
+        {
+          "reference": "14:11",
+          "arabic": "قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌ مِّثْلُكُمْ وَلَٰكِنَّ اللَّهَ يَمُنُّ عَلَىٰ مَن يَشَاءُ مِنْ عِبَادِهِ ۖ وَمَا كَانَ لَنَا أَن نَّأْتِيَكُم بِسُلْطَانٍ إِلَّا بِإِذْنِ اللَّهِ ۚ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+          "urduMeaning": "رسولوں نے کہا کہ ہم تم جیسے انسان ہیں، لیکن اللہ اپنے بندوں میں سے جس پر چاہے فضل فرماتا ہے؛ اور مومنوں کو اللہ ہی پر بھروسا کرنا چاہیے۔",
+          "englishMeaning": "Their messengers said they were only human like them, but Allah grants His favour to whom He wills; believers should put their trust in Allah."
+        },
+        {
+          "reference": "14:12",
+          "arabic": "وَمَا لَنَا أَلَّا نَتَوَكَّلَ عَلَى اللَّهِ وَقَدْ هَدَانَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَا آذَيْتُمُونَا ۚ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُتَوَكِّلُونَ",
+          "urduMeaning": "رسولوں نے کہا کہ ہمیں کیا ہے کہ ہم اللہ پر بھروسا نہ کریں، حالانکہ اس نے ہمیں ہمارے راستے دکھائے ہیں؟ اور جو تکلیف تم ہمیں پہنچا رہے ہو، ہم اس پر ضرور صبر کریں گے۔ اور بھروسا کرنے والوں کو اللہ ہی پر بھروسا کرنا چاہیے۔",
+          "englishMeaning": "The messengers declared that believers should put their trust in Allah and patiently endure the harm they face."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: مشکلات میں اللہ پر توکل رکھو اور حق کے راستے میں آنے والی تکالیف پر صبر کرو۔",
+      "sources": [
+        "https://quran.com/ibrahim",
+        "https://quran.com/ibrahim/translations/ur",
+        "https://quran.com/ibrahim/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "ibrahim-establish-prayer-031",
+      "topicUrdu": "نماز قائم کرنا",
+      "topicEnglish": "Establish Salah",
+      "references": ["14:31"],
+      "ayahs": [
+        {
+          "reference": "14:31",
+          "arabic": "قُل لِّعِبَادِيَ الَّذِينَ آمَنُوا يُقِيمُوا الصَّلَاةَ",
+          "urduMeaning": "میرے ایمان والے بندوں سے کہہ دیجیے کہ وہ نماز قائم کریں۔",
+          "englishMeaning": "Tell My believing servants to establish prayer."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: پابندی کے ساتھ نماز قائم کرو۔",
+      "sources": [
+        "https://quran.com/ibrahim",
+        "https://quran.com/ibrahim/translations/ur",
+        "https://quran.com/ibrahim/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "ibrahim-spend-provision-031",
+      "topicUrdu": "اللہ کے دیے ہوئے رزق میں سے خرچ کرنا",
+      "topicEnglish": "Spend from What Allah Has Provided",
+      "references": ["14:31"],
+      "ayahs": [
+        {
+          "reference": "14:31",
+          "arabic": "وَيُنفِقُوا مِمَّا رَزَقْنَاهُمْ سِرًّا وَعَلَانِيَةً",
+          "urduMeaning": "اور جو رزق ہم نے انہیں دیا ہے، اس میں سے پوشیدہ اور علانیہ خرچ کریں۔",
+          "englishMeaning": "Spend from what We have provided for you, both privately and publicly."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: اللہ کے دیے ہوئے مال میں سے ضرورت مندوں اور نیک کاموں پر خرچ کرو، خفیہ بھی اور علانیہ بھی۔",
+      "sources": [
+        "https://quran.com/ibrahim",
+        "https://quran.com/ibrahim/translations/ur",
+        "https://quran.com/ibrahim/translations/en?translations=131"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,126 @@
 {
-    "surahNumber":  49,
-    "surahNameArabic":  "Ø§Ù„Ø­Ø¬Ø±Ø§Øª",
-    "surahNameEnglish":  "Al-Hujurat",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 49,
+  "surahNameArabic": "الحجرات",
+  "surahNameEnglish": "Al-Hujurat",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی عبارتیں اس ویب سائٹ کے لیے فراہم کردہ سادہ مفہوم ہیں، شائع شدہ تراجم کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو ان مفاہیم سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English text supplied here is a simplified meaning or paraphrase for this website, not a verbatim reproduction of the cited translations. Quranic Arabic is shown separately."
+  },
+  "ahkamat": [
+    {
+      "id": "hujurat-verify-report-006",
+      "topicUrdu": "خبر کی تحقیق کیے بغیر فیصلہ نہ کرنا",
+      "topicEnglish": "Verify Information Before Acting",
+      "references": ["49:6"],
+      "ayahs": [
+        {
+          "reference": "49:6",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍۢ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَـٰلَةٍۢ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ نَـٰدِمِينَ ٦",
+          "urduMeaning": "اے ایمان والو! اگر کوئی فاسق تمہارے پاس کوئی خبر لے کر آئے تو اس کی اچھی طرح تحقیق کر لیا کرو، کہیں ایسا نہ ہو کہ تم نادانی میں کسی قوم کو نقصان پہنچا بیٹھو اور پھر اپنے کیے پر پشیمان ہو۔",
+          "englishMeaning": "O believers! If an unreliable person brings you news, verify it carefully, lest you harm people unknowingly and later regret what you have done."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-hujurat",
+        "https://quran.com/al-hujurat/translations/ur",
+        "https://quran.com/al-hujurat/translations/en"
+      ]
+    },
+    {
+      "id": "hujurat-reconciliation-justice-009",
+      "topicUrdu": "لڑنے والے گروہوں میں صلح اور انصاف قائم کرنا",
+      "topicEnglish": "Reconciliation and Justice Between Fighting Groups",
+      "references": ["49:9"],
+      "ayahs": [
+        {
+          "reference": "49:9",
+          "arabic": "وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَـٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ ٩",
+          "urduMeaning": "اگر مسلمانوں کے دو گروہ آپس میں لڑ پڑیں تو ان کے درمیان صلح کراؤ۔ پھر اگر ان میں سے ایک گروہ دوسرے پر زیادتی کرے تو زیادتی کرنے والے گروہ کو اللہ کے حکم کی طرف لوٹنے تک روکو۔ پھر اگر وہ رجوع کر لے تو دونوں کے درمیان انصاف کے ساتھ صلح کراؤ۔ بے شک اللہ انصاف کرنے والوں کو پسند کرتا ہے۔",
+          "englishMeaning": "If two groups of believers fight, make peace between them. If one group transgresses against the other, restrain the transgressing group until it returns to Allah's command. Once it does, reconcile them fairly and uphold justice. Allah loves those who act justly."
+        }
+      ],
+      "editorialNoteUrdu": "یہ آیت مؤمنوں کے دو گروہوں کے درمیان تنازع کے بارے میں ہے۔ یہ صلح، زیادتی روکنے اور انصاف کی بحالی کی رہنمائی دیتی ہے۔ اسے نجی افراد کی طرف سے تشدد یا جنگ شروع کرنے کی اجازت کے طور پر پیش نہ کیا جائے۔",
+      "sources": [
+        "https://quran.com/al-hujurat",
+        "https://quran.com/al-hujurat/translations/ur",
+        "https://quran.com/al-hujurat/translations/en"
+      ]
+    },
+    {
+      "id": "hujurat-brotherhood-reconciliation-010",
+      "topicUrdu": "مسلمانوں کے درمیان بھائی چارہ اور صلح",
+      "topicEnglish": "Brotherhood and Reconciliation",
+      "references": ["49:10"],
+      "ayahs": [
+        {
+          "reference": "49:10",
+          "arabic": "إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌۭ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ ١٠",
+          "urduMeaning": "تمام مؤمن آپس میں بھائی بھائی ہیں، لہٰذا اپنے بھائیوں کے درمیان صلح کراؤ اور اللہ کا تقویٰ اختیار کرو تاکہ تم پر رحم کیا جائے۔",
+          "englishMeaning": "Believers are brothers to one another, so make peace between your brothers and remain mindful of Allah, so that you may receive His mercy."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-hujurat",
+        "https://quran.com/al-hujurat/translations/ur",
+        "https://quran.com/al-hujurat/translations/en"
+      ]
+    },
+    {
+      "id": "hujurat-mockery-insults-nicknames-011",
+      "topicUrdu": "دوسروں کا مذاق، عیب جوئی اور برے نام رکھنے سے ممانعت",
+      "topicEnglish": "Avoid Mockery, Insults and Offensive Nicknames",
+      "references": ["49:11"],
+      "ayahs": [
+        {
+          "reference": "49:11",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَسْخَرْ قَوْمٌۭ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًۭا مِّنْهُمْ وَلَا نِسَآءٌۭ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًۭا مِّنْهُنَّ ۖ وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَـٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَـٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ ١١",
+          "urduMeaning": "اے ایمان والو! کوئی قوم دوسری قوم کا مذاق نہ اڑائے، ممکن ہے وہ ان سے بہتر ہو۔ اور عورتیں بھی دوسری عورتوں کا مذاق نہ اڑائیں۔ ایک دوسرے پر عیب نہ لگاؤ اور ایک دوسرے کو برے القاب سے نہ پکارو۔ ایمان کے بعد برا نام اختیار کرنا بہت بری بات ہے۔ اور جو توبہ نہ کریں وہی ظالم ہیں۔",
+          "englishMeaning": "O believers! Let no group ridicule another, for those being ridiculed may be better than them. Women should not ridicule other women. Do not defame one another or call each other offensive names. Such conduct is wrong after faith, and those who do not repent are wrongdoers."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-hujurat",
+        "https://quran.com/al-hujurat/translations/ur",
+        "https://quran.com/al-hujurat/translations/en"
+      ]
+    },
+    {
+      "id": "hujurat-suspicion-spying-backbiting-012",
+      "topicUrdu": "بدگمانی، جاسوسی اور غیبت کی ممانعت",
+      "topicEnglish": "Avoid Suspicion, Spying and Backbiting",
+      "references": ["49:12"],
+      "ayahs": [
+        {
+          "reference": "49:12",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًۭا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌۭ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًۭا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌۭ رَّحِيمٌۭ ١٢",
+          "urduMeaning": "اے ایمان والو! بہت زیادہ گمان کرنے سے بچو، کیونکہ بعض گمان گناہ ہوتے ہیں۔ ایک دوسرے کی ٹوہ میں نہ رہو اور نہ ہی ایک دوسرے کی غیبت کرو۔ کیا تم میں سے کوئی پسند کرے گا کہ اپنے مردہ بھائی کا گوشت کھائے؟ تم یقیناً اسے ناپسند کرو گے۔ اللہ سے ڈرو، بے شک اللہ توبہ قبول کرنے والا اور رحم کرنے والا ہے۔",
+          "englishMeaning": "O believers! Avoid excessive suspicion, for some suspicions are sinful. Do not spy on one another or backbite one another. Would anyone like to eat the flesh of their dead brother? You would surely detest it. Be mindful of Allah; He is Most Accepting of Repentance and Most Merciful."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-hujurat",
+        "https://quran.com/al-hujurat/translations/ur",
+        "https://quran.com/al-hujurat/translations/en"
+      ]
+    },
+    {
+      "id": "hujurat-diversity-recognition-righteousness-013",
+      "topicUrdu": "قوموں اور قبیلوں کا مقصد پہچان، فضیلت کا معیار تقویٰ",
+      "topicEnglish": "Diversity, Recognition and Righteousness",
+      "references": ["49:13"],
+      "ayahs": [
+        {
+          "reference": "49:13",
+          "arabic": "يَـٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَـٰكُم مِّن ذَكَرٍۢ وَأُنثَىٰ وَجَعَلْنَـٰكُمْ شُعُوبًۭا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۭ ١٣",
+          "urduMeaning": "اے لوگو! ہم نے تمہیں ایک مرد اور ایک عورت سے پیدا کیا اور تمہیں مختلف قوموں اور قبیلوں میں تقسیم کیا تاکہ تم ایک دوسرے کو پہچانو۔ بے شک اللہ کے نزدیک تم میں سب سے زیادہ عزت والا وہ ہے جو سب سے زیادہ متقی ہے۔ یقیناً اللہ سب کچھ جاننے والا اور باخبر ہے۔",
+          "englishMeaning": "O humanity! We created you from a male and a female and made you into peoples and tribes so that you may recognize one another. The most honoured among you in Allah's sight is the one most mindful of Him. Allah is All-Knowing and All-Aware."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-hujurat",
+        "https://quran.com/al-hujurat/translations/ur",
+        "https://quran.com/al-hujurat/translations/en"
+      ]
+    }
+  ]
 }

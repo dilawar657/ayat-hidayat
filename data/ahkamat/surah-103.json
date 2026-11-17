@@ -1,8 +1,93 @@
 {
-    "surahNumber":  103,
-    "surahNameArabic":  "Ø§Ù„Ø¹ØµØ±",
-    "surahNameEnglish":  "Al-Asr",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 103,
+  "surahNameArabic": "العصر",
+  "surahNameEnglish": "Al-Asr",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی عبارتیں اس ویب سائٹ کے لیے فراہم کردہ سادہ مفہوم ہیں، شائع شدہ تراجم کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو ان مفاہیم سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English text supplied here is a simplified meaning or paraphrase for this website, not a verbatim reproduction of the cited translations. Quranic Arabic is shown separately."
+  },
+  "ahkamat": [
+    {
+      "id": "asr-humanity-in-loss-002",
+      "topicUrdu": "انسان خسارے میں ہے",
+      "topicEnglish": "Humanity Is in Loss",
+      "references": ["103:2"],
+      "ayahs": [
+        {
+          "reference": "103:2",
+          "arabic": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+          "urduMeaning": "بے شک انسان یقیناً خسارے میں ہے۔",
+          "englishMeaning": "Surely humanity is in grave loss."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-asr",
+        "https://quran.com/al-asr/translations/ur",
+        "https://quran.com/al-asr/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "asr-faith-righteous-deeds-003",
+      "topicUrdu": "ایمان لانا اور نیک اعمال کرنا",
+      "topicEnglish": "Faith and Righteous Deeds",
+      "references": ["103:3"],
+      "ayahs": [
+        {
+          "reference": "103:3",
+          "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ",
+          "urduMeaning": "سوائے ان لوگوں کے جو ایمان لائے اور نیک اعمال کرتے رہے۔",
+          "englishMeaning": "Except those who have faith and do righteous deeds."
+        },
+        {
+          "reference": "103:3",
+          "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+          "urduMeaning": "سوائے ان لوگوں کے جو ایمان لائے، نیک اعمال کرتے رہے، ایک دوسرے کو حق کی نصیحت کرتے رہے اور ایک دوسرے کو صبر کی تلقین کرتے رہے۔",
+          "englishMeaning": "Except those who have faith, do good, encourage one another to uphold the truth, and encourage one another to remain patient."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-asr",
+        "https://quran.com/al-asr/translations/ur",
+        "https://quran.com/al-asr/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "asr-uphold-truth-003",
+      "topicUrdu": "ایک دوسرے کو حق کی نصیحت کرنا",
+      "topicEnglish": "Encouraging One Another to Uphold the Truth",
+      "references": ["103:3"],
+      "ayahs": [
+        {
+          "reference": "103:3",
+          "arabic": "وَتَوَاصَوْا بِالْحَقِّ",
+          "urduMeaning": "اور ایک دوسرے کو حق اور سچائی کی نصیحت کرتے رہے۔",
+          "englishMeaning": "And encourage one another to uphold the truth."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-asr",
+        "https://quran.com/al-asr/translations/ur",
+        "https://quran.com/al-asr/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "asr-patience-steadfastness-003",
+      "topicUrdu": "ایک دوسرے کو صبر کی تلقین کرنا",
+      "topicEnglish": "Encouraging One Another to Be Patient",
+      "references": ["103:3"],
+      "ayahs": [
+        {
+          "reference": "103:3",
+          "arabic": "وَتَوَاصَوْا بِالصَّبْرِ",
+          "urduMeaning": "اور ایک دوسرے کو صبر کی نصیحت کرتے رہے۔",
+          "englishMeaning": "And encourage one another to remain patient and steadfast."
+        }
+      ],
+      "sources": [
+        "https://quran.com/al-asr",
+        "https://quran.com/al-asr/translations/ur",
+        "https://quran.com/al-asr/translations/en?translations=131"
+      ]
+    }
+  ]
 }

@@ -44,8 +44,13 @@
       ayahReference: 'Surah & Ayah',
       urduTranslation: 'Simple Urdu translation',
       englishTranslation: 'Simple English translation',
+      quranicArabic: 'Quranic Arabic',
+      urduMeaning: 'Urdu meaning — editorial rendering',
+      englishMeaning: 'English meaning — editorial rendering',
       urduExplanation: 'A short explanation',
       englishExplanation: 'A short explanation',
+      editorialNote: 'Editorial note',
+      editorialDisclaimer: 'Editorial translations and notes',
       sources: 'Sources & attribution',
       aboutEyebrow: 'About Ayat-e-Hidayat',
       aboutTitle: 'A journey toward understanding Quranic guidance.',
@@ -110,8 +115,13 @@
       ayahReference: 'سورۃ و آیت',
       urduTranslation: 'آسان اردو ترجمہ',
       englishTranslation: 'سادہ انگریزی ترجمہ',
+      quranicArabic: 'قرآنی عربی',
+      urduMeaning: 'اردو مفہوم — ادارتی ترجمہ',
+      englishMeaning: 'انگریزی مفہوم — ادارتی ترجمہ',
       urduExplanation: 'مختصر وضاحت',
       englishExplanation: 'مختصر انگریزی وضاحت',
+      editorialNote: 'ادارتی نوٹ',
+      editorialDisclaimer: 'ادارتی تراجم اور وضاحت',
       sources: 'مستند ماخذ اور مترجم',
       aboutEyebrow: 'آیاتِ ہدایت',
       aboutTitle: 'قرآنی ہدایت کو سمجھنے کا سفر',
@@ -153,7 +163,12 @@
 
   function brand(compact = false) {
     return `<a class="brand${compact ? ' brand--compact' : ''}" href="${routeHref('')}" aria-label="Ayat-e-Hidayat home">
-      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40" focusable="false">
+        <path d="M20 5V2.8M13.9 7.5 12.4 6M26.1 7.5 27.6 6" fill="none" stroke="#d5b779" stroke-linecap="round" stroke-width="1.5"/>
+        <circle cx="20" cy="11" r="3.2" fill="#d5b779"/>
+        <path d="M20 22.1c-3.1-3.1-8-4.1-13.2-3.4v12.7c5.1-.7 10.1.3 13.2 3.4 3.1-3.1 8.1-4.1 13.2-3.4V18.7c-5.2-.7-10.1.3-13.2 3.4Z" fill="#fffefa" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"/>
+        <path d="M20 22.1v12.7m-10-12.3c2.9-.1 5.3.4 7.4 1.4m-7.4 2.8c2.9-.1 5.3.4 7.4 1.4m12.6-5.6c-2.9-.1-5.3.4-7.4 1.4m7.4 2.8c-2.9-.1-5.3.4-7.4 1.4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1"/>
+      </svg></span>
       <span class="brand-copy" dir="ltr"><span class="brand-name">Ayat-e-Hidayat</span><span class="brand-urdu" lang="ur" dir="rtl">آیاتِ ہدایت</span></span>
     </a>`
   }
@@ -271,10 +286,11 @@
     const sources = []
     if (ahkam.translator) sources.push(escapeHtml(ahkam.translator))
     for (const source of ahkam.sources || []) {
-      const title = escapeHtml(source.title || source.author || '')
+      const url = typeof source === 'string' ? source : source.url
+      const title = escapeHtml(typeof source === 'string' ? source : source.title || source.author || url || '')
       if (!title) continue
-      if (source.url && /^https?:\/\//i.test(source.url)) {
-        sources.push(`<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${title}</a>`)
+      if (url && /^https?:\/\//i.test(url)) {
+        sources.push(`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${title}</a>`)
       } else {
         sources.push(title)
       }
@@ -282,19 +298,48 @@
     return sources.join(' · ')
   }
 
+  function editorialDisclaimer(note) {
+    if (!note || typeof note !== 'object') return ''
+    const urdu = note.ur ? `<p lang="ur" dir="rtl">${escapeHtml(note.ur)}</p>` : ''
+    const english = note.en ? `<p lang="en" dir="ltr">${escapeHtml(note.en)}</p>` : ''
+    if (!urdu && !english) return ''
+    return `<aside class="editorial-disclaimer"><h3>${copy[locale].editorialDisclaimer}</h3>${urdu}${english}</aside>`
+  }
+
   function ahkamCard(ahkam) {
     const text = copy[locale]
-    const reference = referenceText(ahkam.reference || {})
+    const hasAyahs = Array.isArray(ahkam.ayahs)
+    const references = hasAyahs
+      ? (ahkam.references || ahkam.ayahs.map((ayah) => ayah.reference)).join(' · ')
+      : referenceText(ahkam.reference || {})
+    const ayahs = hasAyahs
+      ? ahkam.ayahs
+      : [{
+          reference: referenceText(ahkam.reference || {}),
+          arabic: ahkam.arabic,
+          urduMeaning: ahkam.translationUrdu,
+          englishMeaning: ahkam.translationEnglish
+        }]
+    const topic = hasAyahs
+      ? `<h2 class="ahkam-title" lang="ur" dir="rtl">${escapeHtml(ahkam.topicUrdu)}</h2><p class="ahkam-title-english" lang="en" dir="ltr">${escapeHtml(ahkam.topicEnglish)}</p>`
+      : `<h2 class="ahkam-title" lang="ur" dir="rtl">${escapeHtml(ahkam.titleUrdu)}</h2>`
+    const verses = ayahs.map((ayah) => `<section class="ayah-block">
+      <div class="ayah-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(ayah.reference)}</span><span class="field-label">${text.quranicArabic}</span></div>
+      <p class="quran-text" lang="ar" dir="rtl">${escapeHtml(ayah.arabic)}</p>
+      <div class="translation-block" lang="ur" dir="rtl"><p class="field-label">${hasAyahs ? text.urduMeaning : text.urduTranslation}</p><p>${escapeHtml(ayah.urduMeaning)}</p></div>
+      <div class="translation-block" lang="en" dir="ltr"><p class="field-label">${hasAyahs ? text.englishMeaning : text.englishTranslation}</p><p>${escapeHtml(ayah.englishMeaning)}</p></div>
+    </section>`).join('')
+    const editorialNote = ahkam.editorialNoteUrdu
+      ? `<div class="entry-editorial-note" lang="ur" dir="rtl"><p class="field-label">${text.editorialNote}</p><p>${escapeHtml(ahkam.editorialNoteUrdu)}</p></div>`
+      : ''
     return `<article class="ahkam-card">
-      <div class="ahkam-card-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(reference)}</span></div>
-      <h2 class="ahkam-title" lang="ur" dir="rtl">${escapeHtml(ahkam.titleUrdu)}</h2>
-      <p class="quran-text" lang="ar" dir="rtl">${escapeHtml(ahkam.arabic)}</p>
-      <div class="translation-block" lang="ur" dir="rtl"><p class="field-label">${text.urduTranslation}</p><p>${escapeHtml(ahkam.translationUrdu)}</p></div>
-      <div class="translation-block" lang="en" dir="ltr"><p class="field-label">${text.englishTranslation}</p><p>${escapeHtml(ahkam.translationEnglish)}</p></div>
-      <div class="explanation-grid">
+      <div class="ahkam-card-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(references)}</span></div>
+      ${topic}
+      ${verses}
+      ${hasAyahs ? editorialNote : `<div class="explanation-grid">
         <div lang="ur" dir="rtl"><p class="field-label">${text.urduExplanation}</p><p>${escapeHtml(ahkam.explanationUrdu)}</p></div>
         <div lang="en" dir="ltr"><p class="field-label">${text.englishExplanation}</p><p>${escapeHtml(ahkam.explanationEnglish)}</p></div>
-      </div>
+      </div>`}
       <div class="source-note"><span>${text.sources}</span><span>${sourceText(ahkam)}</span></div>
     </article>`
   }
@@ -312,8 +357,9 @@
         throw new Error(`Invalid Ahkamat data for Surah ${surah.number}`)
       }
       const ahkamat = content.ahkamat
+      const disclaimer = editorialDisclaimer(content.editorialNote)
       const body = ahkamat.length
-        ? `<div class="detail-list-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span>${text.detailEyebrow}</span><h2>${text.detailTitle}</h2></div><span class="entry-count">${ahkamat.length} ${ahkamat.length === 1 ? text.entry : text.entries}</span></div><div class="ahkam-list">${ahkamat.map(ahkamCard).join('')}</div>`
+        ? `${disclaimer}<div class="detail-list-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span>${text.detailEyebrow}</span><h2>${text.detailTitle}</h2></div><span class="entry-count">${ahkamat.length} ${ahkamat.length === 1 ? text.entry : text.entries}</span></div><div class="ahkam-list">${ahkamat.map(ahkamCard).join('')}</div>`
         : `<div class="surah-empty-state"><span class="empty-state-icon" aria-hidden="true">◇</span><h2>${text.emptyTitle}</h2><p>${text.emptyText}</p></div>`
       const detail = `<section class="surah-detail-page page-container"><a class="back-link" href="${routeHref('surahs')}">← ${text.allSurahs}</a>
         <header class="surah-detail-heading"><span class="surah-detail-number">${String(surah.number).padStart(3, '0')}</span><div><h1 class="detail-arabic" lang="ar" dir="rtl">${escapeHtml(surah.nameArabic)}</h1><p class="detail-title"><span lang="en" dir="ltr">${escapeHtml(surah.nameEnglish)}</span><span lang="ur" dir="rtl">${escapeHtml(surah.nameUrdu)}</span></p><p class="detail-subtitle">Surah ${surah.number} · ${escapeHtml(surah.nameEnglish)}</p></div></header>

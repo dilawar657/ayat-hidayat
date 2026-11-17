@@ -1,8 +1,143 @@
 {
-    "surahNumber":  21,
-    "surahNameArabic":  "Ø§Ù„Ø£Ù†Ø¨ÙŠØ§Ø¡",
-    "surahNameEnglish":  "Al-Anbiya",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 21,
+  "surahNameArabic": "الأنبياء",
+  "surahNameEnglish": "Al-Anbiya",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی عبارتیں فراہم کردہ سادہ مفہوم ہیں، شائع شدہ تراجم کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو مفہوم اور وضاحتی رہنمائی سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English text is the supplied simplified meaning, not a verbatim quotation from a published translation. Quranic Arabic is shown separately from the meanings and guidance."
+  },
+  "ahkamat": [
+    {
+      "id": "anbiya-worship-allah-alone-025",
+      "topicUrdu": "صرف اللہ کی عبادت کرنا",
+      "topicEnglish": "Worship Allah Alone",
+      "references": ["21:25"],
+      "ayahs": [
+        {
+          "reference": "21:25",
+          "arabic": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+          "urduMeaning": "اور ہم نے آپ سے پہلے کوئی رسول نہیں بھیجا مگر اس کی طرف یہی وحی کی کہ میرے سوا کوئی معبود نہیں، پس میری ہی عبادت کرو۔",
+          "englishMeaning": "Every messenger was revealed the same message: There is no god worthy of worship except Allah, so worship Him alone."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: صرف اللہ کی عبادت کرو اور اس کے ساتھ کسی کو شریک نہ ٹھہراؤ۔",
+      "sources": [
+        "https://quran.com/al-anbya",
+        "https://quran.com/al-anbya/translations/ur",
+        "https://quran.com/al-anbya/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "anbiya-fear-allah-unseen-049",
+      "topicUrdu": "تنہائی میں بھی اللہ سے ڈرنا",
+      "topicEnglish": "Fear Allah, Even When Nobody Is Watching",
+      "references": ["21:49"],
+      "ayahs": [
+        {
+          "reference": "21:49",
+          "arabic": "ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَهُم مِّنَ ٱلسَّاعَةِ مُشْفِقُونَ",
+          "urduMeaning": "جو اپنے رب سے بن دیکھے ڈرتے ہیں اور قیامت کے بارے میں بھی خوف رکھتے ہیں۔",
+          "englishMeaning": "Those who fear their Lord without seeing Him and are mindful of the Hour."
+        }
+      ],
+      "editorialNoteUrdu": "رہنمائی: تنہائی اور لوگوں کے سامنے، ہر حال میں اللہ کا خوف دل میں رکھو اور آخرت کی جواب دہی یاد رکھو۔",
+      "sources": [
+        "https://quran.com/al-anbya",
+        "https://quran.com/al-anbya/translations/ur",
+        "https://quran.com/al-anbya/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "anbiya-perfect-justice-047",
+      "topicUrdu": "اللہ کے کامل انصاف اور حساب کو یاد رکھنا",
+      "topicEnglish": "Remember Allah Will Establish Perfect Justice",
+      "references": ["21:47"],
+      "ayahs": [
+        {
+          "reference": "21:47",
+          "arabic": "وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَـٰمَةِ فَلَا تُظْلَمُ نَفْسٌۭ شَيْـًۭٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍۢ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَـٰسِبِينَ",
+          "urduMeaning": "اور ہم قیامت کے دن عدل و انصاف کے ترازو قائم کریں گے، پھر کسی جان پر ذرہ برابر بھی ظلم نہیں ہوگا۔ اگر کوئی عمل رائی کے دانے کے برابر بھی ہوگا تو ہم اسے لے آئیں گے، اور حساب لینے کے لیے ہم کافی ہیں۔",
+          "englishMeaning": "On the Day of Judgment, Allah will establish perfectly just scales. No soul will be wronged in the slightest, and even the smallest deed will be accounted for."
+        }
+      ],
+      "editorialNoteUrdu": "سبق: اللہ کے کامل انصاف اور ہر عمل کے حساب کو یاد رکھو۔ رہنمائی: کسی پر ظلم نہ کرو، کیونکہ ہر چھوٹے بڑے عمل کا حساب ہوگا۔ یہ آیت اللہ کے عدل اور جواب دہی کو بیان کرتی ہے، براہِ راست حکم نہیں۔",
+      "sources": [
+        "https://quran.com/al-anbya",
+        "https://quran.com/al-anbya/translations/ur",
+        "https://quran.com/al-anbya/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "anbiya-ask-allah-hardship-083-084",
+      "topicUrdu": "سختی میں اللہ سے مدد مانگنا",
+      "topicEnglish": "Ask Allah for Help During Hardship",
+      "references": ["21:83", "21:84"],
+      "ayahs": [
+        {
+          "reference": "21:83",
+          "arabic": "وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+          "urduMeaning": "اور ایوبؑ کو یاد کرو جب انہوں نے اپنے رب کو پکارا کہ مجھے تکلیف پہنچی ہے اور تو سب رحم کرنے والوں سے بڑھ کر رحم کرنے والا ہے۔",
+          "englishMeaning": "Remember Job, when he called upon his Lord, saying that hardship had touched him and Allah is the Most Merciful."
+        },
+        {
+          "reference": "21:84",
+          "arabic": "فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّۢ ۖ وَءَاتَيْنَـٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَـٰبِدِينَ",
+          "urduMeaning": "تو ہم نے ان کی دعا قبول کی اور ان کی تکلیف دور کردی۔",
+          "englishMeaning": "Allah answered his prayer and removed his suffering."
+        }
+      ],
+      "editorialNoteUrdu": "سبق: حضرت ایوبؑ کی دعا سے رہنمائی ملتی ہے۔ پریشانی، بیماری اور آزمائش میں اللہ سے دعا کرو اور اس کی رحمت سے امید رکھو۔",
+      "sources": [
+        "https://quran.com/al-anbya",
+        "https://quran.com/al-anbya/translations/ur",
+        "https://quran.com/al-anbya/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "anbiya-patience-righteousness-085-086",
+      "topicUrdu": "صبر کرنا اور صالح بننے کی کوشش کرنا",
+      "topicEnglish": "Be Patient and Strive to Become Righteous",
+      "references": ["21:85", "21:86"],
+      "ayahs": [
+        {
+          "reference": "21:85",
+          "arabic": "وَإِسْمَـٰعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ ۖ كُلٌّۭ مِّنَ ٱلصَّـٰبِرِينَ",
+          "urduMeaning": "اور اسماعیلؑ، ادریسؑ اور ذوالکفلؑ کو بھی یاد کرو، وہ سب صبر کرنے والوں میں سے تھے۔",
+          "englishMeaning": "Ishmael, Enoch, and Dhul-Kifl were among the steadfast."
+        },
+        {
+          "reference": "21:86",
+          "arabic": "وَأَدْخَلْنَـٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّـٰلِحِينَ",
+          "urduMeaning": "اور ہم نے انہیں اپنی رحمت میں داخل کیا، یقیناً وہ نیک لوگوں میں سے تھے۔",
+          "englishMeaning": "Allah admitted them into His mercy; they were among the righteous."
+        }
+      ],
+      "editorialNoteUrdu": "سبق: صبر اختیار کرو، نیک اعمال کرو اور صالح لوگوں میں شامل ہونے کی کوشش کرو۔ وضاحت: یہ آیات انبیاء کے اوصاف اور ان پر اللہ کی رحمت بیان کرتی ہیں۔",
+      "sources": [
+        "https://quran.com/al-anbya",
+        "https://quran.com/al-anbya/translations/ur",
+        "https://quran.com/al-anbya/translations/en?translations=131"
+      ]
+    },
+    {
+      "id": "anbiya-hasten-good-humble-dua-090",
+      "topicUrdu": "نیکی میں جلدی، امید و خوف کے ساتھ دعا اور عاجزی",
+      "topicEnglish": "Hasten Towards Good, Make Dua with Hope and Fear, and Remain Humble",
+      "references": ["21:90"],
+      "ayahs": [
+        {
+          "reference": "21:90",
+          "arabic": "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًۭا وَرَهَبًۭا ۖ وَكَانُوا۟ لَنَا خَـٰشِعِينَ",
+          "urduMeaning": "تو ہم نے ان کی دعا قبول کی اور انہیں یحییٰؑ عطا کیے۔ یقیناً وہ نیک کاموں میں جلدی کرتے تھے، ہمیں امید اور خوف کے ساتھ پکارتے تھے اور ہمارے سامنے عاجزی اختیار کرتے تھے۔",
+          "englishMeaning": "They used to hasten in doing good, call upon Allah with hope and fear, and remain humble before Him."
+        }
+      ],
+      "editorialNoteUrdu": "سبق: نیک کاموں میں جلدی کرو، اللہ سے امید اور خوف کے ساتھ دعا کرو اور اس کے سامنے عاجزی اختیار کرو۔ یہ آیت انبیاء کے طرزِ عمل کا بیان بھی ہے، جس سے یہ رہنمائی ملتی ہے۔",
+      "sources": [
+        "https://quran.com/al-anbya",
+        "https://quran.com/al-anbya/translations/ur",
+        "https://quran.com/al-anbya/translations/en?translations=131"
+      ]
+    }
+  ]
 }

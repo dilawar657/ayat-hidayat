@@ -1,8 +1,182 @@
 {
-    "surahNumber":  31,
-    "surahNameArabic":  "Ù„Ù‚Ù…Ø§Ù†",
-    "surahNameEnglish":  "Luqman",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 31,
+  "surahNameArabic": "لقمان",
+  "surahNameEnglish": "Luqman",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی عبارتیں اس ویب سائٹ کے لیے فراہم کردہ سادہ مفہوم ہیں، شائع شدہ تراجم کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو ان مفاہیم سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English text supplied here is a simplified meaning or paraphrase for this website, not a verbatim reproduction of the cited translations. Quranic Arabic is shown separately."
+  },
+  "ahkamat": [
+    {
+      "id": "luqman-gratitude-to-allah-012",
+      "topicUrdu": "اللہ کا شکر ادا کرنا",
+      "topicEnglish": "Giving Thanks to Allah",
+      "references": ["31:12"],
+      "ayahs": [
+        {
+          "reference": "31:12",
+          "arabic": "وَلَقَدْ اٰتَيْنَا لُقْمٰنَ الْحِكْمَةَ اَنِ اشْكُرْ لِلّٰهِ ۚ وَمَنْ يَّشْكُرْ فَاِنَّمَا يَشْكُرُ لِنَفْسِهٖ ۚ وَمَنْ كَفَرَ فَاِنَّ اللّٰهَ غَنِيٌّ حَمِيْدٌ",
+          "urduMeaning": "ہم نے لقمان کو حکمت عطا کی کہ اللہ کا شکر ادا کرو۔ جو شکر ادا کرتا ہے، وہ اپنے ہی فائدے کے لیے شکر کرتا ہے، اور جو ناشکری کرتا ہے تو اللہ بے نیاز اور تعریف کے لائق ہے۔",
+          "englishMeaning": "Be grateful to Allah. Whoever is grateful benefits their own soul, while Allah is Self-Sufficient and Praiseworthy."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-avoid-shirk-013",
+      "topicUrdu": "اللہ کے ساتھ شرک نہ کرنا",
+      "topicEnglish": "Do Not Associate Partners with Allah",
+      "references": ["31:13"],
+      "ayahs": [
+        {
+          "reference": "31:13",
+          "arabic": "وَاِذْ قَالَ لُقْمٰنُ لِابْنِهٖ وَهُوَ يَعِظُهٗ يٰبُنَيَّ لَا تُشْرِكْ بِاللّٰهِ ۖ اِنَّ الشِّرْكَ لَظُلْمٌ عَظِيْمٌ",
+          "urduMeaning": "لقمان نے اپنے بیٹے کو نصیحت کرتے ہوئے کہا: اے میرے بیٹے! اللہ کے ساتھ کسی کو شریک نہ ٹھہرانا، بے شک شرک بہت بڑا ظلم ہے۔",
+          "englishMeaning": "Luqman advised his son not to associate partners with Allah, because shirk is a grave injustice."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-kindness-gratitude-parents-014",
+      "topicUrdu": "والدین کے ساتھ حسنِ سلوک اور شکرگزاری",
+      "topicEnglish": "Kindness and Gratitude to Parents",
+      "references": ["31:14"],
+      "ayahs": [
+        {
+          "reference": "31:14",
+          "arabic": "وَوَصَّيْنَا الْاِنْسَانَ بِوَالِدَيْهِ ۚ حَمَلَتْهُ اُمُّهٗ وَهْنًا عَلٰى وَهْنٍ وَّفِصَالُهٗ فِيْ عَامَيْنِ اَنِ اشْكُرْ لِيْ وَلِوَالِدَيْكَ ۚ اِلَيَّ الْمَصِيْرُ",
+          "urduMeaning": "ہم نے انسان کو اس کے والدین کے بارے میں تاکید کی۔ اس کی ماں نے اسے کمزوری پر کمزوری برداشت کرکے پیٹ میں اٹھائے رکھا اور دو سال میں اس کا دودھ چھڑانا ہوتا ہے۔ پس میرا شکر ادا کرو اور اپنے والدین کا بھی۔",
+          "englishMeaning": "Be grateful to Allah and your parents. Remember the hardship your mother endured during pregnancy and nursing."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-parents-shirk-kindness-015",
+      "topicUrdu": "شرک کے معاملے میں والدین کی اطاعت نہ کرنا، مگر ان کے ساتھ اچھا برتاؤ رکھنا",
+      "topicEnglish": "Not Obeying Parents in Shirk while Treating Them Kindly",
+      "references": ["31:15"],
+      "ayahs": [
+        {
+          "reference": "31:15",
+          "arabic": "وَاِنْ جَاهَدٰكَ عَلٰٓى اَنْ تُشْرِكَ بِيْ مَا لَيْسَ لَكَ بِهٖ عِلْمٌ فَلَا تُطِعْهُمَا وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوْفًا ۖ وَّاتَّبِعْ سَبِيْلَ مَنْ اَنَابَ اِلَيَّ ۚ ثُمَّ اِلَيَّ مَرْجِعُكُمْ فَاُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُوْنَ",
+          "urduMeaning": "اگر والدین تم پر زور ڈالیں کہ تم میرے ساتھ کسی کو شریک ٹھہراؤ، تو ان کی بات نہ مانو؛ لیکن دنیا میں ان کے ساتھ اچھے طریقے سے رہو، اور اس شخص کے راستے کی پیروی کرو جو میری طرف رجوع کرتا ہے۔",
+          "englishMeaning": "Do not obey your parents if they urge you to associate partners with Allah, but continue treating them kindly and follow the path of those who turn to Allah."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-knowledge-accountability-016",
+      "topicUrdu": "اللہ کے علم اور حساب پر یقین رکھنا",
+      "topicEnglish": "Belief in Allah's Knowledge and Accountability",
+      "references": ["31:16"],
+      "ayahs": [
+        {
+          "reference": "31:16",
+          "arabic": "يٰبُنَيَّ اِنَّهَآ اِنْ تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُنْ فِيْ صَخْرَةٍ اَوْ فِي السَّمٰوٰتِ اَوْ فِي الْاَرْضِ يَأْتِ بِهَا اللّٰهُ ۚ اِنَّ اللّٰهَ لَطِيْفٌ خَبِيْرٌ",
+          "urduMeaning": "اے میرے بیٹے! اگر کوئی عمل رائی کے دانے کے برابر بھی ہو اور وہ کسی چٹان میں یا آسمانوں یا زمین میں کہیں چھپا ہوا ہو، اللہ اسے بھی سامنے لے آئے گا۔ بے شک اللہ باریک بین اور باخبر ہے۔",
+          "englishMeaning": "Even an act as small as a mustard seed, hidden anywhere in the heavens or earth, will be brought forth by Allah. He is All-Aware."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-prayer-good-patience-017",
+      "topicUrdu": "نماز قائم کرنا، نیکی کا حکم دینا، برائی سے روکنا اور صبر کرنا",
+      "topicEnglish": "Establishing Prayer, Enjoining Good, Forbidding Wrong, and Patience",
+      "references": ["31:17"],
+      "ayahs": [
+        {
+          "reference": "31:17",
+          "arabic": "يٰبُنَيَّ اَقِمِ الصَّلٰوةَ وَأْمُرْ بِالْمَعْرُوْفِ وَانْهَ عَنِ الْمُنْكَرِ وَاصْبِرْ عَلٰى مَآ اَصَابَكَ ۖ اِنَّ ذٰلِكَ مِنْ عَزْمِ الْاُمُوْرِ",
+          "urduMeaning": "اے میرے بیٹے! نماز قائم کرو، نیکی کا حکم دو، برائی سے روکو اور جو مصیبت تمہیں پہنچے اس پر صبر کرو۔ بے شک یہ بڑے عزم و ہمت کے کام ہیں۔",
+          "englishMeaning": "Establish prayer, encourage what is good, forbid what is wrong, and remain patient through whatever difficulties come your way."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-avoid-pride-018",
+      "topicUrdu": "تکبر اور غرور سے بچنا",
+      "topicEnglish": "Avoiding Pride and Arrogance",
+      "references": ["31:18"],
+      "ayahs": [
+        {
+          "reference": "31:18",
+          "arabic": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْاَرْضِ مَرَحًا ۚ اِنَّ اللّٰهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُوْرٍ",
+          "urduMeaning": "لوگوں سے اپنا رخ تکبر کے ساتھ نہ پھیرنا اور زمین میں اکڑ کر نہ چلنا۔ بے شک اللہ کسی اترانے والے اور فخر کرنے والے کو پسند نہیں کرتا۔",
+          "englishMeaning": "Do not turn away from people in contempt or walk arrogantly on earth. Allah does not love the arrogant or boastful."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-moderate-walk-lower-voice-019",
+      "topicUrdu": "چال میں اعتدال اور آواز پست رکھنا",
+      "topicEnglish": "Moderation in Walking and Lowering the Voice",
+      "references": ["31:19"],
+      "ayahs": [
+        {
+          "reference": "31:19",
+          "arabic": "وَاقْصِدْ فِيْ مَشْيِكَ وَاغْضُضْ مِنْ صَوْتِكَ ۚ اِنَّ اَنْكَرَ الْاَصْوَاتِ لَصَوْتُ الْحَمِيْرِ",
+          "urduMeaning": "اپنی چال میں اعتدال اختیار کرو اور اپنی آواز پست رکھو۔ بے شک سب سے بری آواز گدھوں کی آواز ہے۔",
+          "englishMeaning": "Be moderate in your walk and lower your voice. Indeed, the harshest of sounds is the braying of donkeys."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    },
+    {
+      "id": "luqman-submit-do-good-022",
+      "topicUrdu": "اللہ کے سامنے سرِ تسلیم خم کرنا اور احسان کا رویہ اختیار کرنا",
+      "topicEnglish": "Submitting to Allah and Doing Good",
+      "references": ["31:22"],
+      "ayahs": [
+        {
+          "reference": "31:22",
+          "arabic": "وَمَنْ يُّسْلِمْ وَجْهَهٗٓ اِلَى اللّٰهِ وَهُوَ مُحْسِنٌ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقٰى ۗ وَاِلَى اللّٰهِ عَاقِبَةُ الْاُمُوْرِ",
+          "urduMeaning": "جو شخص اپنے آپ کو اللہ کے سپرد کر دے اور نیکوکار بھی ہو، تو اس نے مضبوط سہارا تھام لیا۔ تمام معاملات کا انجام اللہ ہی کی طرف ہے۔",
+          "englishMeaning": "Whoever submits themselves to Allah while doing good has grasped the firmest handhold. To Allah belongs the outcome of all affairs."
+        }
+      ],
+      "sources": [
+        "https://quran.com/luqman",
+        "https://quran.com/luqman/translations/ur",
+        "https://quran.com/luqman/translations/en"
+      ]
+    }
+  ]
 }
