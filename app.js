@@ -4,6 +4,7 @@
     en: {
       home: 'Home',
       surahs: 'Surahs',
+      purpose: 'Purpose',
       about: 'About',
       explore: 'Explore Surahs',
       homeEyebrow: 'A thoughtful companion to your Quran reading',
@@ -19,6 +20,39 @@
       purposeText: 'A verse-by-verse collection of Quranic commandments with authentic references.',
       mission: 'As Muslims, we have a responsibility to understand and follow the commandments of Allah Almighty.',
       moreAbout: 'Read our full mission and vision',
+      purposePageEyebrow: 'Purpose of Ayat-e-Hidayat',
+      purposePageTitle: 'Helping every reader understand and live by Quranic guidance.',
+      purposePageLead: 'Ayat-e-Hidayat brings selected Quranic commandments into a clear, calm, Ayah-based reading experience.',
+      purposePageSections: [
+        {
+          title: 'Why this platform exists',
+          paragraphs: [
+            'The Holy Quran is guidance for life, not only a text to be recited. Our purpose is to help readers discover, understand, and remember the commandments of Allah with their relevant Surah and Ayah references.',
+            'Ayat-e-Hidayat does not replace personal study, trusted translations, or the guidance of qualified scholars. It is a focused companion for reflection and practical learning.'
+          ]
+        },
+        {
+          title: 'From the Quran to daily life',
+          paragraphs: [
+            'The collection presents each commandment in a simple form, alongside its Quranic Arabic, Urdu and English meanings, references, and short explanations. The aim is to move from knowing a verse to understanding and applying its guidance.',
+            'Where Quranic text or a reference has not been carefully verified, it is kept out of the public collection.'
+          ]
+        },
+        {
+          title: 'Careful, source-conscious content',
+          paragraphs: [
+            'Every published entry should have a clear Ayah reference and traceable source information. Editorial explanations are kept distinct from the exact words of the Quran.',
+            'This careful distinction helps the reader reflect on the meaning without presenting a personal explanation as divine wording.'
+          ]
+        }
+      ],
+      purposePrinciplesTitle: 'Our guiding principles',
+      purposePrinciples: [
+        ['Authenticity', 'Quranic text and references are presented only after verification.'],
+        ['Clarity', 'Complex guidance is organised around readable Surahs, Ayahs, meanings, and explanations.'],
+        ['Practice', 'Reflection is connected with practical, responsible application in everyday life.'],
+        ['Respect', 'Editorial interpretations remain clearly separate from the words of Allah.']
+      ],
       importanceTitle: 'Read, reflect, practise',
       importanceText: 'Understanding Quranic guidance helps make reading a thoughtful part of everyday life.',
       browseEyebrow: 'The Holy Quran',
@@ -75,6 +109,7 @@
     ur: {
       home: 'صفحۂ اول',
       surahs: 'سورتیں',
+      purpose: 'مقصد',
       about: 'تعارف',
       explore: 'سورتیں دیکھیں',
       homeEyebrow: 'قرآن کے مطالعے کا ایک پُرسکون ساتھی',
@@ -90,6 +125,39 @@
       purposeText: 'قرآنِ پاک کے احکامات کا آیت بہ آیت مستند حوالوں کے ساتھ مجموعہ۔',
       mission: 'بحیثیت مسلمان، ہم سب کی ذمہ داری ہے کہ اللہ تعالیٰ کے احکامات کو سمجھیں اور اپنی زندگیوں میں ان پر عمل کریں۔',
       moreAbout: 'مکمل مشن اور وژن پڑھیں',
+      purposePageEyebrow: 'آیاتِ ہدایت کا مقصد',
+      purposePageTitle: 'ہر قاری کو قرآنی ہدایت سمجھنے اور اس پر عمل کرنے میں مدد۔',
+      purposePageLead: 'آیاتِ ہدایت منتخب قرآنی احکامات کو واضح، پُرسکون اور آیت وار مطالعے کا طریقہ فراہم کرتی ہے۔',
+      purposePageSections: [
+        {
+          title: 'یہ پلیٹ فارم کیوں ہے',
+          paragraphs: [
+            'قرآنِ پاک زندگی کی ہدایت ہے، صرف تلاوت کی جانے والی نصوص کا مجموعہ نہیں۔ ہمارا مقصد قاری کو متعلقہ سورۃ اور آیت کی مستند حوالہ جات کے ساتھ اللہ تعالیٰ کے احکامات دریافت کرنے، سمجھنے اور یاد رکھنے میں مدد دینا ہے۔',
+            'آیاتِ ہدایت باقاعدہ مطالعے، مستند تراجم یا اہلِ علم کی رہنمائی کا متبادل نہیں۔ یہ غور و فکر اور عملی تربیت کے لیے ایک مرکوز ہم سفر ہے۔'
+          ]
+        },
+        {
+          title: 'قرآن سے روزمرہ زندگی تک',
+          paragraphs: [
+            'ہر حکم کو آسان انداز میں قرآنِ پاک کی عربی نص، اردو اور انگریزی مفہوم، حوالہ جات اور مختصر وضاحتوں کے ساتھ پیش کیا جاتا ہے۔ مقصد صرف آیت کو جاننا نہیں، بلکہ اس کی ہدایت کو سمجھنا اور اس پر عمل کرنا ہے۔',
+            'قرآن کی کوئی عبارت یا آیت کا حوالہ اگر احتیاط سے تصدیق نہ کیا جا سکے تو اسے عوامی مجموعے میں شامل نہیں کیا جاتا۔'
+          ]
+        },
+        {
+          title: 'احتیاط اور ماخذ کی بنیاد',
+          paragraphs: [
+            'شائع ہونے والی ہر اندراج میں واضح آیت کا حوالہ اور قابلِ جانچ ماخذ کی معلومات ہونی چاہیے۔ ادارتی وضاحت کو قرآن کی اصل الفاظ سے الگ رکھا جاتا ہے۔',
+            'یہ واضح امتیاز قاری کو معنی پر غور کرنے میں مدد دیتا ہے اور کسی ذاتی وضاحت کو اللہ کے کلام کے طور پر پیش ہونے سے بچاتا ہے۔'
+          ]
+        }
+      ],
+      purposePrinciplesTitle: 'ہمارے بنیادی اصول',
+      purposePrinciples: [
+        ['مستندیت', 'قرآنی عبارت اور حوالہ جات صرف تصدیق کے بعد پیش کیے جاتے ہیں۔'],
+        ['وضاحت', 'پیچیدہ ہدایت کو سورت، آیت، مفہوم اور وضاحت کے ساتھ مرتب کیا جاتا ہے۔'],
+        ['عمل', 'غور و فکر کو روزمرہ زندگی میں ذمہ دار اور عملی اطلاق کے ساتھ جوڑا جاتا ہے۔'],
+        ['احترام', 'ادارتی تشریحات اللہ کے کلام سے واضح طور پر الگ رہتی ہیں۔']
+      ],
       importanceTitle: 'مطالعہ، غور و فکر، عمل',
       importanceText: 'قرآنی ہدایت کو سمجھنا مطالعے کو روزمرہ زندگی کا بامقصد حصہ بنانے میں مدد دیتا ہے۔',
       browseEyebrow: 'قرآنِ کریم',
@@ -184,6 +252,7 @@
       <nav class="main-nav" aria-label="${locale === 'ur' ? 'بنیادی نیویگیشن' : 'Main navigation'}">
         <a href="${routeHref('')}" data-route="home">${text.home}</a>
         <a href="${routeHref('surahs')}" data-route="surahs">${text.surahs}</a>
+        <a href="${routeHref('purpose')}" data-route="purpose">${text.purpose}</a>
         <a href="${routeHref('about')}" data-route="about">${text.about}</a>
       </nav>
       <div class="header-actions">
@@ -198,7 +267,10 @@
     return `<footer class="site-footer"><div class="page-container footer-inner">
       <div>${brand(true)}<p class="footer-tagline" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.footerLine}</p></div>
       <nav class="footer-links" aria-label="${locale === 'ur' ? 'اضافی صفحات' : 'Footer navigation'}">
-        <a href="${routeHref('surahs')}">${text.surahs}</a><a href="${routeHref('about')}">${text.about}</a>
+        <a href="${routeHref('')}" data-route="home">${text.home}</a>
+        <a href="${routeHref('surahs')}">${text.surahs}</a>
+        <a href="${routeHref('purpose')}">${text.purpose}</a>
+        <a href="${routeHref('about')}">${text.about}</a>
       </nav>
       <p class="footer-note" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.footerNote}</p>
     </div></footer>`
@@ -226,7 +298,7 @@
           <h1>${text.heroFirst}<br><span>${text.heroSecond}</span></h1>
           <p class="hero-tagline" lang="en" dir="ltr">${text.tagline}</p>
           <p class="hero-description">${text.heroDescription}</p>
-          <div class="hero-actions"><a class="button button-primary" href="${routeHref('surahs')}">${text.browse}<span aria-hidden="true">→</span></a><a class="text-link" href="#purpose">${text.purposeLink}<span aria-hidden="true">↓</span></a></div>
+          <div class="hero-actions"><a class="button button-primary" href="${routeHref('surahs')}">${text.browse}<span aria-hidden="true">→</span></a><a class="text-link" href="${routeHref('purpose')}">${text.purposeLink}<span aria-hidden="true">↓</span></a></div>
           <p class="hero-footnote"><span class="small-mark" aria-hidden="true">✦</span>${text.verifiedNote}</p>
         </div>
         <div class="hero-art" aria-hidden="true"><div class="art-ring art-ring-outer"></div><div class="art-ring art-ring-middle"></div>
@@ -272,6 +344,40 @@
           <div class="about-prose" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}"><p>${text.visionText}</p></div>
         </section>
         <div class="about-cta"><div><h2>${isUrdu ? 'مطالعہ شروع کرنے کے لیے تیار ہیں؟' : 'Ready to begin exploring?'}</h2><p>${isUrdu ? 'اپنی پسند کی سورت منتخب کریں۔' : 'Choose a Surah and begin your reading journey.'}</p></div><a class="button button-primary" href="${routeHref('surahs')}">${text.browse}</a></div>
+      </div>
+    </section>`
+  }
+
+  function purposePage() {
+    const text = copy[locale]
+    const isUrdu = locale === 'ur'
+    return `<section class="purpose-page">
+      <div class="purpose-hero"><div class="page-container">
+        ${pageHeader(text.purposePageEyebrow)}
+        <h1>${text.purposePageTitle}</h1>
+        <p lang="${locale}" dir="${isUrdu ? 'rtl' : 'ltr'}">${text.purposePageLead}</p>
+      </div></div>
+      <div class="page-container purpose-content">
+        ${text.purposePageSections.map((section) => `<section class="purpose-story">
+          <h2 class="section-title">${section.title}</h2>
+          <div class="purpose-story-copy" lang="${locale}" dir="${isUrdu ? 'rtl' : 'ltr'}">
+            ${section.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join('')}
+          </div>
+        </section>`).join('')}
+        <section class="purpose-principles">
+          <h2 class="section-title">${text.purposePrinciplesTitle}</h2>
+          <div class="purpose-principle-grid">
+            ${text.purposePrinciples.map(([title, description]) => `<article class="purpose-principle">
+              <span class="value-icon" aria-hidden="true">✦</span>
+              <h3>${title}</h3>
+              <p>${description}</p>
+            </article>`).join('')}
+          </div>
+        </section>
+        <div class="purpose-cta">
+          <div><h2>${isUrdu ? 'قرآنی ہدایت دریافت کریں' : 'Explore Quranic guidance'}</h2><p>${isUrdu ? 'سورتوں کی فہرست سے مطالعہ شروع کریں۔' : 'Begin with the Surah index.'}</p></div>
+          <a class="button button-primary" href="${routeHref('surahs')}">${text.browse}</a>
+        </div>
       </div>
     </section>`
   }
@@ -400,6 +506,15 @@
       app.innerHTML = `${header()}<main>${surahsPage()}</main>${footer()}`
       setActiveNav('surahs')
       populateSurahList()
+      return
+    }
+    if (page === 'purpose') {
+      app.innerHTML = `${header()}<main>${purposePage()}</main>${footer()}`
+      setActiveNav('purpose')
+      document.title = locale === 'ur'
+        ? 'ہمارا مقصد | آیاتِ ہدایت'
+        : 'Our Purpose | Ayat-e-Hidayat'
+      window.scrollTo(0, 0)
       return
     }
     if (page === 'surah' && /^\d+$/.test(identifier || '')) {

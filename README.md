@@ -17,6 +17,7 @@ To deploy, push the project to GitHub and connect the repository to Netlify. The
 ## Files
 
 - `index.html`, `styles.css`, and `app.js` are the complete website.
+- The Home, Surahs, Purpose, and About areas are available through hash routes and include English and Urdu interface copy.
 - `data/surahs.json` contains the Surah catalogue.
 - `data/ahkamat/surah-N.json` contains the Ahkamat collection for Surah N. All 114 files are present. Current collections: Al-Baqarah (18), An-Nisa (41), Ibrahim (6), Al-Anbiya (6), An-Nur (6), Luqman (9), Al-Hujurat (6), and Al-Asr (4).
 
