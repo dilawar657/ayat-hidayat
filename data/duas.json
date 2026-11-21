@@ -1,0 +1,1059 @@
+{
+  "categories": [
+    {
+      "id": "hardship-distress",
+      "title": {
+        "en": "Hardship, Anxiety and Distress",
+        "ur": "تکلیف، فکر اور پریشانی"
+      },
+      "arabicTitle": "أدعية الكرب والضيق",
+      "description": {
+        "en": "Supplications for turning to Allah during worry, grief and hardship.",
+        "ur": "فکر، غم اور مشکل کے وقت اللہ تعالیٰ سے رجوع کرنے کی دعائیں۔"
+      },
+      "duaIds": [
+        "hasbunallahu",
+        "ya-hayyu-ya-qayyum",
+        "la-ilaha-illallahul-azeemul-haleem",
+        "allahumma-hammi-hazan",
+        "allahumma-rahmataka-arju",
+        "dua-yunus"
+      ]
+    },
+    {
+      "id": "forgiveness-repentance",
+      "title": {
+        "en": "Forgiveness and Repentance",
+        "ur": "بخشش اور توبہ"
+      },
+      "arabicTitle": "أدعية المغفرة والتوبة",
+      "description": {
+        "en": "Words of confession, repentance and seeking Allah's forgiveness.",
+        "ur": "اللہ تعالیٰ سے بخشش اور توبہ طلب کرنے کے کلمات۔"
+      },
+      "duaIds": [
+        "sayyid-al-istighfar",
+        "allahumma-zalamtu-nafsi",
+        "astaghfirullah-wa-atubu",
+        "rabbi-ghfir-li-wa-tub",
+        "astaghfirullah-al-hayyul-qayyum"
+      ]
+    },
+    {
+      "id": "protection-safety",
+      "title": {
+        "en": "Protection and Safety",
+        "ur": "حفاظت اور پناہ"
+      },
+      "arabicTitle": "أدعية الحفظ والاستعاذة من الشر",
+      "description": {
+        "en": "Supplications seeking Allah's protection from harm, evil and trials.",
+        "ur": "نقصان، شر اور آزمائشوں سے اللہ تعالیٰ کی پناہ مانگنے کی دعائیں۔"
+      },
+      "duaIds": [
+        "a-udhu-bikalimatillah",
+        "bismillah-alladhi-la-yadurru",
+        "allahumma-fatir",
+        "allahumma-munkaratil-akhlaq",
+        "allahumma-sharri-sami",
+        "allahumma-fitnat-in-nar"
+      ]
+    },
+    {
+      "id": "guidance-faith",
+      "title": {
+        "en": "Guidance, Faith and Steadfastness",
+        "ur": "ہدایت، ایمان اور ثابت قدمی"
+      },
+      "arabicTitle": "أدعية الهداية والثبات والإيمان",
+      "description": {
+        "en": "Supplications asking Allah for guidance, piety and firmness in faith.",
+        "ur": "ہدایت، تقویٰ اور ایمان پر ثابت قدمی کی دعائیں۔"
+      },
+      "duaIds": [
+        "ya-muqallibal-qulub",
+        "allahumma-asalukal-huda",
+        "allahumma-ihdini-wa-saddidni",
+        "allahummaghfir-li-warhamni",
+        "rabbana-la-tuzigh"
+      ]
+    },
+    {
+      "id": "rizq-debt-barakah",
+      "title": {
+        "en": "Rizq, Debt, Financial Hardship and Barakah",
+        "ur": "رزق، قرض، مالی تنگی اور برکت"
+      },
+      "arabicTitle": "أدعية الرزق وقضاء الدين والبركة",
+      "description": {
+        "en": "Supplications concerning lawful provision, debt, need and preservation of blessings.",
+        "ur": "حلال رزق، قرض، محتاجی اور نعمتوں کی حفاظت سے متعلق دعائیں۔"
+      },
+      "duaIds": [
+        "allahummakfini-bihalalika",
+        "allahumma-hammi-hazan",
+        "allahumma-rabbas-samawati",
+        "rabbi-inni-lima-anzalta",
+        "allahumma-ilman-nafian",
+        "allahumma-zawali-nimatika"
+      ]
+    },
+    {
+      "id": "parents-family",
+      "title": {
+        "en": "Parents, Family, Marriage and Children",
+        "ur": "والدین، خاندان، ازدواج اور اولاد"
+      },
+      "arabicTitle": "أدعية الوالدين والأسرة والزواج والذرية",
+      "description": {
+        "en": "Quranic supplications for parents, family life and righteous offspring.",
+        "ur": "والدین، خاندانی زندگی اور نیک اولاد کے لیے قرآنی دعائیں۔"
+      },
+      "duaIds": [
+        "rabbir-hamhuma",
+        "rabbana-hab-lana-azwajina",
+        "rabbi-hab-li-dhurriyyatan",
+        "rabbi-jalni-muqimas-salah",
+        "rabbana-ighfir-li-wa-liwalidayya",
+        "rabbi-la-tadharni"
+      ]
+    },
+    {
+      "id": "health-healing",
+      "title": {
+        "en": "Health, Illness, Healing and Pain",
+        "ur": "صحت، بیماری، شفا اور درد"
+      },
+      "arabicTitle": "أدعية الصحة والشفاء والمرض والألم",
+      "description": {
+        "en": "Supplications for healing, relief from pain and protection from illness.",
+        "ur": "شفا، درد سے راحت اور بیماری سے حفاظت کی دعائیں۔"
+      },
+      "duaIds": [
+        "allahumma-rabban-nas",
+        "a-udhu-billahi-wa-qudratihi",
+        "as-alullahal-azim-yashfiyak",
+        "anni-massaniyad-durr",
+        "allahumma-minal-barasi"
+      ]
+    }
+  ],
+  "duas": [
+    {
+      "id": "hasbunallahu",
+      "title": "Hasbunallahu Wa Ni'mal Wakeel",
+      "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+      "transliteration": "Hasbunallahu wa ni'mal wakeel.",
+      "urdu": "ہمارے لیے اللہ کافی ہے اور وہ بہترین کارساز ہے۔",
+      "english": "Allah is sufficient for us, and He is the best Disposer of affairs.",
+      "context": {
+        "en": "Ibn Abbas reports that Prophet Ibrahim عليه السلام said these words when thrown into the fire, and Prophet Muhammad ﷺ and the believers said them when warned about a gathered army.",
+        "ur": "ابن عباسؓ سے روایت ہے کہ حضرت ابراہیمؑ نے آگ میں ڈالے جانے کے وقت یہ کلمات کہے، اور رسول اللہ ﷺ اور اہلِ ایمان نے لشکر کے جمع ہونے کی خبر ملنے پر انہیں کہا۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih al-Bukhari",
+          "number": "4563",
+          "url": "https://sunnah.com/bukhari:4563"
+        },
+        {
+          "collection": "Quran",
+          "number": "3:173",
+          "url": "https://quran.com/3/173"
+        }
+      ],
+      "narrator": "Ibn Abbas",
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited",
+        "Dua of another Prophet"
+      ],
+      "attributionNote": "The wording also occurs in Quran 3:173. The supplied report attributes it to Ibrahim عليه السلام and to Prophet Muhammad ﷺ and the believers in a separate event."
+    },
+    {
+      "id": "ya-hayyu-ya-qayyum",
+      "title": "Ya Hayyu Ya Qayyum, Bi-Rahmatika Astagheeth",
+      "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
+      "transliteration": "Ya Hayyu Ya Qayyum, bi-rahmatika astagheeth.",
+      "urdu": "اے ہمیشہ زندہ رہنے والے، اے سب کو قائم رکھنے والے! میں تیری رحمت کے ذریعے فریاد کرتا ہوں۔",
+      "english": "O Ever-Living, O Sustainer of all, in Your mercy I seek relief.",
+      "context": {
+        "en": "A narration reports that whenever something distressed the Prophet ﷺ, he would say these words.",
+        "ur": "ایک روایت میں ہے کہ جب رسول اللہ ﷺ کو کوئی پریشانی لاحق ہوتی تو آپ ﷺ یہ کلمات کہتے۔"
+      },
+      "references": [
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3524",
+          "url": "https://sunnah.com/tirmidhi:3524"
+        }
+      ],
+      "narrator": "Anas ibn Malik",
+      "authenticity": "Hasan (as cited in the supplied research)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "la-ilaha-illallahul-azeemul-haleem",
+      "title": "La Ilaha Illallahul-Azeemul-Haleem",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ، رَبُّ الْعَرْشِ الْعَظِيمِ",
+      "transliteration": "La ilaha illallahul-Azeemul-Haleem. La ilaha illallahu Rabbus-samawati wal-ardi wa Rabbul-arshil-azeem.",
+      "urdu": "اللہ کے سوا کوئی معبود نہیں، جو عظمت والا اور بردبار ہے۔ اللہ کے سوا کوئی معبود نہیں، جو آسمانوں اور زمین کا رب اور عظیم عرش کا رب ہے۔",
+      "english": "There is no god worthy of worship except Allah, the Magnificent, the Forbearing. There is no god worthy of worship except Allah, Lord of the heavens and the earth and Lord of the Magnificent Throne.",
+      "context": {
+        "en": "Ibn Abbas reports that the Prophet ﷺ used these words at times of distress.",
+        "ur": "ابن عباسؓ سے روایت ہے کہ رسول اللہ ﷺ تکلیف کے وقت یہ کلمات کہتے تھے۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih al-Bukhari",
+          "number": "6345",
+          "url": "https://sunnah.com/bukhari:6345"
+        }
+      ],
+      "narrator": "Ibn Abbas",
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "allahumma-hammi-hazan",
+      "title": "Allahumma Inni A'udhu Bika Minal-Hammi wal-Hazan",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+      "transliteration": "Allahumma inni a'udhu bika minal-hammi wal-hazan, wal-ajzi wal-kasal, wal-jubni wal-bukhl, wa dala'id-dayni wa ghalabatir-rijal.",
+      "urdu": "اے اللہ! میں تیری پناہ مانگتا ہوں فکر اور غم سے، بے بسی اور سستی سے، بزدلی اور بخل سے، قرض کے بوجھ اور لوگوں کے غلبے سے۔",
+      "english": "O Allah, I seek refuge in You from worry and grief, incapacity and laziness, cowardice and miserliness, the burden of debt and being overpowered by people.",
+      "context": {
+        "en": "Anas reports that the Prophet ﷺ used to make this supplication. It is also relevant to seeking refuge from debt and financial anxiety.",
+        "ur": "حضرت انسؓ سے روایت ہے کہ رسول اللہ ﷺ یہ دعا کیا کرتے تھے۔ اس میں قرض اور مالی پریشانی سے پناہ بھی مانگی گئی ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih al-Bukhari",
+          "number": "6369",
+          "url": "https://sunnah.com/bukhari:6369"
+        }
+      ],
+      "narrator": "Anas",
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "allahumma-rahmataka-arju",
+      "title": "Allahumma Rahmataka Arju",
+      "arabic": "اللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلَا تَكِلْنِي إِلَىٰ نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لَا إِلَهَ إِلَّا أَنْتَ",
+      "transliteration": "Allahumma rahmataka arju, fala takilni ila nafsi tarfata ayn, wa aslih li sha'ni kullahu, la ilaha illa Ant.",
+      "urdu": "اے اللہ! میں تیری رحمت کا امیدوار ہوں۔ مجھے ایک لمحے کے لیے بھی میرے اپنے نفس کے حوالے نہ کر، اور میرے تمام معاملات درست فرما دے۔ تیرے سوا کوئی معبود نہیں۔",
+      "english": "O Allah, I hope for Your mercy. Do not leave me to myself even for the blink of an eye, and set all my affairs right. There is no god worthy of worship except You.",
+      "context": {
+        "en": "A supplication taught for a person in distress.",
+        "ur": "پریشانی میں مبتلا شخص کے لیے سکھائی گئی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "5090",
+          "url": "https://sunnah.com/abudawud:5090"
+        }
+      ],
+      "authenticity": "Disputed: Al-Albani graded it Hasan; Zubair Ali Zai graded it Da'if (as supplied).",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "dua-yunus",
+      "title": "Dua of Prophet Yunus عليه السلام",
+      "arabic": "لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+      "transliteration": "La ilaha illa Anta, subhanaka inni kuntu minaz-zalimin.",
+      "urdu": "تیرے سوا کوئی معبود نہیں، تو پاک ہے، بے شک میں ہی قصورواروں میں سے تھا۔",
+      "english": "There is no god worthy of worship except You. Glory be to You. Indeed, I have been among the wrongdoers.",
+      "context": {
+        "en": "Dua of Prophet Yunus عليه السلام in the belly of the whale. Prophet Muhammad ﷺ taught its virtue and explained that a Muslim who calls upon Allah with it will receive a response.",
+        "ur": "مچھلی کے پیٹ میں حضرت یونسؑ کی دعا۔ رسول اللہ ﷺ نے اس دعا کی فضیلت بیان فرمائی اور بتایا کہ مسلمان اس کے ذریعے اللہ سے دعا کرے تو اللہ جواب عطا فرماتا ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Al-Anbiya 21:87",
+          "url": "https://quran.com/21/87"
+        },
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3505",
+          "url": "https://sunnah.com/tirmidhi:3505"
+        }
+      ],
+      "narrator": "Sa'd ibn Abi Waqqas (hadith concerning its virtue)",
+      "authenticity": "Sahih according to the cited Darussalam grading (as supplied).",
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet",
+        "Prophet ﷺ taught"
+      ],
+      "attributionNote": "The wording is Prophet Yunus's عليه السلام Quranic supplication; the hadith concerns its virtue and is not its origin."
+    },
+    {
+      "id": "sayyid-al-istighfar",
+      "title": "Sayyid al-Istighfar",
+      "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+      "transliteration": "Allahumma anta Rabbi, la ilaha illa anta, khalaqtani wa ana abduka, wa ana ala ahdika wa wa'dika mastata'tu, a'udhu bika min sharri ma sana'tu, abu'u laka bi ni'matika alayya, wa abu'u laka bidhanbi, faghfir li, fa innahu la yaghfirudh-dhunuba illa anta.",
+      "urdu": "اے اللہ! تو میرا رب ہے، تیرے سوا کوئی معبود نہیں۔ تو نے مجھے پیدا کیا اور میں تیرا بندہ ہوں۔ میں اپنی استطاعت کے مطابق تیرے عہد اور وعدے پر قائم ہوں۔ میں اپنے اعمال کے شر سے تیری پناہ مانگتا ہوں۔ میں اپنے اوپر تیری نعمتوں کا اعتراف کرتا ہوں اور اپنے گناہوں کا بھی اعتراف کرتا ہوں۔ پس مجھے بخش دے، کیونکہ تیرے سوا کوئی گناہوں کو نہیں بخش سکتا۔",
+      "english": "O Allah, You are my Lord. None is worthy of worship except You. You created me and I am Your servant. I uphold Your covenant and promise as best I can. I seek refuge in You from the evil of my deeds. I acknowledge Your blessings upon me and confess my sins. Forgive me, for none forgives sins except You.",
+      "context": {
+        "en": "The Prophet ﷺ described this as the master supplication for seeking forgiveness. The narration mentions its great virtue when recited with firm belief, morning or evening.",
+        "ur": "رسول اللہ ﷺ نے اسے استغفار کی بہترین دعا قرار دیا۔ روایت میں صبح یا شام یقین کے ساتھ پڑھنے کی فضیلت بیان ہوئی ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih al-Bukhari",
+          "number": "6306",
+          "url": "https://sunnah.com/bukhari:6306"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahumma-zalamtu-nafsi",
+      "title": "Allahumma Inni Zalamtu Nafsi Zulman Kathira",
+      "arabic": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي، إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ",
+      "transliteration": "Allahumma inni zalamtu nafsi zulman kathira, wa la yaghfirudh-dhunuba illa anta, faghfir li maghfiratan min indika, warhamni, innaka antal-ghafurur-rahim.",
+      "urdu": "اے اللہ! میں نے اپنی جان پر بہت ظلم کیا ہے، اور تیرے سوا کوئی گناہوں کو نہیں بخش سکتا۔ پس مجھے اپنے پاس سے خاص بخشش عطا فرما اور مجھ پر رحم فرما۔ بے شک تو بہت بخشنے والا، نہایت رحم کرنے والا ہے۔",
+      "english": "O Allah, I have greatly wronged myself, and none forgives sins except You. Grant me forgiveness from You and have mercy upon me. Indeed, You are the Most Forgiving, Most Merciful.",
+      "context": {
+        "en": "Abu Bakr رضي الله عنه asked the Prophet ﷺ to teach him a supplication for his prayer.",
+        "ur": "حضرت ابوبکرؓ نے رسول اللہ ﷺ سے نماز میں پڑھنے کے لیے دعا سکھانے کی درخواست کی۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih al-Bukhari",
+          "number": "834",
+          "url": "https://sunnah.com/bukhari:834"
+        }
+      ],
+      "narrator": "Abu Bakr",
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "astaghfirullah-wa-atubu",
+      "title": "Astaghfirullaha Wa Atubu Ilayh",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
+      "transliteration": "Astaghfirullaha wa atubu ilayh.",
+      "urdu": "میں اللہ سے بخشش مانگتا ہوں اور اسی کی طرف توبہ کرتا ہوں۔",
+      "english": "I seek forgiveness from Allah and turn to Him in repentance.",
+      "context": {
+        "en": "The Prophet ﷺ sought repentance from Allah a hundred times a day, as reported in Sahih Muslim. This reported count describes his practice and is not presented here as a mandatory count for everyone.",
+        "ur": "صحیح مسلم میں ہے کہ رسول اللہ ﷺ دن میں سو مرتبہ اللہ سے توبہ کرتے تھے۔ یہ آپ ﷺ کے معمول کی روایت کردہ تعداد ہے، ہر شخص کے لیے لازم تعداد نہیں۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2702",
+          "url": "https://sunnah.com/muslim:2702"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "rabbi-ghfir-li-wa-tub",
+      "title": "Rabbighfir Li Wa Tub Alayya",
+      "arabic": "رَبِّ اغْفِرْ لِي وَتُبْ عَلَيَّ، إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ",
+      "transliteration": "Rabbi-ghfir li wa tub alayya, innaka antat-Tawwabur-Rahim.",
+      "urdu": "اے میرے رب! مجھے بخش دے اور میری توبہ قبول فرما۔ بے شک تو بہت توبہ قبول کرنے والا، نہایت رحم کرنے والا ہے۔",
+      "english": "My Lord, forgive me and accept my repentance. Indeed, You are the Accepter of repentance, the Most Merciful.",
+      "context": {
+        "en": "A narration reports that the Prophet ﷺ repeatedly recited this supplication during a gathering.",
+        "ur": "ایک روایت کے مطابق رسول اللہ ﷺ ایک مجلس میں بار بار یہ دعا پڑھتے تھے۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "1516",
+          "url": "https://sunnah.com/abudawud:1516"
+        },
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3434",
+          "url": "https://sunnah.com/tirmidhi:3434"
+        }
+      ],
+      "narrator": "Abdullah ibn Umar (Sunan Abi Dawud 1516)",
+      "authenticity": "Al-Albani graded it authentic (as supplied).",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "astaghfirullah-al-hayyul-qayyum",
+      "title": "Astaghfirullahal-Hayyul-Qayyum",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
+      "transliteration": "Astaghfirullaha alladhi la ilaha illa Huwal-Hayyul-Qayyum wa atubu ilayh.",
+      "urdu": "میں اس اللہ سے بخشش مانگتا ہوں جس کے سوا کوئی معبود نہیں، جو ہمیشہ زندہ ہے اور سب کو قائم رکھنے والا ہے، اور میں اسی کی طرف توبہ کرتا ہوں۔",
+      "english": "I seek forgiveness from Allah, none is worthy of worship except Him, the Ever-Living, the Sustainer of all, and I repent to Him.",
+      "context": {
+        "en": "A narration mentions forgiveness for the person who recites this supplication, even in a severe situation involving fleeing from battle.",
+        "ur": "ایک روایت میں اس دعا کو پڑھنے والے کے لیے بخشش کا ذکر ہے، یہاں تک کہ جنگ سے فرار جیسی سخت صورت میں بھی۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "1517",
+          "url": "https://sunnah.com/abudawud:1517"
+        }
+      ],
+      "narrator": "Zayd (as supplied on the linked source)",
+      "authenticity": "Sahih according to Al-Albani (as supplied).",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "a-udhu-bikalimatillah",
+      "title": "A'udhu Bikalimatillahit-Tammati",
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "transliteration": "A'udhu bikalimatillahit-tammati min sharri ma khalaq.",
+      "urdu": "میں اللہ کے کامل کلمات کے ذریعے اس کی مخلوق کے ہر شر سے پناہ مانگتا ہوں۔",
+      "english": "I seek refuge in the perfect words of Allah from the evil of whatever He has created.",
+      "context": {
+        "en": "The Prophet ﷺ taught that reciting this when stopping at a place provides protection there until departure.",
+        "ur": "رسول اللہ ﷺ نے سکھایا کہ کسی جگہ ٹھہرتے وقت اسے پڑھنے سے وہاں سے روانہ ہونے تک حفاظت رہتی ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2708",
+          "url": "https://sunnah.com/muslim:2708"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "bismillah-alladhi-la-yadurru",
+      "title": "Bismillahil-Ladhi La Yadurru",
+      "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "transliteration": "Bismillahil-ladhi la yadurru ma'asmihi shay'un fil-ardi wa la fis-sama'i wa Huwas-Sami'ul-Alim.",
+      "urdu": "اللہ کے نام کے ساتھ، جس کے نام کے ہوتے ہوئے زمین اور آسمان میں کوئی چیز نقصان نہیں پہنچا سکتی، اور وہ سب کچھ سننے والا، سب کچھ جاننے والا ہے۔",
+      "english": "In the name of Allah, with whose name nothing can cause harm on earth or in heaven, and He is the All-Hearing, All-Knowing.",
+      "context": {
+        "en": "The supplied research says it is recited three times in the morning and three times in the evening, and that the narration mentions protection from sudden harm.",
+        "ur": "فراہم کردہ تحقیق کے مطابق اسے صبح تین مرتبہ اور شام تین مرتبہ پڑھا جاتا ہے، اور روایت میں اچانک نقصان سے حفاظت کا ذکر ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "5088",
+          "url": "https://sunnah.com/abudawud:5088"
+        },
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3388",
+          "url": "https://sunnah.com/tirmidhi:3388"
+        }
+      ],
+      "authenticity": "Hasan Sahih according to the cited grading (as supplied).",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahumma-fatir",
+      "title": "Allahumma Fatiras-Samawati wal-Ard",
+      "arabic": "اللَّهُمَّ فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، عَالِمَ الْغَيْبِ وَالشَّهَادَةِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي، وَشَرِّ الشَّيْطَانِ وَشِرْكِهِ",
+      "transliteration": "Allahumma fatiras-samawati wal-ard, alimal-ghaybi wash-shahadah, Rabba kulli shay'in wa malikahu, ash-hadu an la ilaha illa Anta, a'udhu bika min sharri nafsi, wa sharrish-shaytani wa shirkihi.",
+      "urdu": "اے اللہ! آسمانوں اور زمین کے پیدا کرنے والے، پوشیدہ اور ظاہر کے جاننے والے، ہر چیز کے رب اور مالک! میں گواہی دیتا ہوں کہ تیرے سوا کوئی معبود نہیں۔ میں اپنے نفس کے شر، شیطان کے شر اور اس کے شرک سے تیری پناہ مانگتا ہوں۔",
+      "english": "O Allah, Creator of the heavens and the earth, Knower of the unseen and the seen, Lord and Owner of everything! I bear witness that none is worthy of worship except You. I seek refuge in You from the evil of my own self, from Satan's evil, and from his call to associating partners with You.",
+      "context": {
+        "en": "Taught by the Prophet ﷺ to Abu Bakr رضي الله عنه. The narration mentions reciting it in the morning, evening and before sleeping.",
+        "ur": "رسول اللہ ﷺ نے حضرت ابوبکرؓ کو یہ دعا سکھائی۔ روایت میں صبح، شام اور سونے سے پہلے اسے پڑھنے کا ذکر ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "5067",
+          "url": "https://sunnah.com/abudawud:5067"
+        }
+      ],
+      "narrator": "Abu Hurayrah (Abu Bakr asked for the supplication)",
+      "authenticity": "Not supplied; verify against the source before assigning a grade.",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahumma-munkaratil-akhlaq",
+      "title": "Allahumma Inni A'udhu Bika Min Munkaratil-Akhlaq",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ مُنْكَرَاتِ الْأَخْلَاقِ وَالْأَعْمَالِ وَالْأَهْوَاءِ",
+      "transliteration": "Allahumma inni a'udhu bika min munkaratil-akhlaqi wal-a'mali wal-ahwa'.",
+      "urdu": "اے اللہ! میں برے اخلاق، برے اعمال اور بری خواہشات سے تیری پناہ مانگتا ہوں۔",
+      "english": "O Allah, I seek refuge in You from evil character, evil deeds, and evil desires.",
+      "context": {
+        "en": "A general supplication seeking protection from sinful character, actions and desires.",
+        "ur": "برے اخلاق، گناہ کے اعمال اور بری خواہشات سے حفاظت کی عمومی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3591",
+          "url": "https://sunnah.com/tirmidhi:3591"
+        }
+      ],
+      "authenticity": "Hasan Gharib according to the cited Tirmidhi grading (as supplied).",
+      "classification": [
+        "Prophet ﷺ recited",
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahumma-sharri-sami",
+      "title": "Allahumma Inni A'udhu Bika Min Sharri Sam'i",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ سَمْعِي، وَمِنْ شَرِّ بَصَرِي، وَمِنْ شَرِّ لِسَانِي، وَمِنْ شَرِّ قَلْبِي، وَمِنْ شَرِّ مَنِيِّ",
+      "transliteration": "Allahumma inni a'udhu bika min sharri sam'i, wa min sharri basari, wa min sharri lisani, wa min sharri qalbi, wa min sharri maniyyi.",
+      "urdu": "اے اللہ! میں اپنے کانوں، اپنی آنکھوں، اپنی زبان، اپنے دل اور اپنی خواہشات کے شر سے تیری پناہ مانگتا ہوں۔",
+      "english": "O Allah, I seek refuge in You from the evil of my hearing, my sight, my tongue, my heart, and my desires.",
+      "context": {
+        "en": "Seeking protection from harmful impulses and sins that may originate within ourselves.",
+        "ur": "اپنے اندر سے پیدا ہونے والے نقصان دہ رجحانات اور گناہوں سے حفاظت مانگنا۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "1551",
+          "url": "https://sunnah.com/abudawud:1551"
+        },
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3492",
+          "url": "https://sunnah.com/tirmidhi:3492"
+        }
+      ],
+      "authenticity": "Hasan according to the cited grading in Riyad as-Salihin (as supplied).",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahumma-fitnat-in-nar",
+      "title": "Allahumma Inni A'udhu Bika Min Fitnat-in-Nar",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ فِتْنَةِ النَّارِ، وَعَذَابِ النَّارِ، وَمِنْ شَرِّ الْغِنَى وَالْفَقْرِ",
+      "transliteration": "Allahumma inni a'udhu bika min fitanatin-nar, wa adhabi-nar, wa min sharril-ghina wal-faqr.",
+      "urdu": "اے اللہ! میں جہنم کے فتنے اور عذاب سے، اور مال داری اور غربت کے شر سے تیری پناہ مانگتا ہوں۔",
+      "english": "O Allah, I seek refuge in You from the trials of the Fire, its punishment, and the evil of wealth and poverty.",
+      "context": {
+        "en": "Seeking protection from trials, financial extremes and the punishment of the Hereafter.",
+        "ur": "آزمائشوں، مال داری اور غربت کے شر اور آخرت کے عذاب سے پناہ مانگنا۔"
+      },
+      "references": [
+        {
+          "collection": "Riyad as-Salihin",
+          "number": "1481",
+          "url": "https://sunnah.com/riyadussalihin:1481"
+        }
+      ],
+      "authenticity": "Hasan Sahih as cited in Riyad as-Salihin (as supplied).",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "ya-muqallibal-qulub",
+      "title": "Ya Muqallibal-Qulub",
+      "arabic": "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+      "transliteration": "Ya Muqallibal-qulub, thabbit qalbi 'ala dinik.",
+      "urdu": "اے دلوں کو پھیرنے والے! میرے دل کو اپنے دین پر ثابت قدم رکھ۔",
+      "english": "O Turner of hearts, keep my heart firm upon Your religion.",
+      "context": {
+        "en": "Asking Allah to keep one's faith firm and protect the heart from deviation.",
+        "ur": "اللہ تعالیٰ سے ایمان پر ثابت قدمی اور دل کو گمراہی سے محفوظ رکھنے کی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "2140",
+          "url": "https://sunnah.com/tirmidhi:2140"
+        }
+      ],
+      "narrator": "Anas ibn Malik",
+      "authenticity": "Sahih according to the cited grading (as supplied).",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "allahumma-asalukal-huda",
+      "title": "Allahumma Inni As'alukal-Huda wat-Tuqa",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى",
+      "transliteration": "Allahumma inni as'alukal-huda wat-tuqa wal-'afafa wal-ghina.",
+      "urdu": "اے اللہ! میں تجھ سے ہدایت، تقویٰ، پاک دامنی اور بے نیازی مانگتا ہوں۔",
+      "english": "O Allah, I ask You for guidance, piety, chastity and self-sufficiency.",
+      "context": {
+        "en": "A comprehensive supplication for guidance and righteous living.",
+        "ur": "ہدایت اور نیک زندگی کے لیے جامع دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2721",
+          "url": "https://sunnah.com/muslim:2721"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "allahumma-ihdini-wa-saddidni",
+      "title": "Allahumma Ihdini Wa Saddidni",
+      "arabic": "اللَّهُمَّ اهْدِنِي وَسَدِّدْنِي",
+      "transliteration": "Allahumma ihdini wa saddidni.",
+      "urdu": "اے اللہ! مجھے ہدایت دے اور مجھے درست راستے پر قائم رکھ۔",
+      "english": "O Allah, guide me and direct me toward what is correct.",
+      "context": {
+        "en": "Seeking guidance, correctness and firmness in decisions and actions.",
+        "ur": "فیصلوں اور اعمال میں ہدایت، درستی اور ثابت قدمی مانگنا۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2725",
+          "url": "https://sunnah.com/muslim:2725"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahummaghfir-li-warhamni",
+      "title": "Allahummaghfir Li Warhamni Wahdini Wa 'Afini Warzuqni",
+      "arabic": "اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَعَافِنِي، وَارْزُقْنِي",
+      "transliteration": "Allahummaghfir li, warhamni, wahdini, wa 'afini, warzuqni.",
+      "urdu": "اے اللہ! مجھے بخش دے، مجھ پر رحم فرما، مجھے ہدایت دے، مجھے عافیت عطا فرما اور مجھے رزق دے۔",
+      "english": "O Allah, forgive me, have mercy on me, guide me, grant me well-being, and provide for me.",
+      "context": {
+        "en": "A comprehensive supplication gathering goodness of this life and the Hereafter.",
+        "ur": "دنیا اور آخرت کی بھلائیوں پر مشتمل جامع دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2697",
+          "url": "https://sunnah.com/muslim:2697"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "rabbana-la-tuzigh",
+      "title": "Rabbana La Tuzigh Qulubana",
+      "arabic": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ",
+      "transliteration": "Rabbana la tuzigh qulubana ba'da idh hadaytana wa hab lana min ladunka rahmah, innaka antal-Wahhab.",
+      "urdu": "اے ہمارے رب! ہدایت دینے کے بعد ہمارے دلوں کو ٹیڑھا نہ ہونے دے، اور ہمیں اپنے پاس سے رحمت عطا فرما۔ بے شک تو ہی بہت عطا کرنے والا ہے۔",
+      "english": "Our Lord, do not let our hearts deviate after You have guided us, and grant us mercy from Yourself. Indeed, You are the Bestower.",
+      "context": {
+        "en": "A Quranic supplication asking Allah to preserve faith and keep the heart firm.",
+        "ur": "قرآنی دعا جس میں اللہ تعالیٰ سے ایمان کی حفاظت اور دل کی ثابت قدمی مانگی گئی ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Aal-e-Imran 3:8",
+          "url": "https://quran.com/3/8"
+        }
+      ],
+      "classification": [
+        "Quranic supplication"
+      ]
+    },
+    {
+      "id": "allahummakfini-bihalalika",
+      "title": "Allahummakfini Bi-Halalika 'An Haramika",
+      "arabic": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+      "transliteration": "Allahummakfini bi-halalika 'an haramika, wa aghnini bi-fadlika 'amman siwak.",
+      "urdu": "اے اللہ! اپنے حلال کے ذریعے مجھے حرام سے بچا کر کافی فرما، اور اپنے فضل سے مجھے اپنے سوا ہر ایک سے بے نیاز کر دے۔",
+      "english": "O Allah, suffice me with what You have made lawful instead of what You have forbidden, and make me independent of everyone besides You through Your grace.",
+      "context": {
+        "en": "Taught for someone struggling to pay a debt. A dua for halal income and financial independence.",
+        "ur": "قرض کی ادائیگی میں دشواری محسوس کرنے والے کے لیے سکھائی گئی دعا؛ حلال رزق اور مالی بے نیازی مانگنا۔"
+      },
+      "references": [
+        {
+          "collection": "Jami' at-Tirmidhi",
+          "number": "3563",
+          "url": "https://sunnah.com/tirmidhi:3563"
+        }
+      ],
+      "authenticity": "Hasan (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "allahumma-rabbas-samawati",
+      "title": "Allahumma Rabbas-Samawati",
+      "arabic": "اللَّهُمَّ رَبَّ السَّمَاوَاتِ وَرَبَّ الْأَرْضِ وَرَبَّ الْعَرْشِ الْعَظِيمِ، رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ، فَالِقَ الْحَبِّ وَالنَّوَى، وَمُنْزِلَ التَّوْرَاةِ وَالْإِنْجِيلِ وَالْفُرْقَانِ، أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَيْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ، اللَّهُمَّ أَنْتَ الْأَوَّلُ فَلَيْسَ قَبْلَكَ شَيْءٌ، وَأَنْتَ الْآخِرُ فَلَيْسَ بَعْدَكَ شَيْءٌ، وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَيْءٌ، وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَيْءٌ، اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
+      "transliteration": "Allahumma Rabbas-samawati wa Rabbal-ardhi wa Rabbal-arshil-azeem, Rabbana wa Rabba kulli shay', faliqal-habbi wan-nawa, wa munzilat-Tawrati wal-Injili wal-Furqan, a'udhu bika min sharri kulli shay'in Anta akhidhun binasiyatihi. Allahumma Antal-Awwalu falaysa qablaka shay', wa Antal-Akhiru falaysa ba'daka shay', wa Antadh-Dhahiru falaysa fawqaka shay', wa Antal-Batinu falaysa dunaka shay'. Iqdi annad-dayna wa aghnina minal-faqr.",
+      "urdu": "اے اللہ! آسمانوں، زمین اور عظیم عرش کے رب، ہر چیز کے رب! دانے اور گٹھلی کو پھاڑ کر اگانے والے، تورات، انجیل اور فرقان نازل کرنے والے! میں ہر چیز کے شر سے تیری پناہ مانگتا ہوں جس کی پیشانی تیرے قبضے میں ہے۔ اے اللہ! تو اول ہے، تجھ سے پہلے کوئی نہیں؛ تو آخر ہے، تیرے بعد کوئی نہیں؛ تو ظاہر ہے، تجھ سے اوپر کوئی نہیں؛ تو باطن ہے، تجھ سے پوشیدہ کوئی نہیں۔ ہمارا قرض ادا فرما اور ہمیں محتاجی سے نجات دے۔",
+      "english": "O Allah, Lord of the heavens, earth and mighty Throne, Lord of everything, Splitter of the seed and kernel, and Revealer of the Torah, Gospel and Criterion! I seek refuge in You from the evil of everything under Your control. You are the First, nothing precedes You; You are the Last, nothing follows You; You are the Most High, nothing is above You; You are the Most Near and Hidden, nothing is beyond You. Settle our debts and free us from poverty.",
+      "context": {
+        "en": "Reported in the Prophet's ﷺ bedtime remembrance.",
+        "ur": "رسول اللہ ﷺ کے سونے سے پہلے کے اذکار میں روایت کیا گیا ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2713",
+          "url": "https://sunnah.com/muslim:2713"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "rabbi-inni-lima-anzalta",
+      "title": "Rabbi Inni Lima Anzalta Ilayya Min Khayrin Faqir",
+      "arabic": "رَبِّ إِنِّي لِمَا أَنْزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "transliteration": "Rabbi inni lima anzalta ilayya min khayrin faqir.",
+      "urdu": "اے میرے رب! جو بھی بھلائی تو میری طرف نازل فرمائے، میں اس کا محتاج ہوں۔",
+      "english": "My Lord, I am truly in need of whatever good You send down to me.",
+      "context": {
+        "en": "Supplication of Prophet Musa عليه السلام when he was in need and had helped two women water their flock. Suitable for asking Allah for provision, employment, help and opportunities.",
+        "ur": "حضرت موسیٰؑ کی دعا جب وہ محتاجی کی حالت میں دو عورتوں کے جانوروں کو پانی پلا چکے تھے۔ رزق، روزگار، مدد اور مواقع کے لیے اللہ تعالیٰ سے دعا کی جا سکتی ہے۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Al-Qasas 28:24",
+          "url": "https://quran.com/28/24"
+        }
+      ],
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet"
+      ]
+    },
+    {
+      "id": "allahumma-ilman-nafian",
+      "title": "Allahumma Inni As'aluka 'Ilman Nafi'an",
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+      "transliteration": "Allahumma inni as'aluka ilman nafi'an, wa rizqan tayyiban, wa amalan mutaqabbalan.",
+      "urdu": "اے اللہ! میں تجھ سے نفع دینے والا علم، پاکیزہ رزق اور قبول ہونے والا عمل مانگتا ہوں۔",
+      "english": "O Allah, I ask You for beneficial knowledge, wholesome provision, and deeds that are accepted.",
+      "context": {
+        "en": "The Prophet ﷺ was reported to recite this after Fajr prayer.",
+        "ur": "روایت ہے کہ رسول اللہ ﷺ فجر کی نماز کے بعد یہ دعا پڑھتے تھے۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Ibn Majah",
+          "number": "925",
+          "url": "https://sunnah.com/ibnmajah:925"
+        }
+      ],
+      "authenticity": "Sahih according to the cited Al-Albani grading (as supplied).",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "allahumma-zawali-nimatika",
+      "title": "Allahumma Inni A'udhu Bika Min Zawali Ni'matik",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ، وَتَحَوُّلِ عَافِيَتِكَ، وَفُجَاءَةِ نِقْمَتِكَ، وَجَمِيعِ سَخَطِكَ",
+      "transliteration": "Allahumma inni a'udhu bika min zawali ni'matika, wa tahawwuli 'afiyatika, wa fuja'ati niqmatika, wa jami'i sakhatika.",
+      "urdu": "اے اللہ! میں تیری نعمتوں کے زائل ہونے، تیری عطا کردہ عافیت کے بدل جانے، اچانک آنے والی آزمائش اور تیرے ہر غضب سے تیری پناہ مانگتا ہوں۔",
+      "english": "O Allah, I seek refuge in You from the loss of Your blessings, the change of the well-being You have granted, sudden affliction, and all that incurs Your displeasure.",
+      "context": {
+        "en": "Asking Allah to preserve blessings, health, stability and well-being.",
+        "ur": "اللہ تعالیٰ سے نعمتوں، صحت، استحکام اور عافیت کو باقی رکھنے کی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2739",
+          "url": "https://sunnah.com/muslim:2739"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "rabbir-hamhuma",
+      "title": "Rabbir-Hamhuma Kama Rabbayani Saghira",
+      "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+      "transliteration": "Rabbir-hamhuma kama rabbayani saghira.",
+      "urdu": "اے میرے رب! میرے والدین پر رحم فرما، جیسے انہوں نے بچپن میں میری پرورش کی۔",
+      "english": "My Lord, have mercy upon them, as they raised me when I was small.",
+      "context": {
+        "en": "A Quranic supplication for parents, whether alive or deceased.",
+        "ur": "والدین کے لیے قرآنی دعا، خواہ وہ حیات ہوں یا وفات پا چکے ہوں۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Al-Isra 17:24",
+          "url": "https://quran.com/17/24"
+        }
+      ],
+      "classification": [
+        "Quranic supplication"
+      ]
+    },
+    {
+      "id": "rabbana-hab-lana-azwajina",
+      "title": "Rabbana Hab Lana Min Azwajina Wa Dhurriyyatina",
+      "arabic": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+      "transliteration": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata a'yunin waj'alna lil-muttaqina imama.",
+      "urdu": "اے ہمارے رب! ہمیں ہماری بیویوں اور اولاد سے آنکھوں کی ٹھنڈک عطا فرما، اور ہمیں پرہیزگاروں کے لیے نمونہ بنا دے۔",
+      "english": "Our Lord, grant us from our spouses and children comfort to our eyes, and make us examples for the righteous.",
+      "context": {
+        "en": "A Quranic supplication asking for a righteous spouse, peaceful marriage and righteous children.",
+        "ur": "نیک شریکِ حیات، پُرسکون ازدواجی زندگی اور نیک اولاد کے لیے قرآنی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Al-Furqan 25:74",
+          "url": "https://quran.com/25/74"
+        }
+      ],
+      "classification": [
+        "Quranic supplication"
+      ]
+    },
+    {
+      "id": "rabbi-hab-li-dhurriyyatan",
+      "title": "Rabbi Hab Li Min Ladunka Dhurriyyatan Tayyibah",
+      "arabic": "رَبِّ هَبْ لِي مِنْ لَدُنْكَ ذُرِّيَّةً طَيِّبَةً إِنَّكَ سَمِيعُ الدُّعَاءِ",
+      "transliteration": "Rabbi hab li min ladunka dhurriyyatan tayyibah, innaka sami'ud-du'a.",
+      "urdu": "اے میرے رب! مجھے اپنے پاس سے پاکیزہ اولاد عطا فرما، بے شک تو دعا سننے والا ہے۔",
+      "english": "My Lord, grant me from Yourself righteous offspring. Indeed, You are the Hearer of supplication.",
+      "context": {
+        "en": "Dua of Prophet Zakariyya عليه السلام asking Allah for righteous offspring.",
+        "ur": "حضرت زکریاؑ کی اللہ تعالیٰ سے پاکیزہ اولاد طلب کرنے کی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Aal-e-Imran 3:38",
+          "url": "https://quran.com/3/38"
+        }
+      ],
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet"
+      ]
+    },
+    {
+      "id": "rabbi-jalni-muqimas-salah",
+      "title": "Rabbi Ja'lni Muqimas-Salah Wa Min Dhurriyyati",
+      "arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِنْ ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ",
+      "transliteration": "Rabbi-j'alni muqimas-salati wa min dhurriyyati, Rabbana wa taqabbal du'a.",
+      "urdu": "اے میرے رب! مجھے نماز قائم کرنے والا بنا، اور میری اولاد کو بھی۔ اے ہمارے رب! میری دعا قبول فرما۔",
+      "english": "My Lord, make me one who establishes prayer, and also my descendants. Our Lord, accept my supplication.",
+      "context": {
+        "en": "Dua of Prophet Ibrahim عليه السلام for himself and his descendants to establish prayer.",
+        "ur": "حضرت ابراہیمؑ کی اپنے اور اپنی اولاد کے نماز قائم کرنے کی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Ibrahim 14:40",
+          "url": "https://quran.com/14/40"
+        }
+      ],
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet"
+      ]
+    },
+    {
+      "id": "rabbana-ighfir-li-wa-liwalidayya",
+      "title": "Rabbana Ighfir Li Wa Liwalidayya",
+      "arabic": "رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
+      "transliteration": "Rabbana ighfir li wa liwalidayya wa lil-mu'minina yawma yaqumul-hisab.",
+      "urdu": "اے ہمارے رب! مجھے، میرے والدین کو اور تمام ایمان والوں کو اس دن بخش دے جب حساب قائم ہوگا۔",
+      "english": "Our Lord, forgive me, my parents, and the believers on the Day when the account is established.",
+      "context": {
+        "en": "Dua of Prophet Ibrahim عليه السلام for himself, parents and believers.",
+        "ur": "حضرت ابراہیمؑ کی اپنے، والدین اور اہلِ ایمان کے لیے دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Ibrahim 14:41",
+          "url": "https://quran.com/14/41"
+        }
+      ],
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet"
+      ]
+    },
+    {
+      "id": "rabbi-la-tadharni",
+      "title": "Rabbi La Tadharni Fardan Wa Anta Khayrul-Warithin",
+      "arabic": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+      "transliteration": "Rabbi la tadharni fardan wa anta khayrul-warithin.",
+      "urdu": "اے میرے رب! مجھے اکیلا نہ چھوڑ، اور تو سب سے بہتر وارث ہے۔",
+      "english": "My Lord, do not leave me alone, and You are the best of inheritors.",
+      "context": {
+        "en": "Dua of Prophet Zakariyya عليه السلام when asking Allah for family and offspring.",
+        "ur": "حضرت زکریاؑ کی اہل و عیال اور اولاد کے لیے اللہ تعالیٰ سے دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Al-Anbiya 21:89",
+          "url": "https://quran.com/21/89"
+        }
+      ],
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet"
+      ]
+    },
+    {
+      "id": "allahumma-rabban-nas",
+      "title": "Allahumma Rabban-Nas, Adhhibil-Ba's",
+      "arabic": "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا",
+      "transliteration": "Allahumma Rabban-nas, adhhibil-ba's, ishfi Antash-Shafi, la shifa'a illa shifa'uka, shifa'an la yughadiru saqama.",
+      "urdu": "اے اللہ! لوگوں کے رب! تکلیف دور فرما، شفا عطا فرما، تو ہی شفا دینے والا ہے۔ تیری شفا کے سوا کوئی شفا نہیں۔ ایسی شفا عطا فرما جو کوئی بیماری باقی نہ چھوڑے۔",
+      "english": "O Allah, Lord of mankind, remove the suffering and grant healing. You are the Healer. There is no healing except Your healing, a healing that leaves no illness behind.",
+      "context": {
+        "en": "The Prophet ﷺ recited this when visiting the sick.",
+        "ur": "رسول اللہ ﷺ بیمار کی عیادت کے وقت یہ دعا پڑھتے تھے۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2191c",
+          "url": "https://sunnah.com/muslim:2191c"
+        }
+      ],
+      "narrator": "Aisha",
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ recited"
+      ]
+    },
+    {
+      "id": "a-udhu-billahi-wa-qudratihi",
+      "title": "A'udhu Billahi Wa Qudratihi Min Sharri Ma Ajidu Wa Uhadhir",
+      "arabic": "أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ",
+      "transliteration": "A'udhu billahi wa qudratihi min sharri ma ajidu wa uhadhir.",
+      "urdu": "میں اللہ اور اس کی قدرت کی پناہ مانگتا ہوں، اس تکلیف کے شر سے جو میں محسوس کر رہا ہوں اور جس سے مجھے اندیشہ ہے۔",
+      "english": "I seek refuge in Allah and His power from the evil of what I feel and what I fear.",
+      "context": {
+        "en": "Place your hand on the painful area, say Bismillah three times, then recite this supplication seven times.",
+        "ur": "درد والی جگہ پر ہاتھ رکھ کر تین مرتبہ بسم اللہ کہیں، پھر یہ دعا سات مرتبہ پڑھیں۔"
+      },
+      "references": [
+        {
+          "collection": "Sahih Muslim",
+          "number": "2202",
+          "url": "https://sunnah.com/muslim:2202"
+        }
+      ],
+      "authenticity": "Sahih (as supplied)",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "as-alullahal-azim-yashfiyak",
+      "title": "As'alullahal-'Azim Rabbal-'Arshil-'Azim An Yashfiyak",
+      "arabic": "أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ",
+      "transliteration": "As'alullahal-'Azim Rabbal-'Arshil-'Azim an yashfiyak.",
+      "urdu": "میں عظمت والے اللہ سے، جو عظیم عرش کا رب ہے، دعا کرتا ہوں کہ وہ تمہیں شفا عطا فرمائے۔",
+      "english": "I ask Allah, the Magnificent, Lord of the Magnificent Throne, to grant you healing.",
+      "context": {
+        "en": "When visiting a sick person, recite it seven times.",
+        "ur": "بیمار کی عیادت کرتے وقت اسے سات مرتبہ پڑھیں۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "3106",
+          "url": "https://sunnah.com/abudawud:3106"
+        }
+      ],
+      "authenticity": "Sahih according to Al-Albani (as supplied).",
+      "classification": [
+        "Prophet ﷺ taught"
+      ]
+    },
+    {
+      "id": "anni-massaniyad-durr",
+      "title": "Anni Massaniyad-Durru Wa Anta Arhamur-Rahimin",
+      "arabic": "أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
+      "transliteration": "Anni massaniyad-durru wa Anta arhamur-rahimin.",
+      "urdu": "مجھے تکلیف پہنچی ہے، اور تو سب رحم کرنے والوں سے بڑھ کر رحم کرنے والا ہے۔",
+      "english": "Indeed, adversity has touched me, and You are the Most Merciful of those who show mercy.",
+      "context": {
+        "en": "Supplication of Prophet Ayyub عليه السلام when experiencing severe illness and suffering.",
+        "ur": "شدید بیماری اور تکلیف کے وقت حضرت ایوبؑ کی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Quran",
+          "number": "Al-Anbiya 21:83",
+          "url": "https://quran.com/21/83"
+        }
+      ],
+      "classification": [
+        "Quranic supplication",
+        "Dua of another Prophet"
+      ]
+    },
+    {
+      "id": "allahumma-minal-barasi",
+      "title": "Allahumma Inni A'udhu Bika Minal-Barasi",
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ، وَالْجُنُونِ، وَالْجُذَامِ، وَمِنْ سَيِّئِ الْأَسْقَامِ",
+      "transliteration": "Allahumma inni a'udhu bika minal-barasi, wal-jununi, wal-judhami, wa min sayyi'il-asqam.",
+      "urdu": "اے اللہ! میں برص، جنون، جذام اور تمام بری بیماریوں سے تیری پناہ مانگتا ہوں۔",
+      "english": "O Allah, I seek refuge in You from vitiligo, insanity, leprosy, and all severe diseases.",
+      "context": {
+        "en": "A general supplication seeking protection from serious illnesses.",
+        "ur": "سنگین بیماریوں سے اللہ تعالیٰ کی پناہ مانگنے کی عمومی دعا۔"
+      },
+      "references": [
+        {
+          "collection": "Sunan Abi Dawud",
+          "number": "1554",
+          "url": "https://sunnah.com/abudawud:1554"
+        }
+      ],
+      "narrator": "Anas ibn Malik",
+      "authenticity": "Disputed: some scholars authenticated the narration, while other assessments classify it as weak (as supplied).",
+      "classification": [
+        "Prophet ﷺ recited",
+        "Prophet ﷺ taught"
+      ],
+      "gradingNote": "The supplied research notes disagreement; do not present this narration as unanimously Sahih."
+    }
+  ]
+}

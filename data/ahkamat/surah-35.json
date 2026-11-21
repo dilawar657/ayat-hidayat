@@ -1,8 +1,183 @@
 {
-    "surahNumber":  35,
-    "surahNameArabic":  "ÙØ§Ø·Ø±",
-    "surahNameEnglish":  "Fatir",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 35,
+  "surahNameArabic": "فاطر",
+  "surahNameEnglish": "Fatir",
+  "editorialNote": {
+    "ur": "اردو اور انگریزی مفاہیم مختصر ادارتی مفہوم ہیں، شائع شدہ ترجمے کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو ان مفاہیم سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English meanings are concise editorial renderings, not verbatim quotations from a published translation. Quranic Arabic is shown separately."
+  },
+  "ahkamat": [
+    {
+      "id": "fatir-remember-allah-blessings-003",
+      "topicUrdu": "اللہ کی نعمتوں کو یاد کرنا",
+      "topicEnglish": "Remember Allah's Blessings",
+      "references": ["35:3"],
+      "ayahs": [
+        {
+          "reference": "35:3",
+          "arabic": "يَا أَيُّهَا النَّاسُ اذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ",
+          "urduMeaning": "اے لوگو! اللہ کی نعمتوں کو یاد کرو۔",
+          "englishMeaning": "O mankind, remember Allah's blessings upon you."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: اللہ تعالیٰ کو سب سے بڑا خالق اور رازق تسلیم کرو اور اس کی بے شمار نعمتوں کا اعتراف کرو۔",
+      "sources": [
+        "https://quran.com/fatir/3",
+        "https://quran.com/fatir/3/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatir-worldly-life-deception-005",
+      "topicUrdu": "دنیا کی زندگی کے دھوکے سے بچنا",
+      "topicEnglish": "Do Not Let Worldly Life Deceive You",
+      "references": ["35:5"],
+      "ayahs": [
+        {
+          "reference": "35:5",
+          "arabic": "فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا",
+          "urduMeaning": "دنیا کی زندگی تمہیں دھوکے میں نہ ڈال دے۔",
+          "englishMeaning": "Do not let the worldly life deceive you."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: دنیاوی مصروفیات میں اتنے مگن نہ ہو جاؤ کہ آخرت اور اللہ کے حضور جواب دہی کو بھول جاؤ۔",
+      "sources": [
+        "https://quran.com/fatir/5",
+        "https://quran.com/fatir/5/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatir-take-satan-as-enemy-006",
+      "topicUrdu": "شیطان کو اپنا دشمن سمجھنا",
+      "topicEnglish": "Treat Satan as Your Enemy",
+      "references": ["35:6"],
+      "ayahs": [
+        {
+          "reference": "35:6",
+          "arabic": "إِنَّ الشَّيْطَانَ لَكُمْ عَدُوٌّ فَاتَّخِذُوهُ عَدُوًّا",
+          "urduMeaning": "بے شک شیطان تمہارا دشمن ہے، لہٰذا اسے اپنا دشمن سمجھو۔",
+          "englishMeaning": "Indeed, Satan is your enemy, so take him as your enemy."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: شیطان کی گمراہ کن وسوسوں کو پہچانو اور اللہ کی پناہ کے ذریعے اس کی آمیزشوں سے بچو۔",
+      "sources": [
+        "https://quran.com/fatir/6",
+        "https://quran.com/fatir/6/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatir-faith-righteous-deeds-007",
+      "topicUrdu": "ایمان لانا اور نیک اعمال کرنا",
+      "topicEnglish": "Believe and Perform Righteous Deeds",
+      "references": ["35:7"],
+      "ayahs": [
+        {
+          "reference": "35:7",
+          "arabic": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ مَغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+          "urduMeaning": "جو لوگ ایمان لائیں اور نیک اعمال کریں ان کے لیے مغفرت اور بڑا اجر ہے۔",
+          "englishMeaning": "Those who believe and do righteous deeds will have forgiveness and a great reward."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: ایمان کے ساتھ نیک اعمال بھی ضروری ہیں۔ اللہ تعالیٰ مومن نیک عمل کرنے والوں کو بخشش اور بڑے اجر کا وعدہ فرماتا ہے۔",
+      "sources": [
+        "https://quran.com/fatir/7",
+        "https://quran.com/fatir/7/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatir-prayer-purification-018",
+      "topicUrdu": "نماز قائم کرنا اور پاکیزگی اختیار کرنا",
+      "topicEnglish": "Establish Prayer and Purify Yourself",
+      "references": ["35:18"],
+      "ayahs": [
+        {
+          "reference": "35:18",
+          "arabic": "وَمَنْ تَزَكَّىٰ فَإِنَّما يَتَزَكَّىٰ لِنَفْسِهِ",
+          "urduMeaning": "جو پاکیزگی اختیار کرے گا وہ اپنے ہی فائدے کے لیے پاکیزگی اختیار کرے گا۔",
+          "englishMeaning": "Whoever purifies themselves does so for their own benefit."
+        },
+        {
+          "reference": "35:18",
+          "arabic": "وَأَقَامُوا الصَّلَاةَ",
+          "urduMeaning": "نماز قائم کریں۔",
+          "englishMeaning": "Establish prayer."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: نماز قائم رکھنا اور روحانی و اخلاقی پاکیزگی حاصل کرنا دونوں لازم ہیں؛ ہر شخص پاکیزگی کا فائدہ خود اٹھاتا ہے۔",
+      "sources": [
+        "https://quran.com/fatir/18",
+        "https://quran.com/fatir/18/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatir-knowledge-true-awe-028",
+      "topicUrdu": "علم کی روشنی میں اللہ سے ڈرنا",
+      "topicEnglish": "Fear Allah Through True Knowledge",
+      "references": ["35:28"],
+      "ayahs": [
+        {
+          "reference": "35:28",
+          "arabic": "إِنَّما يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ",
+          "urduMeaning": "اللہ کے بندوں میں سے حقیقی علم والے ہی اللہ سے ڈرتے ہیں۔",
+          "englishMeaning": "Among His servants, only those with knowledge fear Allah."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: اللہ، اس کی قدرت، کائنات اور عظمت کو سمجھنا دل میں حقیقی خوف، عاجزی اور احتیاط پیدا کرتا ہے۔",
+      "sources": [
+        "https://quran.com/fatir/28",
+        "https://quran.com/fatir/28/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatir-recite-pray-charity-029-030",
+      "topicUrdu": "قرآن کی تلاوت، نماز اور خیرات",
+      "topicEnglish": "Recite Allah's Book, Establish Prayer, and Give Charity",
+      "references": ["35:29", "35:30"],
+      "ayahs": [
+        {
+          "reference": "35:29",
+          "arabic": "إِنَّ الَّذِينَ يَتْلُونَ كِتَابَ اللَّهِ وَأَقَامُوا الصَّلاةَ وَأَنْفَقُوا مِمَّا رَزَقْنَاهُمْ سِرًّا وَعَلَانِيَةً",
+          "urduMeaning": "جو لوگ اللہ کی کتاب کی تلاوت کرتے ہیں، نماز قائم کرتے ہیں، اور ہمارے دیے ہوئے رزق میں سے پوشیدہ اور علانیہ خرچ کرتے ہیں۔",
+          "englishMeaning": "Those who recite the Book of Allah, establish prayer, and spend from what We have provided them, privately and publicly."
+        },
+        {
+          "reference": "35:30",
+          "arabic": "لِيُوَفِّيَهُمْ أُجُورَهُمْ وَيَزِيدَهُمْ مِنْ فَضْلِهِ",
+          "urduMeaning": "تاکہ وہ انہیں پورا اجر عطا کرے اور اپنے فضل سے مزید عطا کرے۔",
+          "englishMeaning": "So that He may give them their rewards in full and increase them out of His grace."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: قرآن سے تعلق، نماز کی پابندی اور دلائلِ خیرات—پوشیدہ اور علانیہ—کو اللہ تعالیٰ کے اجر کی امید کے ساتھ جاری رکھو۔",
+      "sources": [
+        "https://quran.com/fatir/29",
+        "https://quran.com/fatir/29/tafsirs/en-tafisr-ibn-kathir",
+        "https://quran.com/fatir/30"
+      ]
+    },
+    {
+      "id": "fatir-call-only-upon-allah-013-014",
+      "topicUrdu": "اللہ کے سوا کسی کو نہیں پکارنا",
+      "topicEnglish": "Do Not Call Upon Anyone Besides Allah",
+      "references": ["35:13", "35:14"],
+      "ayahs": [
+        {
+          "reference": "35:13",
+          "arabic": "وَالَّذِينَ تَدْعُونَ مِنْ دُونِهِ مَا يَمْلِكُونَ مِنْ قِطْمِيرٍ",
+          "urduMeaning": "جو لوگ تم اللہ کے سوا پکارتے ہو وہ کھجور کی گٹھلی کی پوست کے مالک بھی نہیں۔",
+          "englishMeaning": "Those you invoke besides Him do not even possess the skin of a date stone."
+        },
+        {
+          "reference": "35:14",
+          "arabic": "إِنْ تَدْعُوهُمْ لَا يَسْمَعُوا دُعَاءَكُمْ",
+          "urduMeaning": "اگر تم انہیں پکارو تو وہ تمہاری دعا نہیں سن سکتے۔",
+          "englishMeaning": "If you call upon them, they cannot hear your call."
+        }
+      ],
+      "editorialNoteUrdu": "یہ آیات ثابت کرتی ہیں کہ اللہ کے سوا جنہیں پکارا جاتا ہے اُن کے پاس آزاد مالکیت یا خدائی قدرت نہیں اور وہ دعا کا جواب نہیں دے سکتے۔ اسی لیے عبادت اور دعا صرف اللہ تعالیٰ کے لیے ہیں۔",
+      "sources": [
+        "https://quran.com/fatir/13",
+        "https://quran.com/fatir/13/tafsirs/en-tafisr-ibn-kathir",
+        "https://quran.com/fatir/14"
+      ]
+    }
+  ]
 }

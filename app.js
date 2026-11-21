@@ -4,6 +4,7 @@
     en: {
       home: 'Home',
       surahs: 'Surahs',
+      duas: 'Prophetic Duas',
       purpose: 'Purpose',
       about: 'About',
       explore: 'Explore Surahs',
@@ -104,11 +105,37 @@
       footerLine: 'Understanding and following the commandments of Allah.',
       footerNote: 'Carefully collected. Shared with care.',
       loadingError: 'The Surah content could not be loaded. Please try again later.',
-      dataError: 'Surah information could not be loaded. Check that the local JSON file is available.'
+      dataError: 'Surah information could not be loaded. Check that the local JSON file is available.',
+      duasTitle: 'Prophetic Duas',
+      loadingDuas: 'Loading supplications…',
+      duasTagline: 'Supplications taught by the Messenger ﷺ or recited by him',
+      duasDescription: 'Explore supplications from the Quran and narrations, with attribution and source details kept distinct.',
+      allCategories: 'All categories',
+      browseCategories: 'Browse the categories',
+      duaSearchPlaceholder: 'Search Arabic, transliteration, title or meaning',
+      duaCountLabel: 'unique supplications',
+      category: 'Category',
+      dua: 'supplication',
+      duasPlural: 'supplications',
+      whenToRecite: 'When to recite / context',
+      transliteration: 'Transliteration',
+      reference: 'Reference',
+      narrator: 'Narrator',
+      authenticity: 'Authenticity grading',
+      evidenceType: 'Evidence classification',
+      copyArabic: 'Copy Arabic',
+      copyComplete: 'Copy complete dua',
+      copied: 'Copied',
+      copyFailed: 'Could not copy. Please select and copy the text.',
+      noDuaMatches: 'No supplications found',
+      noDuaMatchesText: 'Try a different search or category.',
+      backToDuas: 'All Prophetic Duas',
+      loadDuasError: 'The dua collection could not be loaded. Please try again later.'
     },
     ur: {
       home: 'صفحۂ اول',
       surahs: 'سورتیں',
+      duas: 'نبوی دعائیں',
       purpose: 'مقصد',
       about: 'تعارف',
       explore: 'سورتیں دیکھیں',
@@ -209,11 +236,37 @@
       footerLine: 'اللہ کے احکامات کو سمجھنا اور ان پر عمل کرنا۔',
       footerNote: 'احتیاط سے جمع کیا گیا، خیرخواہی سے پیش کیا گیا۔',
       loadingError: 'سورت کا مواد لوڈ نہیں ہو سکا۔ براہِ کرم بعد میں دوبارہ کوشش کریں۔',
-      dataError: 'سورتوں کی معلومات لوڈ نہیں ہو سکیں۔ مقامی JSON فائل کی دستیابی چیک کریں۔'
+      dataError: 'سورتوں کی معلومات لوڈ نہیں ہو سکیں۔ مقامی JSON فائل کی دستیابی چیک کریں۔',
+      duasTitle: 'أدعية نبوية — نبوی دعائیں',
+      loadingDuas: 'دعائیں لوڈ ہو رہی ہیں…',
+      duasTagline: 'دعائیں جو رسول اللہ ﷺ نے سکھائیں یا خود پڑھیں',
+      duasDescription: 'قرآن اور روایات کی دعائیں، واضح نسبت اور ماخذ کے ساتھ ملاحظہ کریں۔',
+      allCategories: 'تمام اقسام',
+      browseCategories: 'اقسام دیکھیں',
+      duaSearchPlaceholder: 'عربی، تلفظ، عنوان یا مفہوم سے تلاش کریں',
+      duaCountLabel: 'منفرد دعائیں',
+      category: 'قسم',
+      dua: 'دعا',
+      duasPlural: 'دعائیں',
+      whenToRecite: 'موقع / سیاق',
+      transliteration: 'تلفظ',
+      reference: 'حوالہ',
+      narrator: 'راوی',
+      authenticity: 'درجۂ صحت',
+      evidenceType: 'نسبت کی نوعیت',
+      copyArabic: 'عربی نقل کریں',
+      copyComplete: 'مکمل دعا نقل کریں',
+      copied: 'نقل ہوگیا',
+      copyFailed: 'نقل نہیں ہو سکا۔ براہِ کرم متن منتخب کرکے نقل کریں۔',
+      noDuaMatches: 'کوئی دعا نہیں ملی',
+      noDuaMatchesText: 'دوسری عبارت یا قسم سے تلاش کریں۔',
+      backToDuas: 'تمام نبوی دعائیں',
+      loadDuasError: 'دعاؤں کا مجموعہ لوڈ نہیں ہو سکا۔ براہِ کرم بعد میں دوبارہ کوشش کریں۔'
     }
   }
 
   let surahs = []
+  let duasData = null
   let locale = 'en'
   let renderId = 0
 
@@ -252,6 +305,7 @@
       <nav class="main-nav" aria-label="${locale === 'ur' ? 'بنیادی نیویگیشن' : 'Main navigation'}">
         <a href="${routeHref('')}" data-route="home">${text.home}</a>
         <a href="${routeHref('surahs')}" data-route="surahs">${text.surahs}</a>
+        <a href="${routeHref('duas')}" data-route="duas"><span lang="ar" dir="rtl">أدعية نبوية</span><span class="nav-dua-divider" aria-hidden="true"> | </span>${text.duas}</a>
         <a href="${routeHref('purpose')}" data-route="purpose">${text.purpose}</a>
         <a href="${routeHref('about')}" data-route="about">${text.about}</a>
       </nav>
@@ -269,6 +323,7 @@
       <nav class="footer-links" aria-label="${locale === 'ur' ? 'اضافی صفحات' : 'Footer navigation'}">
         <a href="${routeHref('')}" data-route="home">${text.home}</a>
         <a href="${routeHref('surahs')}">${text.surahs}</a>
+        <a href="${routeHref('duas')}"><span lang="ar" dir="rtl">أدعية نبوية</span><span class="nav-dua-divider" aria-hidden="true"> | </span>${text.duas}</a>
         <a href="${routeHref('purpose')}">${text.purpose}</a>
         <a href="${routeHref('about')}">${text.about}</a>
       </nav>
@@ -382,6 +437,184 @@
     </section>`
   }
 
+  function validateDuaCatalog(data) {
+    if (!data || !Array.isArray(data.categories) || !Array.isArray(data.duas) || data.categories.length !== 7) {
+      throw new Error('Invalid Prophetic Duas catalog structure')
+    }
+    const duaIds = new Set()
+    for (const dua of data.duas) {
+      if (!dua.id || duaIds.has(dua.id)) throw new Error(`Missing or duplicate dua ID: ${dua.id || '(empty)'}`)
+      duaIds.add(dua.id)
+      for (const field of ['title', 'arabic', 'transliteration', 'urdu', 'english', 'context', 'references', 'classification']) {
+        if (!dua[field]) throw new Error(`Missing ${field} for dua ${dua.id}`)
+      }
+      if (!Array.isArray(dua.references) || !Array.isArray(dua.classification)) {
+        throw new Error(`Invalid references or classification for dua ${dua.id}`)
+      }
+    }
+    const categoryIds = new Set()
+    for (const category of data.categories) {
+      if (!category.id || categoryIds.has(category.id) || !Array.isArray(category.duaIds)) {
+        throw new Error(`Invalid or duplicate dua category: ${category.id || '(empty)'}`)
+      }
+      categoryIds.add(category.id)
+      for (const id of category.duaIds) {
+        if (!duaIds.has(id)) throw new Error(`Unknown dua ${id} in category ${category.id}`)
+      }
+    }
+    return data
+  }
+
+  function duaCard(category, dua) {
+    const text = copy[locale]
+    const references = dua.references.map((reference) => {
+      const label = `${escapeHtml(reference.collection)} · ${escapeHtml(reference.number)}`
+      const url = /^https?:\/\//i.test(reference.url || '') ? reference.url : ''
+      return url
+        ? `<a lang="en" dir="ltr" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
+        : `<span lang="en" dir="ltr">${label}</span>`
+    }).join('')
+    const classifications = dua.classification.map((item) => `<span class="dua-tag" lang="en" dir="ltr">${escapeHtml(item)}</span>`).join('')
+    const narrator = dua.narrator
+      ? `<div class="dua-meta-item"><span class="field-label">${text.narrator}</span><span lang="en" dir="ltr">${escapeHtml(dua.narrator)}</span></div>`
+      : ''
+    const authenticity = dua.authenticity
+      ? `<div class="dua-meta-item"><span class="field-label">${text.authenticity}</span><span lang="en" dir="ltr">${escapeHtml(dua.authenticity)}</span></div>`
+      : `<div class="dua-meta-item"><span class="field-label">${text.authenticity}</span><span lang="en" dir="ltr">Quranic supplication — hadith grading not applicable</span></div>`
+    const context = locale === 'ur' ? dua.context.ur : dua.context.en
+    const cardId = escapeHtml(dua.id)
+    const attributionNote = dua.attributionNote
+      ? `<p class="dua-attribution-note" lang="en" dir="ltr">${escapeHtml(dua.attributionNote)}</p>`
+      : ''
+    const gradingNote = dua.gradingNote
+      ? `<p class="dua-attribution-note" lang="en" dir="ltr">${escapeHtml(dua.gradingNote)}</p>`
+      : ''
+    return `<article class="dua-card" data-dua-card data-category-id="${escapeHtml(category.id)}">
+      <div class="dua-card-topline"><span class="dua-category-label">${escapeHtml(locale === 'ur' ? category.title.ur : category.title.en)}</span><div class="dua-copy-actions">
+        <button class="dua-copy-button" type="button" data-copy-dua="${cardId}" data-copy-part="arabic">${text.copyArabic}</button>
+        <button class="dua-copy-button" type="button" data-copy-dua="${cardId}" data-copy-part="complete">${text.copyComplete}</button>
+        <span class="dua-copy-status" aria-live="polite"></span>
+      </div></div>
+      <h3 class="dua-title" lang="en" dir="ltr">${escapeHtml(dua.title)}</h3>
+      <p class="dua-arabic" lang="ar" dir="rtl">${escapeHtml(dua.arabic)}</p>
+      <div class="dua-detail-block dua-transliteration" lang="en" dir="ltr"><span class="field-label">${text.transliteration}</span><p>${escapeHtml(dua.transliteration)}</p></div>
+      <div class="dua-translation-grid">
+        <div class="dua-detail-block" lang="ur" dir="rtl"><span class="field-label">${text.urduMeaning}</span><p>${escapeHtml(dua.urdu)}</p></div>
+        <div class="dua-detail-block" lang="en" dir="ltr"><span class="field-label">${text.englishMeaning}</span><p>${escapeHtml(dua.english)}</p></div>
+      </div>
+      <div class="dua-context"><span class="field-label">${text.whenToRecite}</span><p lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${escapeHtml(context)}</p></div>
+      <div class="dua-metadata">
+        <div class="dua-meta-item"><span class="field-label">${text.reference}</span><span class="dua-references">${references}</span></div>
+        ${narrator}
+        ${authenticity}
+        <div class="dua-meta-item"><span class="field-label">${text.evidenceType}</span><span class="dua-tags">${classifications}</span></div>
+      </div>
+      ${attributionNote}${gradingNote}
+    </article>`
+  }
+
+  async function duasPage(categoryId, requestId) {
+    const text = copy[locale]
+    app.innerHTML = `${header()}<main><section class="duas-page page-container"><p>${text.loadingDuas}</p></section></main>${footer()}`
+    try {
+      if (!duasData) {
+        const response = await fetch('data/duas.json')
+        if (!response.ok) throw new Error(`Could not load dua catalog: HTTP ${response.status}`)
+        duasData = validateDuaCatalog(await response.json())
+      }
+      if (requestId !== renderId) return
+      const selectedCategory = categoryId
+        ? duasData.categories.find((category) => category.id === categoryId)
+        : null
+      if (categoryId && !selectedCategory) throw new Error(`Unknown dua category: ${categoryId}`)
+      const categories = selectedCategory ? [selectedCategory] : duasData.categories
+      const duaById = new Map(duasData.duas.map((dua) => [dua.id, dua]))
+      const categoryCards = duasData.categories.map((category) => {
+        const count = category.duaIds.length
+        return `<a class="dua-category-card" href="${routeHref(`duas/${escapeHtml(category.id)}`)}">
+          <span class="dua-category-card-arabic" lang="ar" dir="rtl">${escapeHtml(category.arabicTitle)}</span>
+          <span class="dua-category-card-title">${escapeHtml(locale === 'ur' ? category.title.ur : category.title.en)}</span>
+          <span class="dua-category-card-description" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${escapeHtml(locale === 'ur' ? category.description.ur : category.description.en)}</span>
+          <span class="dua-category-count">${count} ${count === 1 ? text.dua : text.duasPlural}</span>
+        </a>`
+      }).join('')
+      const options = duasData.categories.map((category) =>
+        `<option value="${escapeHtml(category.id)}"${category.id === categoryId ? ' selected' : ''}>${escapeHtml(locale === 'ur' ? category.title.ur : category.title.en)}</option>`,
+      ).join('')
+      const sections = categories.map((category) => {
+        const count = category.duaIds.length
+        const cards = category.duaIds.map((id) => duaCard(category, duaById.get(id))).join('')
+        return `<section class="dua-category-section" data-dua-category="${escapeHtml(category.id)}">
+          <header class="dua-category-heading"><div><span class="dua-category-heading-arabic" lang="ar" dir="rtl">${escapeHtml(category.arabicTitle)}</span><h2>${escapeHtml(locale === 'ur' ? category.title.ur : category.title.en)}</h2><p lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${escapeHtml(locale === 'ur' ? category.description.ur : category.description.en)}</p></div><span class="entry-count">${count} ${count === 1 ? text.dua : text.duasPlural}</span></header>
+          <div class="dua-list">${cards}</div>
+        </section>`
+      }).join('')
+      const backLink = selectedCategory
+        ? `<a class="back-link" href="${routeHref('duas')}">← ${text.backToDuas}</a>`
+        : ''
+      app.innerHTML = `${header()}<main><section class="duas-page page-container">
+        ${backLink}
+        <header class="duas-page-heading"><span class="eyebrow"><span class="eyebrow-line"></span><span lang="ar" dir="rtl">أدعية نبوية</span> · ${text.duasTitle}</span><h1 lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.duasTitle}</h1><p class="duas-tagline" lang="ar" dir="rtl">دعائیں جو رسول اللہ ﷺ نے سکھائیں یا خود پڑھیں</p><p lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.duasDescription}</p><div class="dua-total-count">${duasData.duas.length} ${text.duaCountLabel}</div></header>
+        <section class="dua-categories"><h2>${text.browseCategories}</h2><div class="dua-category-grid">${categoryCards}</div></section>
+        <div class="dua-controls">
+          <label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">${text.duaSearchPlaceholder}</span><input id="dua-search" type="search" placeholder="${text.duaSearchPlaceholder}" autocomplete="off" dir="${locale === 'ur' ? 'rtl' : 'ltr'}"></label>
+          <label class="dua-category-filter"><span>${text.category}</span><select id="dua-category-filter"><option value="">${text.allCategories}</option>${options}</select></label>
+        </div>
+        <div class="directory-meta"><span id="dua-result-count" aria-live="polite"></span></div>
+        <div id="dua-sections">${sections}</div>
+        <div class="no-results" id="dua-no-results" hidden><span aria-hidden="true">⌕</span><h2>${text.noDuaMatches}</h2><p>${text.noDuaMatchesText}</p></div>
+      </section></main>${footer()}`
+      setActiveNav('duas')
+      populateDuaList(categoryId)
+      document.title = locale === 'ur' ? 'أدعية نبوية — نبوی دعائیں | آیاتِ ہدایت' : 'Prophetic Duas | Ayat-e-Hidayat'
+      window.scrollTo(0, 0)
+    } catch (error) {
+      if (requestId !== renderId) return
+      console.error(error)
+      app.innerHTML = `${header()}<main><section class="duas-page page-container"><div class="surah-empty-state"><h2>${text.loadDuasError}</h2></div></section></main>${footer()}`
+      setActiveNav('duas')
+    }
+  }
+
+  function normalizeDuaSearch(value) {
+    return String(value || '').toLocaleLowerCase().normalize('NFKC').replace(/[\u064B-\u065F\u0670]/g, '').trim()
+  }
+
+  function populateDuaList(categoryId) {
+    const input = document.getElementById('dua-search')
+    const filter = document.getElementById('dua-category-filter')
+    const count = document.getElementById('dua-result-count')
+    const noResults = document.getElementById('dua-no-results')
+    const sections = [...document.querySelectorAll('[data-dua-category]')]
+    if (!input || !filter || !count || !noResults) return
+    const update = () => {
+      const query = normalizeDuaSearch(input.value)
+      let total = 0
+      for (const section of sections) {
+        const categoryMatches = !filter.value || section.dataset.duaCategory === filter.value
+        let visibleInSection = 0
+        for (const card of section.querySelectorAll('[data-dua-card]')) {
+          const matches = categoryMatches && normalizeDuaSearch(card.textContent).includes(query)
+          card.hidden = !matches
+          if (matches) visibleInSection += 1
+        }
+        section.hidden = visibleInSection === 0
+        total += visibleInSection
+      }
+      count.textContent = `${total} ${total === 1 ? copy[locale].dua : copy[locale].duasPlural}`
+      noResults.hidden = total > 0
+    }
+    input.addEventListener('input', update)
+    filter.addEventListener('change', () => {
+      if (categoryId) {
+        location.hash = routeHref(filter.value ? `duas/${filter.value}` : 'duas')
+      } else {
+        update()
+      }
+    })
+    update()
+  }
+
   function referenceText(reference) {
     const start = Number(reference.ayahStart)
     const end = Number(reference.ayahEnd)
@@ -492,6 +725,7 @@
     const [page, identifier] = currentPath()
     document.documentElement.lang = locale
     document.documentElement.dir = locale === 'ur' ? 'rtl' : 'ltr'
+    document.title = locale === 'ur' ? 'آیاتِ ہدایت' : 'Ayat-e-Hidayat — آیاتِ ہدایت'
 
     if (!surahs.length) {
       app.innerHTML = `${header()}<main><section class="directory-page page-container"><p class="error-message">${copy[locale].dataError}</p></section></main>${footer()}`
@@ -506,6 +740,10 @@
       app.innerHTML = `${header()}<main>${surahsPage()}</main>${footer()}`
       setActiveNav('surahs')
       populateSurahList()
+      return
+    }
+    if (page === 'duas') {
+      await duasPage(identifier, requestId)
       return
     }
     if (page === 'purpose') {
@@ -553,7 +791,37 @@
     update()
   }
 
-  app.addEventListener('click', (event) => {
+  app.addEventListener('click', async (event) => {
+    const copyButton = event.target.closest('[data-copy-dua]')
+    if (copyButton) {
+      const dua = duasData && duasData.duas.find((item) => item.id === copyButton.dataset.copyDua)
+      const status = copyButton.closest('.dua-card').querySelector('.dua-copy-status')
+      if (!dua) {
+        console.error(`Could not find dua to copy: ${copyButton.dataset.copyDua}`)
+        status.textContent = copy[locale].copyFailed
+        return
+      }
+      const copiedText = copyButton.dataset.copyPart === 'arabic'
+        ? dua.arabic
+        : [
+            dua.title,
+            dua.arabic,
+            dua.transliteration,
+            `اردو: ${dua.urdu}`,
+            `English: ${dua.english}`,
+            `Context: ${locale === 'ur' ? dua.context.ur : dua.context.en}`,
+            `Reference: ${dua.references.map((reference) => `${reference.collection} ${reference.number}`).join('; ')}`
+          ].join('\n\n')
+      try {
+        if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error('Clipboard access is unavailable in this browser context')
+        await navigator.clipboard.writeText(copiedText)
+        status.textContent = copy[locale].copied
+      } catch (error) {
+        console.error(error)
+        status.textContent = copy[locale].copyFailed
+      }
+      return
+    }
     const button = event.target.closest('[data-action="toggle-language"]')
     if (!button) return
     locale = locale === 'en' ? 'ur' : 'en'

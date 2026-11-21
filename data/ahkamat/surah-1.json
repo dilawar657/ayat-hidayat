@@ -2,5 +2,48 @@
   "surahNumber": 1,
   "surahNameArabic": "الفاتحة",
   "surahNameEnglish": "Al-Fatihah",
-  "ahkamat": []
+  "editorialNote": {
+    "ur": "اردو اور انگریزی مفاہیم مختصر ادارتی مفہوم ہیں، شائع شدہ ترجمے کے لفظ بہ لفظ اقتباسات نہیں۔ قرآنی عربی کو ان مفاہیم سے الگ رکھا گیا ہے۔",
+    "en": "The Urdu and English meanings are concise editorial renderings, not verbatim quotations from a published translation. Quranic Arabic is shown separately."
+  },
+  "ahkamat": [
+    {
+      "id": "fatihah-worship-and-seek-help-005",
+      "topicUrdu": "صرف اللہ کی عبادت اور اسی سے مدد مانگنا",
+      "topicEnglish": "Worship Allah Alone and Seek Help Only from Him",
+      "references": ["1:5"],
+      "ayahs": [
+        {
+          "reference": "1:5",
+          "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+          "urduMeaning": "ہم صرف تیری ہی عبادت کرتے ہیں اور صرف تجھ ہی سے مدد مانگتے ہیں۔",
+          "englishMeaning": "You alone we worship, and You alone we ask for help."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: اللہ تعالیٰ کے لیے عبادت میں اخلاص اختیار کرو اور صرف اسی سے مدد مانگو۔",
+      "sources": [
+        "https://quran.com/al-fatihah/5",
+        "https://quran.com/al-fatihah/5/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    },
+    {
+      "id": "fatihah-straight-path-guidance-006",
+      "topicUrdu": "سیدھے راستے کی ہدایت طلب کرنا",
+      "topicEnglish": "Ask Allah for Guidance to the Straight Path",
+      "references": ["1:6"],
+      "ayahs": [
+        {
+          "reference": "1:6",
+          "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+          "urduMeaning": "ہمیں سیدھے راستے کی ہدایت عطا فرما۔",
+          "englishMeaning": "Guide us to the Straight Path."
+        }
+      ],
+      "editorialNoteUrdu": "ہدایت: اللہ سے مسلسل ایمان، اعمال اور زندگی کے ہر معاملے میں صحیح راستے کی رہنمائی مانگنا عبادت کے ان مضامین میں شامل ہے۔",
+      "sources": [
+        "https://quran.com/al-fatihah/6",
+        "https://quran.com/al-fatihah/6/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    }
+  ]
 }
