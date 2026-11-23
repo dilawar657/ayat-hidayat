@@ -21,6 +21,8 @@ To deploy, push the project to GitHub and connect the repository to Netlify. The
 - `data/surahs.json` contains the Surah catalogue.
 - `data/ahkamat/surah-N.json` contains the Ahkamat collection for Surah N. All 114 files are present. Current collections: Al-Fatihah (2), Al-Baqarah (18), An-Nisa (41), Ibrahim (6), Al-Anbiya (6), An-Nur (6), Luqman (9), Al-Hujurat (6), Fatir (8), and Al-Asr (4).
 - `data/duas.json` contains seven dua categories and 38 unique supplications. A dua can be associated with more than one category without duplicating its canonical record.
+- `data/topics.json` contains the manually curated topic directory. Each link stores only a commandment `id` and `surahNumber`; the Arabic verse, meanings, and references continue to come from the existing `data/ahkamat/surah-N.json` record. Topic pages are available at `#/topics` and `#/topic/{topic-id}`.
+- Commandment search is available from the homepage and header at `#/search?q=...`. Its in-memory index is built once per page session from the Surah catalogue and numbered Ahkamat JSON files; it does not depend on topic membership or duplicate commandment content.
 
 Each Surah file uses `surahNumber`, Surah names, an optional bilingual `editorialNote`, and an `ahkamat` array. Each entry can contain an `id`, Urdu and English topics, references, an `ayahs` array (reference, complete Quranic Arabic, and Urdu and English meanings), an optional Urdu editorial note, and source URLs. Keep Quranic text distinct from editorial meanings and notes. The website displays the supplied content and does not generate Quranic content.
 

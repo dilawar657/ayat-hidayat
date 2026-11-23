@@ -4,6 +4,52 @@
     en: {
       home: 'Home',
       surahs: 'Surahs',
+      topics: 'Explore by Topic',
+      topicsUrdu: 'موضوعات کے لحاظ سے احکامات',
+      topicLoading: 'Loading topics…',
+      browseBySurah: 'Explore by Surah',
+      browseByTopic: 'Explore by Topic',
+      topicDescription: 'Explore Quranic commandments through carefully selected themes.',
+      topicCountLabel: 'commandments',
+      topicAyahCountLabel: 'related Ayahs',
+      topicLoadError: 'Topics could not be loaded. Please try again later.',
+      backToTopics: 'All topics',
+      originalSurah: 'View in Surah',
+      commandmentSearch: 'Search',
+      commandmentSearchTitle: 'Search Quranic Commandments',
+      commandmentSearchDescription: 'Search the complete collection by verse text, translation, Surah, title, or reference.',
+      commandmentSearchPlaceholder: 'Search commandments in English, Urdu or Arabic…',
+      commandmentSearchPrompt: 'Enter a word, phrase, Surah name, or Ayah reference to begin.',
+      commandmentSearchLoading: 'Searching all commandments…',
+      commandmentSearchCount: 'matching commandments',
+      commandmentSearchNone: 'No commandments found. Try another word or phrase.',
+      commandmentSearchError: 'Commandments could not be loaded for search. Please try again later.',
+      clearSearch: 'Clear search',
+      shareAyah: 'Share Ayah',
+      shareCardTitle: 'Share a Quranic reminder',
+      shareCardHelp: 'Preview the card, choose a theme, then download or share the reference.',
+      cardTheme: 'Card theme',
+      emeraldTheme: 'Emerald',
+      lightTheme: 'Light',
+      downloadImage: 'Download Image',
+      shareOnWhatsApp: 'Share on WhatsApp',
+      shareNative: 'Share',
+      closeDialog: 'Close preview',
+      shareCardError: 'The card image could not be created in this browser.',
+      dailyGuidance: 'Daily Guidance',
+      dailyGuidanceUrdu: 'آج کی قرآنی ہدایت',
+      dailyGuidanceSubtitle: 'A reminder from the Quran to reflect upon and live by.',
+      dailyDateLabel: 'Today · Asia/Karachi',
+      dailyReadFull: 'Read Full Commandment',
+      dailyRelatedTopics: 'Explore Related Topic',
+      dailyRelatedTopicsPlural: 'Explore Related Topics',
+      dailyLoading: 'Preparing today’s guidance…',
+      dailyUnavailable: 'Today’s guidance is temporarily unavailable.',
+      dailyEmpty: 'Daily guidance is not available right now.',
+      dedication: 'Dedication',
+      dedicationPageTitle: 'A Dedication of Prayer',
+      dedicationBanner: 'Dedicated as Sadqah-e-Jariyah to all Muslims who have passed away, especially my beloved late father.',
+      readDedication: 'Read the Dedication',
       duas: 'Prophetic Duas',
       purpose: 'Purpose',
       about: 'About',
@@ -135,6 +181,52 @@
     ur: {
       home: 'صفحۂ اول',
       surahs: 'سورتیں',
+      topics: 'موضوعات کے لحاظ سے',
+      topicsUrdu: 'موضوعات کے لحاظ سے احکامات',
+      topicLoading: 'موضوعات لوڈ ہو رہے ہیں…',
+      browseBySurah: 'سورت کے لحاظ سے دیکھیں',
+      browseByTopic: 'موضوع کے لحاظ سے دیکھیں',
+      topicDescription: 'قرآنی احکامات کو منتخب موضوعات کے ذریعے دریافت کریں۔',
+      topicCountLabel: 'احکامات',
+      topicAyahCountLabel: 'متعلقہ آیات',
+      topicLoadError: 'موضوعات لوڈ نہیں ہو سکے۔ براہِ کرم بعد میں دوبارہ کوشش کریں۔',
+      backToTopics: 'تمام موضوعات',
+      originalSurah: 'سورت میں دیکھیں',
+      commandmentSearch: 'تلاش',
+      commandmentSearchTitle: 'قرآنی احکامات تلاش کریں',
+      commandmentSearchDescription: 'آیات کے متن، ترجمے، سورت، عنوان یا حوالے سے مکمل مجموعے میں تلاش کریں۔',
+      commandmentSearchPlaceholder: 'احکامات کو انگریزی، اردو یا عربی میں تلاش کریں…',
+      commandmentSearchPrompt: 'تلاش شروع کرنے کے لیے کوئی لفظ، عبارت، سورت یا آیت کا حوالہ لکھیں۔',
+      commandmentSearchLoading: 'تمام احکامات تلاش ہو رہے ہیں…',
+      commandmentSearchCount: 'متعلقہ احکامات',
+      commandmentSearchNone: 'کوئی حکم نہیں ملا۔ دوسرا لفظ یا عبارت آزمائیں۔',
+      commandmentSearchError: 'تلاش کے لیے احکامات لوڈ نہیں ہو سکے۔ براہِ کرم بعد میں دوبارہ کوشش کریں۔',
+      clearSearch: 'تلاش صاف کریں',
+      shareAyah: 'آیت شیئر کریں',
+      shareCardTitle: 'قرآنی یاد دہانی شیئر کریں',
+      shareCardHelp: 'کارڈ دیکھیں، تھیم منتخب کریں، پھر تصویر ڈاؤن لوڈ یا حوالہ شیئر کریں۔',
+      cardTheme: 'کارڈ کا تھیم',
+      emeraldTheme: 'زمردی',
+      lightTheme: 'ہلکا',
+      downloadImage: 'تصویر ڈاؤن لوڈ کریں',
+      shareOnWhatsApp: 'واٹس ایپ پر شیئر کریں',
+      shareNative: 'شیئر کریں',
+      closeDialog: 'پیش منظر بند کریں',
+      shareCardError: 'اس براؤزر میں کارڈ کی تصویر نہیں بن سکی۔',
+      dailyGuidance: 'آج کی قرآنی ہدایت',
+      dailyGuidanceUrdu: 'آج کی قرآنی ہدایت',
+      dailyGuidanceSubtitle: 'قرآن کی ایک یاد دہانی جس پر غور کریں اور عمل کریں۔',
+      dailyDateLabel: 'آج · ایشیا/کراچی',
+      dailyReadFull: 'مکمل حکم پڑھیں',
+      dailyRelatedTopics: 'متعلقہ موضوع دیکھیں',
+      dailyRelatedTopicsPlural: 'متعلقہ موضوعات دیکھیں',
+      dailyLoading: 'آج کی ہدایت تیار ہو رہی ہے…',
+      dailyUnavailable: 'آج کی ہدایت عارضی طور پر دستیاب نہیں۔',
+      dailyEmpty: 'اس وقت روزانہ کی ہدایت دستیاب نہیں۔',
+      dedication: 'ایصالِ ثواب',
+      dedicationPageTitle: 'ایک دعا اور ایصالِ ثواب کی نیت',
+      dedicationBanner: 'تمام مرحوم مسلمانوں، بالخصوص میرے پیارے مرحوم والد کے لیے صدقۂ جاریہ کی نیت سے۔',
+      readDedication: 'ایصالِ ثواب کی دعا پڑھیں',
       duas: 'نبوی دعائیں',
       purpose: 'مقصد',
       about: 'تعارف',
@@ -267,6 +359,37 @@
 
   let surahs = []
   let duasData = null
+  let topicsData = null
+  let searchIndexPromise = null
+  const commandmentCache = new Map()
+  const shareableCommandments = new Map()
+  let shareReturnFocus = null
+  let activeShareCanvas = null
+  let activeShareRecord = null
+  let activeShareTheme = 'emerald'
+  let dailyGuidanceTimer = null
+  let activeDailyDateKey = null
+
+  const dedicationText = {
+    english: {
+      title: 'A Dedication of Prayer',
+      paragraphs: [
+        'This humble effort is dedicated as Sadqah-e-Jariyah to all Muslims who have passed away, and especially to my beloved late father.',
+        'May Allah forgive them, shower His mercy upon them, illuminate their graves, grant them the highest place in Jannah, and accept this effort as a means of continuous benefit for those who read, learn, share, and act upon His guidance.',
+        'May every word of goodness found here become a source of benefit, and may Allah accept this humble effort solely for His sake.'
+      ],
+      closing: 'Ameen.'
+    },
+    urdu: {
+      title: 'ایک دعا اور ایصالِ ثواب کی نیت',
+      paragraphs: [
+        'یہ چھوٹی سی کوشش تمام مرحوم مسلمانوں، بالخصوص میرے پیارے مرحوم والد، کے لیے صدقۂ جاریہ کی نیت سے پیش ہے۔',
+        'اللہ تعالیٰ ان سب کی مغفرت فرمائے، ان پر اپنی رحمت نازل فرمائے، ان کی قبروں کو نور سے بھر دے، انہیں جنت الفردوس میں اعلیٰ مقام عطا فرمائے، اور اس کوشش کو ان لوگوں کے لیے مسلسل فائدے کا ذریعہ بنائے جو یہاں سے اللہ کی ہدایت پڑھیں، سیکھیں، دوسروں تک پہنچائیں اور اپنی زندگیوں میں اس پر عمل کریں۔',
+        'اللہ اس معمولی کوشش کو صرف اپنی رضا کے لیے قبول فرمائے۔'
+      ],
+      closing: 'آمین۔'
+    }
+  }
   let locale = 'en'
   let renderId = 0
 
@@ -278,9 +401,20 @@
     "'": '&#39;'
   })[char])
 
-  const currentPath = () => location.hash.replace(/^#\/?/, '').split('/').filter(Boolean)
+  const currentPath = () => location.hash.replace(/^#\/?/, '').split('?')[0].split('/').filter(Boolean)
+
+  const currentSearchQuery = () => {
+    const queryString = location.hash.split('?')[1] || ''
+    return new URLSearchParams(queryString).get('q') || ''
+  }
 
   const routeHref = (path) => `#/${path}`
+
+  function dedicationBanner() {
+    const text = copy[locale]
+    const isUrdu = locale === 'ur'
+    return `<aside class="dedication-banner" lang="${locale}" dir="${isUrdu ? 'rtl' : 'ltr'}"><p>${text.dedicationBanner}</p><a href="${routeHref('dedication')}">${text.readDedication}<span aria-hidden="true">↗</span></a></aside>`
+  }
 
   function brand(compact = false) {
     return `<a class="brand${compact ? ' brand--compact' : ''}" href="${routeHref('')}" aria-label="Ayat-e-Hidayat home">
@@ -298,6 +432,14 @@
     return `<span class="eyebrow"><span class="eyebrow-line"></span>${text}</span>`
   }
 
+  function commandmentSearchMarkup(query = '') {
+    const text = copy[locale]
+    return `<form class="commandment-search-form" id="commandment-search-form" role="search">
+      <div class="commandment-search-field"><label class="sr-only" for="commandment-search-input">${escapeHtml(text.commandmentSearchPlaceholder)}</label><span class="commandment-search-icon" aria-hidden="true">⌕</span><input id="commandment-search-input" type="search" value="${escapeHtml(query)}" placeholder="${escapeHtml(text.commandmentSearchPlaceholder)}" autocomplete="off" dir="auto"><button class="commandment-search-clear" id="commandment-search-clear" type="button" aria-label="${text.clearSearch}" hidden>×</button></div>
+      <button class="button button-primary commandment-search-submit" type="submit">${text.commandmentSearch}<span aria-hidden="true">⌕</span></button>
+    </form><div class="commandment-search-meta" id="commandment-search-meta" aria-live="polite">${text.commandmentSearchPrompt}</div><div class="commandment-search-results ahkam-list" id="commandment-search-results" aria-live="polite"></div>`
+  }
+
   function header() {
     const text = copy[locale]
     return `<header class="site-header"><div class="header-inner page-container">
@@ -305,15 +447,17 @@
       <nav class="main-nav" aria-label="${locale === 'ur' ? 'بنیادی نیویگیشن' : 'Main navigation'}">
         <a href="${routeHref('')}" data-route="home">${text.home}</a>
         <a href="${routeHref('surahs')}" data-route="surahs">${text.surahs}</a>
+        <a href="${routeHref('topics')}" data-route="topics">${text.topics}</a>
         <a href="${routeHref('duas')}" data-route="duas"><span lang="ar" dir="rtl">أدعية نبوية</span><span class="nav-dua-divider" aria-hidden="true"> | </span>${text.duas}</a>
         <a href="${routeHref('purpose')}" data-route="purpose">${text.purpose}</a>
         <a href="${routeHref('about')}" data-route="about">${text.about}</a>
+        <a class="main-nav-search" href="${routeHref('search')}" data-route="search">⌕ ${text.commandmentSearch}</a>
       </nav>
       <div class="header-actions">
         <button class="language-toggle" type="button" data-action="toggle-language" aria-label="${locale === 'en' ? 'اردو میں دیکھیں' : 'Switch to English'}">${locale === 'en' ? 'اردو' : 'EN'}</button>
         <a class="header-cta" href="${routeHref('surahs')}">${text.explore}<span aria-hidden="true">↗</span></a>
       </div>
-    </div></header>`
+    </div></header>${dedicationBanner()}`
   }
 
   function footer() {
@@ -323,9 +467,12 @@
       <nav class="footer-links" aria-label="${locale === 'ur' ? 'اضافی صفحات' : 'Footer navigation'}">
         <a href="${routeHref('')}" data-route="home">${text.home}</a>
         <a href="${routeHref('surahs')}">${text.surahs}</a>
+        <a href="${routeHref('search')}" data-route="search">⌕ ${text.commandmentSearch}</a>
+        <a href="${routeHref('topics')}" data-route="topics">${text.topics}</a>
         <a href="${routeHref('duas')}"><span lang="ar" dir="rtl">أدعية نبوية</span><span class="nav-dua-divider" aria-hidden="true"> | </span>${text.duas}</a>
         <a href="${routeHref('purpose')}">${text.purpose}</a>
         <a href="${routeHref('about')}">${text.about}</a>
+        <a href="${routeHref('dedication')}">${text.dedication}</a>
       </nav>
       <p class="footer-note" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.footerNote}</p>
     </div></footer>`
@@ -361,6 +508,8 @@
         </div>
       </div>
     </section>
+    <section class="daily-guidance-section"><div class="page-container"><header class="daily-guidance-heading">${pageHeader(text.dailyGuidance)}<h2>${text.dailyGuidance}</h2><p lang="ur" dir="rtl">${text.dailyGuidanceUrdu}</p><span>${text.dailyGuidanceSubtitle}</span></header><div class="daily-guidance-content" id="daily-guidance-content" aria-live="polite"><p class="daily-guidance-status">${text.dailyLoading}</p></div></div></section>
+    <section class="commandment-search-section"><div class="page-container"><div class="commandment-search-heading">${pageHeader(text.commandmentSearch)}<h2>${text.commandmentSearchTitle}</h2><p>${text.commandmentSearchDescription}</p></div>${commandmentSearchMarkup()}</div></section>
     <section class="purpose-section section-pad" id="purpose"><div class="page-container purpose-grid">
       <div><span class="eyebrow"><span class="eyebrow-line"></span>${text.purposeEyebrow}</span><h2 class="section-title">${text.purposeTitle}</h2></div>
       <div class="purpose-copy"><p>${text.purposeText}</p><p class="purpose-mission">${text.mission}</p><a class="inline-link" href="${routeHref('about')}">${text.moreAbout}<span aria-hidden="true">→</span></a></div>
@@ -373,6 +522,8 @@
       <div class="section-heading-row"><div><span class="eyebrow"><span class="eyebrow-line"></span>${text.browseEyebrow}</span><h2 class="section-title">${text.browseTitle}</h2><p>${text.browseDescription}</p></div><a class="inline-link" href="${routeHref('surahs')}">${text.viewAll}<span aria-hidden="true">→</span></a></div>
       <div class="surah-grid">${surahs.slice(0, 6).map(surahCard).join('')}</div>
     </div></section>`
+    + `<section class="explore-methods section-pad"><div class="page-container"><div class="section-heading-row"><div><span class="eyebrow"><span class="eyebrow-line"></span>${text.browse}</span><h2 class="section-title">${isUrdu ? 'قرآنی احکامات دریافت کریں' : 'Explore Quranic Commandments'}</h2><p>${text.topicDescription}</p></div></div><div class="explore-method-grid"><a class="explore-method-card" href="${routeHref('surahs')}"><span class="explore-method-number">01</span><span><strong>${text.browseBySurah}</strong><small lang="ur" dir="rtl">سورت کے لحاظ سے</small></span><span aria-hidden="true">↗</span></a><a class="explore-method-card" href="${routeHref('topics')}"><span class="explore-method-number">02</span><span><strong>${text.browseByTopic}</strong><small lang="ur" dir="rtl">${copy.ur.topicsUrdu}</small></span><span aria-hidden="true">↗</span></a></div></div></section>`
+    + `<section class="home-dedication-section"><div class="page-container"><header class="home-dedication-heading">${pageHeader(text.dedication)}<h2>${dedicationText.english.title}</h2></header>${dedicationContentMarkup()}</div></section>`
   }
 
   function surahsPage() {
@@ -401,6 +552,19 @@
         <div class="about-cta"><div><h2>${isUrdu ? 'مطالعہ شروع کرنے کے لیے تیار ہیں؟' : 'Ready to begin exploring?'}</h2><p>${isUrdu ? 'اپنی پسند کی سورت منتخب کریں۔' : 'Choose a Surah and begin your reading journey.'}</p></div><a class="button button-primary" href="${routeHref('surahs')}">${text.browse}</a></div>
       </div>
     </section>`
+  }
+
+  function dedicationPage() {
+    const text = copy[locale]
+    const english = dedicationText.english
+    const urdu = dedicationText.urdu
+    return `<section class="dedication-page page-container"><a class="back-link" href="${routeHref('')}">← ${text.home}</a><header class="dedication-heading">${pageHeader(text.dedication)}<span class="dedication-ornament" aria-hidden="true">✧</span><h1>${english.title}</h1><p lang="ur" dir="rtl">${urdu.title}</p></header>${dedicationContentMarkup()}</section>`
+  }
+
+  function dedicationContentMarkup() {
+    const english = dedicationText.english
+    const urdu = dedicationText.urdu
+    return `<div class="dedication-content"><section class="dedication-language dedication-english" lang="en" dir="ltr" aria-labelledby="dedication-english-title"><h2 id="dedication-english-title">${english.title}</h2>${english.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join('')}<p class="dedication-closing"><strong>${english.closing}</strong></p></section><section class="dedication-language dedication-urdu" lang="ur" dir="rtl" aria-labelledby="dedication-urdu-title"><h2 id="dedication-urdu-title">${urdu.title}</h2>${urdu.paragraphs.map((paragraph) => `<p>${paragraph}</p>`).join('')}<p class="dedication-closing"><strong>${urdu.closing}</strong></p></section></div>`
   }
 
   function purposePage() {
@@ -645,8 +809,13 @@
     return `<aside class="editorial-disclaimer"><h3>${copy[locale].editorialDisclaimer}</h3>${urdu}${english}</aside>`
   }
 
-  function ahkamCard(ahkam) {
+  function ahkamCard(ahkam, surahNumber = null, options = {}) {
     const text = copy[locale]
+    const recordSurahNumber = Number(surahNumber || ahkam.surahNumber)
+    const recordSurah = surahs.find((item) => item.number === recordSurahNumber)
+    if (ahkam.id && recordSurah) {
+      shareableCommandments.set(ahkam.id, { commandment: ahkam, surah: recordSurah })
+    }
     const hasAyahs = Array.isArray(ahkam.ayahs)
     const references = hasAyahs
       ? (ahkam.references || ahkam.ayahs.map((ayah) => ayah.reference)).join(' · ')
@@ -668,19 +837,609 @@
       <div class="translation-block" lang="ur" dir="rtl"><p class="field-label">${hasAyahs ? text.urduMeaning : text.urduTranslation}</p><p>${escapeHtml(ayah.urduMeaning)}</p></div>
       <div class="translation-block" lang="en" dir="ltr"><p class="field-label">${hasAyahs ? text.englishMeaning : text.englishTranslation}</p><p>${escapeHtml(ayah.englishMeaning)}</p></div>
     </section>`).join('')
-    const editorialNote = ahkam.editorialNoteUrdu
+    const editorialNote = options.includeEditorial === false
+      ? ''
+      : ahkam.editorialNoteUrdu
       ? `<div class="entry-editorial-note" lang="ur" dir="rtl"><p class="field-label">${text.editorialNote}</p><p>${escapeHtml(ahkam.editorialNoteUrdu)}</p></div>`
       : ''
-    return `<article class="ahkam-card">
-      <div class="ahkam-card-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(references)}</span></div>
+    return `<article class="ahkam-card"${ahkam.id ? ` id="commandment-${escapeHtml(ahkam.id)}"` : ''}>
+      <div class="ahkam-card-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(references)}</span>${ahkam.id && recordSurah ? `<button class="share-card-button" type="button" data-share-commandment="${escapeHtml(ahkam.id)}" aria-haspopup="dialog" aria-label="${text.shareAyah}: ${escapeHtml(references)}">${text.shareAyah}<span aria-hidden="true">↗</span></button>` : ''}</div>
       ${topic}
       ${verses}
-      ${hasAyahs ? editorialNote : `<div class="explanation-grid">
+      ${options.includeEditorial === false ? '' : hasAyahs ? editorialNote : `<div class="explanation-grid">
         <div lang="ur" dir="rtl"><p class="field-label">${text.urduExplanation}</p><p>${escapeHtml(ahkam.explanationUrdu)}</p></div>
         <div lang="en" dir="ltr"><p class="field-label">${text.englishExplanation}</p><p>${escapeHtml(ahkam.explanationEnglish)}</p></div>
       </div>`}
       <div class="source-note"><span>${text.sources}</span><span>${sourceText(ahkam)}</span></div>
     </article>`
+  }
+
+  const shareCardFonts = {
+    arabic: '"Noto Naskh Arabic", "Traditional Arabic", "Times New Roman", serif',
+    urdu: '"Noto Nastaliq Urdu", "Noto Naskh Arabic", "Jameel Noori Nastaleeq", serif',
+    english: 'Georgia, "Times New Roman", serif'
+  }
+
+  function wrapCardText(context, value, maxWidth, font, direction) {
+    const text = String(value ?? '').trim()
+    if (!text) return []
+    context.font = font
+    context.direction = direction
+    const words = text.split(/\s+/u)
+    const lines = []
+    let line = ''
+    for (const word of words) {
+      const candidate = line ? `${line} ${word}` : word
+      if (line && context.measureText(candidate).width > maxWidth) {
+        lines.push(line)
+        line = word
+      } else {
+        line = candidate
+      }
+    }
+    if (line) lines.push(line)
+    return lines
+  }
+
+  function buildShareCardLayout(record, width, measureContext) {
+    const commandment = record.commandment
+    const ayahs = Array.isArray(commandment.ayahs) && commandment.ayahs.length
+      ? commandment.ayahs
+      : [{
+          reference: referenceText(commandment.reference || {}),
+          arabic: commandment.arabic,
+          urduMeaning: commandment.translationUrdu,
+          englishMeaning: commandment.translationEnglish
+        }]
+    const references = Array.isArray(commandment.references) && commandment.references.length
+      ? commandment.references.join(' · ')
+      : ayahs.map((ayah) => ayah.reference).filter(Boolean).join(' · ')
+    const title = commandment.topicEnglish || commandment.titleEnglish || commandment.title || ''
+    let arabicSize = ayahs.length > 2 ? 34 : 44
+    let urduSize = ayahs.length > 2 ? 20 : 25
+    let englishSize = ayahs.length > 2 ? 19 : 23
+    const minSizes = { arabic: 22, urdu: 17, english: 16 }
+    const maxTextWidth = width - 180
+    let layout
+    while (true) {
+      let y = 320
+      const titleLines = title
+        ? wrapCardText(measureContext, title, maxTextWidth, `500 28px ${shareCardFonts.english}`, 'ltr')
+        : []
+      if (titleLines.length) y += titleLines.length * 38 + 16
+      const blocks = ayahs.map((ayah, index) => {
+        const block = {
+          arabic: wrapCardText(measureContext, ayah.arabic, maxTextWidth, `500 ${arabicSize}px ${shareCardFonts.arabic}`, 'rtl'),
+          urdu: wrapCardText(measureContext, ayah.urduMeaning, maxTextWidth, `400 ${urduSize}px ${shareCardFonts.urdu}`, 'rtl'),
+          english: wrapCardText(measureContext, ayah.englishMeaning, maxTextWidth, `400 ${englishSize}px ${shareCardFonts.english}`, 'ltr')
+        }
+        y += (index ? 5 : 0) + 23 + block.arabic.length * arabicSize * 1.75
+        y += 23 + block.urdu.length * urduSize * 1.8
+        y += 32 + block.english.length * englishSize * 1.55
+        return block
+      })
+      layout = { title, titleLines, references, blocks, arabicSize, urduSize, englishSize, contentBottom: y }
+      if (y + 170 <= 1310 || (arabicSize <= minSizes.arabic && urduSize <= minSizes.urdu && englishSize <= minSizes.english)) break
+      arabicSize = Math.max(minSizes.arabic, arabicSize - 2)
+      urduSize = Math.max(minSizes.urdu, urduSize - 1)
+      englishSize = Math.max(minSizes.english, englishSize - 1)
+    }
+    layout.height = Math.max(1350, layout.contentBottom + 190)
+    layout.ayahs = ayahs
+    return layout
+  }
+
+  function drawShareCard(canvas, record, theme) {
+    const width = 1080
+    const context = canvas.getContext('2d')
+    const layout = buildShareCardLayout(record, width, context)
+    canvas.width = width
+    canvas.height = layout.height
+    const palette = theme === 'light'
+      ? { background: '#f4f0e5', foreground: '#183e30', muted: '#596258', accent: '#a1834b', border: '#d5b779', inset: '#fffefa' }
+      : { background: '#153f32', foreground: '#f4f0e5', muted: '#d6dfd4', accent: '#d5b779', border: '#d5b779', inset: '#1a4939' }
+    context.fillStyle = palette.background
+    context.fillRect(0, 0, width, canvas.height)
+    context.strokeStyle = palette.border
+    context.lineWidth = 2
+    context.strokeRect(28, 28, width - 56, canvas.height - 56)
+    context.globalAlpha = theme === 'light' ? 0.55 : 0.34
+    context.lineWidth = 1
+    context.strokeRect(43, 43, width - 86, canvas.height - 86)
+    context.globalAlpha = 1
+    const drawDiamond = (x, y, size) => {
+      context.beginPath()
+      context.moveTo(x, y - size)
+      context.lineTo(x + size, y)
+      context.lineTo(x, y + size)
+      context.lineTo(x - size, y)
+      context.closePath()
+      context.strokeStyle = palette.accent
+      context.lineWidth = 2
+      context.stroke()
+    }
+    drawDiamond(78, 78, 13)
+    drawDiamond(width - 78, 78, 13)
+    drawDiamond(78, canvas.height - 78, 13)
+    drawDiamond(width - 78, canvas.height - 78, 13)
+
+    context.textAlign = 'center'
+    context.direction = 'rtl'
+    context.fillStyle = palette.accent
+    context.font = `500 30px ${shareCardFonts.urdu}`
+    context.fillText('آیاتِ ہدایت', width / 2, 103)
+    context.direction = 'ltr'
+    context.fillStyle = palette.muted
+    context.font = `600 15px ${shareCardFonts.english}`
+    context.fillText('QURANIC GUIDANCE', width / 2, 137)
+    context.direction = 'rtl'
+    context.fillStyle = palette.foreground
+    context.font = `500 34px ${shareCardFonts.arabic}`
+    context.fillText(record.surah.nameArabic, width / 2, 188)
+    context.direction = 'ltr'
+    context.font = `500 22px ${shareCardFonts.english}`
+    context.fillText(record.surah.nameEnglish, width / 2, 222)
+    context.direction = 'rtl'
+    context.font = `400 22px ${shareCardFonts.urdu}`
+    context.fillText(record.surah.nameUrdu, width / 2, 257)
+    context.direction = 'ltr'
+    context.fillStyle = palette.accent
+    context.font = `600 17px ${shareCardFonts.english}`
+    context.fillText(`${copy[locale].ayahReference} · ${layout.references}`, width / 2, 291)
+
+    let y = 320
+    if (layout.titleLines.length) {
+      context.fillStyle = palette.foreground
+      context.font = `500 28px ${shareCardFonts.english}`
+      context.direction = 'ltr'
+      for (const line of layout.titleLines) {
+        y += 35
+        context.fillText(line, width / 2, y)
+      }
+      y += 15
+      context.beginPath()
+      context.moveTo(380, y)
+      context.lineTo(700, y)
+      context.strokeStyle = palette.accent
+      context.lineWidth = 1
+      context.stroke()
+      y += 18
+    }
+    const maxTextWidth = width - 180
+    const drawLines = (lines, label, fontSize, lineHeight, font, direction, color) => {
+      context.direction = 'ltr'
+      context.textAlign = 'center'
+      context.fillStyle = palette.accent
+      context.font = `600 13px ${shareCardFonts.english}`
+      y += 18
+      context.fillText(label, width / 2, y)
+      context.direction = direction
+      context.fillStyle = color
+      context.font = `400 ${fontSize}px ${font}`
+      for (const line of lines) {
+        y += lineHeight
+        context.fillText(line, width / 2, y, maxTextWidth)
+      }
+      y += 5
+    }
+    layout.ayahs.forEach((ayah, index) => {
+      if (index) {
+        y += 5
+        context.beginPath()
+        context.moveTo(300, y)
+        context.lineTo(780, y)
+        context.strokeStyle = palette.accent
+        context.globalAlpha = 0.55
+        context.stroke()
+        context.globalAlpha = 1
+      }
+      const block = layout.blocks[index]
+      drawLines(block.arabic, 'QURANIC ARABIC', layout.arabicSize, layout.arabicSize * 1.75, shareCardFonts.arabic, 'rtl', palette.foreground)
+      drawLines(block.urdu, 'URDU MEANING', layout.urduSize, layout.urduSize * 1.8, shareCardFonts.urdu, 'rtl', palette.foreground)
+      drawLines(block.english, 'ENGLISH MEANING', layout.englishSize, layout.englishSize * 1.55, shareCardFonts.english, 'ltr', palette.foreground)
+      y += 9
+    })
+
+    const footerY = Math.max(y + 35, canvas.height - 137)
+    context.beginPath()
+    context.moveTo(300, footerY - 34)
+    context.lineTo(780, footerY - 34)
+    context.strokeStyle = palette.accent
+    context.lineWidth = 1
+    context.stroke()
+    context.fillStyle = palette.foreground
+    context.direction = 'ltr'
+    context.font = `600 20px ${shareCardFonts.english}`
+    context.fillText('Ayat-e-Hidayat', width / 2, footerY)
+    context.fillStyle = palette.muted
+    context.font = `400 15px ${shareCardFonts.english}`
+    context.fillText('https://ayat-hidayat.netlify.app/', width / 2, footerY + 28)
+    return layout
+  }
+
+  function shareableUrl(record) {
+    const fragment = routeHref(`surah/${record.surah.number}?commandment=${encodeURIComponent(record.commandment.id)}`)
+    return new URL(fragment, window.location.href).href
+  }
+
+  function shareMessage(record) {
+    const ayahs = Array.isArray(record.commandment.ayahs) ? record.commandment.ayahs : []
+    const references = Array.isArray(record.commandment.references) && record.commandment.references.length
+      ? record.commandment.references.join(', ')
+      : ayahs.map((ayah) => ayah.reference).filter(Boolean).join(', ')
+    return `One beautiful reminder from the Quran:\n\n${record.surah.nameEnglish} — Ayah ${references}\n\nExplore more Quranic guidance:\n${shareableUrl(record)}`
+  }
+
+  async function refreshSharePreview() {
+    const preview = document.getElementById('share-card-preview')
+    const canvas = document.createElement('canvas')
+    try {
+      if (document.fonts && document.fonts.ready) await document.fonts.ready
+      if (!preview || !activeShareRecord || !document.getElementById('share-card-modal')) return
+      drawShareCard(canvas, activeShareRecord, activeShareTheme)
+      activeShareCanvas = canvas
+      preview.src = canvas.toDataURL('image/png')
+      preview.alt = `${activeShareRecord.surah.nameEnglish} ${copy[locale].ayahReference} share card preview`
+      const size = document.getElementById('share-card-dimensions')
+      if (size) size.textContent = `${canvas.width} × ${canvas.height}px`
+    } catch (error) {
+      console.error(error)
+      const status = document.getElementById('share-card-status')
+      if (status) status.textContent = copy[locale].shareCardError
+    }
+  }
+
+  async function openShareModal(record, trigger) {
+    shareReturnFocus = trigger
+    activeShareRecord = record
+    activeShareTheme = 'emerald'
+    const text = copy[locale]
+    app.insertAdjacentHTML('beforeend', `<div class="share-modal-backdrop" id="share-card-modal">
+      <section class="share-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="share-card-title" aria-describedby="share-card-help" tabindex="-1">
+        <header class="share-modal-header"><div><h2 id="share-card-title">${text.shareCardTitle}</h2><p id="share-card-help">${text.shareCardHelp}</p></div><button class="share-modal-close" type="button" data-share-action="close" aria-label="${text.closeDialog}">×</button></header>
+        <div class="share-card-theme-row"><span>${text.cardTheme}</span><div role="group" aria-label="${text.cardTheme}"><button type="button" class="share-theme-button is-active" data-share-theme="emerald" aria-pressed="true">${text.emeraldTheme}</button><button type="button" class="share-theme-button" data-share-theme="light" aria-pressed="false">${text.lightTheme}</button></div></div>
+        <div class="share-card-preview-wrap"><img id="share-card-preview" alt="" /><span id="share-card-dimensions"></span></div>
+        <p class="share-card-status" id="share-card-status" aria-live="polite"></p>
+        <div class="share-modal-actions"><button class="button button-primary" type="button" data-share-action="download">${text.downloadImage}</button><button class="button button-secondary" type="button" data-share-action="whatsapp">${text.shareOnWhatsApp}</button><button class="button button-secondary" type="button" data-share-action="native">${text.shareNative}</button></div>
+      </section>
+    </div>`)
+    await refreshSharePreview()
+    document.querySelector('#share-card-modal .share-modal-close')?.focus()
+  }
+
+  function closeShareModal(restoreFocus = true) {
+    const modal = document.getElementById('share-card-modal')
+    if (!modal) return
+    modal.remove()
+    activeShareCanvas = null
+    activeShareRecord = null
+    if (restoreFocus && shareReturnFocus && shareReturnFocus.isConnected) shareReturnFocus.focus()
+    shareReturnFocus = null
+  }
+
+  function downloadShareCard() {
+    if (!activeShareCanvas || !activeShareRecord) return
+    const canvas = activeShareCanvas
+    const record = activeShareRecord
+    canvas.toBlob((blob) => {
+      if (!blob) {
+        const status = document.getElementById('share-card-status')
+        if (status) status.textContent = copy[locale].shareCardError
+        return
+      }
+      const anchor = document.createElement('a')
+      const surahSlug = record.surah.nameEnglish.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+      const ayahs = Array.isArray(record.commandment.ayahs) ? record.commandment.ayahs : []
+      const references = record.commandment.references || ayahs.map((ayah) => ayah.reference)
+      const ref = references.join('-').replace(/[^0-9a-z-]+/gi, '-')
+      anchor.download = `ayat-hidayat-${surahSlug}-${ref}.png`
+      const objectUrl = URL.createObjectURL(blob)
+      anchor.href = objectUrl
+      document.body.append(anchor)
+      anchor.click()
+      anchor.remove()
+      window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000)
+    }, 'image/png')
+  }
+
+  function openWhatsAppShare() {
+    if (!activeShareRecord) return
+    const url = `https://wa.me/?text=${encodeURIComponent(shareMessage(activeShareRecord))}`
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+
+  async function shareCommandment() {
+    if (!activeShareRecord) return
+    const payload = {
+      title: `Quranic reminder — ${activeShareRecord.surah.nameEnglish}`,
+      text: shareMessage(activeShareRecord),
+      url: shareableUrl(activeShareRecord)
+    }
+    if (typeof navigator.share !== 'function') {
+      openWhatsAppShare()
+      return
+    }
+    try {
+      await navigator.share(payload)
+    } catch (error) {
+      if (error.name !== 'AbortError') console.error(error)
+    }
+  }
+
+  function normalizeSearchText(value) {
+    return String(value ?? '')
+      .normalize('NFKC')
+      .toLocaleLowerCase()
+      .replace(/[\u0640\u064B-\u065F\u0670\u06D6-\u06ED]/g, '')
+      .replace(/[أإآٱ]/g, 'ا')
+      .replace(/ى/g, 'ي')
+      .replace(/[ک]/g, 'ك')
+      .replace(/[ی]/g, 'ي')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim()
+  }
+
+  function buildCommandmentSearchIndex() {
+    if (searchIndexPromise) return searchIndexPromise
+    const request = Promise.all(surahs.map(async (surah) => {
+      const response = await fetch(`data/ahkamat/surah-${surah.number}.json`)
+      if (!response.ok) throw new Error(`Could not load Surah ${surah.number} for search: HTTP ${response.status}`)
+      const data = await response.json()
+      if (Number(data.surahNumber) !== surah.number || !Array.isArray(data.ahkamat)) {
+        throw new Error(`Invalid Ahkamat data for Surah ${surah.number}`)
+      }
+      return data.ahkamat.map((commandment) => {
+        const ayahs = Array.isArray(commandment.ayahs) ? commandment.ayahs : []
+        const references = Array.isArray(commandment.references)
+          ? commandment.references
+          : ayahs.map((ayah) => ayah.reference)
+        const searchable = [
+          surah.number,
+          surah.nameEnglish,
+          surah.nameUrdu,
+          surah.nameArabic,
+          commandment.topicEnglish,
+          commandment.topicUrdu,
+          commandment.titleEnglish,
+          commandment.titleUrdu,
+          commandment.title,
+          referenceText(commandment.reference || {}),
+          ...references,
+          ...ayahs.flatMap((ayah) => [ayah.reference, ayah.arabic, ayah.urduMeaning, ayah.englishMeaning]),
+          commandment.arabic,
+          commandment.translationUrdu,
+          commandment.translationEnglish
+        ].filter(Boolean).join(' ')
+        return { surah, commandment, searchText: normalizeSearchText(searchable) }
+      })
+    })).then((collections) => {
+      const records = collections.flat()
+      const ids = new Set()
+      for (const record of records) {
+        if (!record.commandment.id || ids.has(record.commandment.id)) {
+          throw new Error(`Missing or duplicate commandment ID in Surah ${record.surah.number}`)
+        }
+        ids.add(record.commandment.id)
+      }
+      return records
+    })
+    searchIndexPromise = request.catch((error) => {
+      searchIndexPromise = null
+      throw error
+    })
+    return searchIndexPromise
+  }
+
+  function karachiDateKey(date = new Date()) {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'Asia/Karachi', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(date)
+    const values = Object.fromEntries(parts.filter((part) => part.type !== 'literal').map((part) => [part.type, part.value]))
+    return `${values.year}-${values.month}-${values.day}`
+  }
+
+  function commandmentIsCompleteForDailyGuidance(item) {
+    if (!item?.commandment?.id || !item.surah?.nameEnglish || !item.surah?.nameArabic || !item.surah?.nameUrdu) return false
+    const commandment = item.commandment
+    const ayahs = Array.isArray(commandment.ayahs) && commandment.ayahs.length
+      ? commandment.ayahs
+      : [{
+          reference: referenceText(commandment.reference || {}),
+          arabic: commandment.arabic,
+          urduMeaning: commandment.translationUrdu,
+          englishMeaning: commandment.translationEnglish
+        }]
+    return ayahs.length > 0 && ayahs.every((ayah) =>
+      typeof ayah.reference === 'string' && ayah.reference.trim() &&
+      typeof ayah.arabic === 'string' && ayah.arabic.trim() &&
+      typeof ayah.urduMeaning === 'string' && ayah.urduMeaning.trim() &&
+      typeof ayah.englishMeaning === 'string' && ayah.englishMeaning.trim(),
+    )
+  }
+
+  function selectDailyCommandment(records, dateKey) {
+    const pool = records
+      .filter(commandmentIsCompleteForDailyGuidance)
+      .slice()
+      .sort((left, right) => left.commandment.id < right.commandment.id ? -1 : left.commandment.id > right.commandment.id ? 1 : 0)
+    if (!pool.length) return null
+    const [year, month, day] = dateKey.split('-').map(Number)
+    const dayNumber = Math.floor(Date.UTC(year, month - 1, day) / 86400000)
+    const index = ((dayNumber % pool.length) + pool.length) % pool.length
+    return pool[index]
+  }
+
+  function formatKarachiDate(dateKey) {
+    const date = new Date(`${dateKey}T12:00:00+05:00`)
+    return new Intl.DateTimeFormat(locale === 'ur' ? 'ur-PK' : 'en-GB', {
+      timeZone: 'Asia/Karachi', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+    }).format(date)
+  }
+
+  function renderDailyGuidance(entry, dateKey, topicData) {
+    const container = document.getElementById('daily-guidance-content')
+    if (!container) return
+    const text = copy[locale]
+    const commandment = entry.commandment
+    const topicLinks = (topicData?.topics || []).filter((topic) =>
+      topic.commandments.some((reference) => reference.id === commandment.id),
+    )
+    const topicNav = topicLinks.length
+      ? `<nav class="daily-related-topics" aria-label="${text.dailyRelatedTopics}"><span>${topicLinks.length > 1 ? text.dailyRelatedTopicsPlural : text.dailyRelatedTopics}:</span>${topicLinks.map((topic) => `<a href="${routeHref(`topic/${encodeURIComponent(topic.id)}`)}">${escapeHtml(locale === 'ur' ? topic.title.ur : topic.title.en)}<span aria-hidden="true">↗</span></a>`).join('')}</nav>`
+      : ''
+    const dateLabel = formatKarachiDate(dateKey)
+    container.innerHTML = `<div class="daily-featured-card"><div class="daily-featured-meta"><span class="daily-featured-label"><span aria-hidden="true">✧</span>${text.dailyGuidance}</span><time datetime="${dateKey}">${escapeHtml(text.dailyDateLabel)} · ${escapeHtml(dateLabel)}</time></div>${ahkamCard(commandment, entry.surah.number, { includeEditorial: false })}<div class="daily-featured-actions"><a class="button button-primary" href="${routeHref(`surah/${entry.surah.number}?commandment=${encodeURIComponent(commandment.id)}`)}">${text.dailyReadFull}<span aria-hidden="true">↗</span></a>${topicNav}</div></div>`
+  }
+
+  async function populateDailyGuidance(requestId) {
+    const container = document.getElementById('daily-guidance-content')
+    if (!container) return
+    try {
+      const records = await buildCommandmentSearchIndex()
+      if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
+      const validRecords = records.filter(commandmentIsCompleteForDailyGuidance)
+      if (!validRecords.length) {
+        container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyEmpty}</p>`
+        return
+      }
+      let topicData = null
+      try { topicData = await loadTopics() } catch { /* Daily guidance remains available when topic metadata fails. */ }
+      if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
+      const updateForToday = () => {
+        if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
+        try {
+          const dateKey = karachiDateKey()
+          const entry = selectDailyCommandment(validRecords, dateKey)
+          if (!entry) {
+            container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyEmpty}</p>`
+            return
+          }
+          activeDailyDateKey = dateKey
+          renderDailyGuidance(entry, dateKey, topicData)
+        } catch (error) {
+          console.error(error)
+          container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyUnavailable}</p>`
+        }
+      }
+      updateForToday()
+      if (dailyGuidanceTimer) window.clearInterval(dailyGuidanceTimer)
+      dailyGuidanceTimer = window.setInterval(() => {
+        try {
+          if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) {
+            window.clearInterval(dailyGuidanceTimer)
+            dailyGuidanceTimer = null
+            return
+          }
+          if (karachiDateKey() !== activeDailyDateKey) updateForToday()
+        } catch (error) {
+          console.error(error)
+        }
+      }, 60000)
+    } catch (error) {
+      if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
+      console.error(error)
+      container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyUnavailable}</p>`
+    }
+  }
+
+  function bindCommandmentSearch(syncUrl = false) {
+    const input = document.getElementById('commandment-search-input')
+    const clear = document.getElementById('commandment-search-clear')
+    const form = document.getElementById('commandment-search-form')
+    const meta = document.getElementById('commandment-search-meta')
+    const results = document.getElementById('commandment-search-results')
+    if (!input || !clear || !form || !meta || !results) return
+
+    let index = null
+    let loading = false
+    const updateUrl = () => {
+      if (!syncUrl || !window.history || !window.history.replaceState) return
+      const query = input.value.trim()
+      const suffix = query ? `?q=${encodeURIComponent(query)}` : ''
+      window.history.replaceState(null, '', `${routeHref('search')}${suffix}`)
+    }
+    const showResults = () => {
+      const query = normalizeSearchText(input.value)
+      const terms = query.split(' ').filter(Boolean)
+      clear.hidden = !input.value.length
+      if (!terms.length) {
+        meta.textContent = copy[locale].commandmentSearchPrompt
+        results.innerHTML = ''
+        return
+      }
+      if (!index) {
+        meta.textContent = copy[locale].commandmentSearchLoading
+        results.innerHTML = ''
+        return
+      }
+      const matches = index.filter((item) => terms.every((term) => item.searchText.includes(term)))
+      meta.textContent = `${matches.length} ${copy[locale].commandmentSearchCount}`
+      if (!matches.length) {
+        results.innerHTML = `<div class="no-results"><span aria-hidden="true">⌕</span><p>${copy[locale].commandmentSearchNone}</p></div>`
+        return
+      }
+      results.innerHTML = matches.map(({ surah, commandment }) => {
+        return `<div class="commandment-search-result"><div class="commandment-search-source"><a href="${routeHref(`surah/${surah.number}`)}"><span lang="ar" dir="rtl">${escapeHtml(surah.nameArabic)}</span> · ${escapeHtml(surah.nameEnglish)} · <span lang="ur" dir="rtl">${escapeHtml(surah.nameUrdu)}</span></a></div>${ahkamCard(commandment, surah.number)}</div>`
+      }).join('')
+    }
+    input.addEventListener('input', () => {
+      updateUrl()
+      showResults()
+      if (!index && !loading && input.value.trim()) {
+        loading = true
+        buildCommandmentSearchIndex().then((records) => {
+          if (document.getElementById('commandment-search-input') !== input) return
+          index = records
+          loading = false
+          showResults()
+        }).catch((error) => {
+          if (document.getElementById('commandment-search-input') !== input) return
+          loading = false
+          console.error(error)
+          meta.textContent = copy[locale].commandmentSearchError
+        })
+      }
+    })
+    clear.addEventListener('click', () => {
+      input.value = ''
+      updateUrl()
+      showResults()
+      input.focus()
+    })
+    form.addEventListener('submit', (event) => {
+      event.preventDefault()
+      const query = input.value.trim()
+      if (!syncUrl) {
+        const suffix = query ? `?q=${encodeURIComponent(query)}` : ''
+        location.hash = `${routeHref('search')}${suffix}`
+      } else {
+        updateUrl()
+      }
+    })
+    showResults()
+    if (input.value.trim()) {
+      loading = true
+      buildCommandmentSearchIndex().then((records) => {
+        if (document.getElementById('commandment-search-input') !== input) return
+        index = records
+        loading = false
+        showResults()
+      }).catch((error) => {
+        if (document.getElementById('commandment-search-input') !== input) return
+        loading = false
+        console.error(error)
+        meta.textContent = copy[locale].commandmentSearchError
+      })
+    }
+  }
+
+  function searchPage(query, requestId) {
+    const text = copy[locale]
+    app.innerHTML = `${header()}<main><section class="commandment-search-page page-container"><a class="back-link" href="${routeHref('')}">← ${text.home}</a><header class="commandment-search-heading">${pageHeader(text.commandmentSearch)}<h1>${text.commandmentSearchTitle}</h1><p>${text.commandmentSearchDescription}</p></header>${commandmentSearchMarkup(query)}</section></main>${footer()}`
+    setActiveNav('search')
+    bindCommandmentSearch(true)
+    if (requestId !== renderId) return
+    window.scrollTo(0, 0)
   }
 
   async function surahPage(surah, requestId) {
@@ -698,13 +1457,17 @@
       const ahkamat = content.ahkamat
       const disclaimer = editorialDisclaimer(content.editorialNote)
       const body = ahkamat.length
-        ? `${disclaimer}<div class="detail-list-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span>${text.detailEyebrow}</span><h2>${text.detailTitle}</h2></div><span class="entry-count">${ahkamat.length} ${ahkamat.length === 1 ? text.entry : text.entries}</span></div><div class="ahkam-list">${ahkamat.map(ahkamCard).join('')}</div>`
+        ? `${disclaimer}<div class="detail-list-heading"><div><span class="eyebrow"><span class="eyebrow-line"></span>${text.detailEyebrow}</span><h2>${text.detailTitle}</h2></div><span class="entry-count">${ahkamat.length} ${ahkamat.length === 1 ? text.entry : text.entries}</span></div><div class="ahkam-list">${ahkamat.map((item) => ahkamCard(item, surah.number)).join('')}</div>`
         : `<div class="surah-empty-state"><span class="empty-state-icon" aria-hidden="true">◇</span><h2>${text.emptyTitle}</h2><p>${text.emptyText}</p></div>`
       const detail = `<section class="surah-detail-page page-container"><a class="back-link" href="${routeHref('surahs')}">← ${text.allSurahs}</a>
         <header class="surah-detail-heading"><span class="surah-detail-number">${String(surah.number).padStart(3, '0')}</span><div><h1 class="detail-arabic" lang="ar" dir="rtl">${escapeHtml(surah.nameArabic)}</h1><p class="detail-title"><span lang="en" dir="ltr">${escapeHtml(surah.nameEnglish)}</span><span lang="ur" dir="rtl">${escapeHtml(surah.nameUrdu)}</span></p><p class="detail-subtitle">Surah ${surah.number} · ${escapeHtml(surah.nameEnglish)}</p></div></header>
         <div class="detail-content">${body}</div></section>`
       app.innerHTML = `${header()}<main>${detail}</main>${footer()}`
       setActiveNav('surah')
+      const requestedCommandment = new URLSearchParams(location.hash.split('?')[1] || '').get('commandment')
+      if (requestedCommandment && ahkamat.some((item) => item.id === requestedCommandment)) {
+        document.getElementById(`commandment-${requestedCommandment}`)?.scrollIntoView({ block: 'center' })
+      }
     } catch (error) {
       if (requestId !== renderId) return
       console.error(error)
@@ -720,7 +1483,100 @@
     })
   }
 
+  async function loadTopics() {
+    if (topicsData) return topicsData
+    const response = await fetch('data/topics.json')
+    if (!response.ok) throw new Error(`Could not load topic mapping: HTTP ${response.status}`)
+    const data = await response.json()
+    if (!data || !Array.isArray(data.topics)) throw new Error('Invalid topic mapping structure')
+    const topicIds = new Set()
+    for (const topic of data.topics) {
+      if (!topic.id || !topic.title || !Array.isArray(topic.commandments) || topicIds.has(topic.id)) {
+        throw new Error('Invalid or duplicate topic record')
+      }
+      topicIds.add(topic.id)
+      const commandmentIds = new Set()
+      for (const reference of topic.commandments) {
+        if (!reference.id || !Number.isInteger(reference.surahNumber) || commandmentIds.has(reference.id)) {
+          throw new Error(`Invalid or duplicate commandment reference in topic ${topic.id}`)
+        }
+        commandmentIds.add(reference.id)
+      }
+    }
+    topicsData = data
+    return topicsData
+  }
+
+  async function loadCommandmentsForSurah(number) {
+    if (!commandmentCache.has(number)) {
+      const request = fetch(`data/ahkamat/surah-${number}.json`).then((response) => {
+        if (!response.ok) throw new Error(`Could not load Surah ${number}: HTTP ${response.status}`)
+        return response.json()
+      }).then((content) => {
+        if (Number(content.surahNumber) !== number || !Array.isArray(content.ahkamat)) {
+          throw new Error(`Invalid Ahkamat data for Surah ${number}`)
+        }
+        return content.ahkamat
+      })
+      commandmentCache.set(number, request)
+    }
+    return commandmentCache.get(number)
+  }
+
+  async function topicsPage(topicId, requestId) {
+    const text = copy[locale]
+    app.innerHTML = `${header()}<main><section class="topics-page page-container"><p>${text.topicLoading}</p></section></main>${footer()}`
+    try {
+      const data = await loadTopics()
+      if (requestId !== renderId) return
+      if (!topicId) {
+        const cards = data.topics.map((topic) => `<a class="topic-card" href="${routeHref(`topic/${encodeURIComponent(topic.id)}`)}">
+          <span class="topic-card-mark" aria-hidden="true">✧</span>
+          <span class="topic-card-title">${escapeHtml(topic.title.en)}</span>
+          <span class="topic-card-urdu" lang="ur" dir="rtl">${escapeHtml(topic.title.ur)}</span>
+          <span class="topic-card-count">${topic.commandments.length} ${text.topicCountLabel}</span>
+        </a>`).join('')
+        app.innerHTML = `${header()}<main><section class="topics-page page-container"><header class="page-heading">${pageHeader(text.topics)}<h1>${text.browseByTopic}</h1><p>${text.topicDescription}</p></header><div class="topic-grid">${cards}</div></section></main>${footer()}`
+        setActiveNav('topics')
+        return
+      }
+
+      const topic = data.topics.find((item) => item.id === topicId)
+      if (!topic) {
+        app.innerHTML = `${header()}<main><section class="not-found-page page-container"><span class="not-found-code">404</span><h1>${text.notFound}</h1><p>${text.notFoundText}</p><a class="button button-primary" href="${routeHref('topics')}">${text.backToTopics}</a></section></main>${footer()}`
+        setActiveNav('topics')
+        return
+      }
+      const linkedRecords = await Promise.all(topic.commandments.map(async (reference) => {
+        const records = await loadCommandmentsForSurah(reference.surahNumber)
+        const commandment = records.find((record) => record.id === reference.id)
+        if (!commandment) throw new Error(`Topic ${topic.id} references missing commandment ${reference.id}`)
+        const surah = surahs.find((item) => item.number === reference.surahNumber)
+        if (!surah) throw new Error(`Missing catalogue entry for Surah ${reference.surahNumber}`)
+        return { commandment, surah }
+      }))
+      if (requestId !== renderId) return
+      const ayahCount = linkedRecords.reduce((count, item) => count + (Array.isArray(item.commandment.ayahs) ? item.commandment.ayahs.length : 1), 0)
+      const cards = linkedRecords.map(({ commandment, surah }) => {
+        const refs = (commandment.ayahs || []).map((ayah) => ayah.reference).join(' · ')
+        return `<div class="topic-entry"><div class="topic-source"><a href="${routeHref(`surah/${surah.number}`)}">${text.originalSurah}: <span lang="ar" dir="rtl">${escapeHtml(surah.nameArabic)}</span> · ${escapeHtml(surah.nameEnglish)} · <span lang="ur" dir="rtl">${escapeHtml(surah.nameUrdu)}</span></a><span>${escapeHtml(refs)}</span></div>${ahkamCard(commandment, surah.number)}</div>`
+      }).join('')
+      app.innerHTML = `${header()}<main><section class="topic-detail-page page-container"><a class="back-link" href="${routeHref('topics')}">← ${text.backToTopics}</a><header class="topic-detail-heading"><span class="eyebrow"><span class="eyebrow-line"></span>${text.topics}</span><h1>${escapeHtml(topic.title.en)}</h1><p lang="ur" dir="rtl">${escapeHtml(topic.title.ur)}</p><span class="entry-count">${topic.commandments.length} ${text.topicCountLabel} · ${ayahCount} ${text.topicAyahCountLabel}</span></header><div class="ahkam-list">${cards}</div></section></main>${footer()}`
+      setActiveNav('topics')
+    } catch (error) {
+      if (requestId !== renderId) return
+      console.error(error)
+      app.innerHTML = `${header()}<main><section class="topics-page page-container"><a class="back-link" href="${routeHref('topics')}">← ${text.backToTopics}</a><p class="error-message">${text.topicLoadError}</p></section></main>${footer()}`
+      setActiveNav('topics')
+    }
+  }
+
   async function render() {
+    if (document.getElementById('share-card-modal')) closeShareModal(false)
+    if (dailyGuidanceTimer) {
+      window.clearInterval(dailyGuidanceTimer)
+      dailyGuidanceTimer = null
+    }
     const requestId = ++renderId
     const [page, identifier] = currentPath()
     document.documentElement.lang = locale
@@ -734,12 +1590,26 @@
     if (!page || page === 'home') {
       app.innerHTML = `${header()}<main>${homePage()}</main>${footer()}`
       setActiveNav('home')
+      bindCommandmentSearch(false)
+      populateDailyGuidance(requestId)
       return
     }
     if (page === 'surahs') {
       app.innerHTML = `${header()}<main>${surahsPage()}</main>${footer()}`
       setActiveNav('surahs')
       populateSurahList()
+      return
+    }
+    if (page === 'search') {
+      searchPage(currentSearchQuery(), requestId)
+      return
+    }
+    if (page === 'topics') {
+      await topicsPage(null, requestId)
+      return
+    }
+    if (page === 'topic') {
+      await topicsPage(identifier, requestId)
       return
     }
     if (page === 'duas') {
@@ -767,6 +1637,11 @@
       setActiveNav('about')
       return
     }
+    if (page === 'dedication') {
+      app.innerHTML = `${header()}<main>${dedicationPage()}</main>${footer()}`
+      document.title = `${copy[locale].dedication} | Ayat-e-Hidayat`
+      return
+    }
     app.innerHTML = `${header()}<main><section class="not-found-page page-container"><span class="not-found-code">404</span><h1>${copy[locale].notFound}</h1><p>${copy[locale].notFoundText}</p><a class="button button-primary" href="${routeHref('')}">${copy[locale].returnHome}</a></section></main>${footer()}`
   }
 
@@ -792,6 +1667,36 @@
   }
 
   app.addEventListener('click', async (event) => {
+    const shareButton = event.target.closest('[data-share-commandment]')
+    if (shareButton) {
+      const record = shareableCommandments.get(shareButton.dataset.shareCommandment)
+      if (record) await openShareModal(record, shareButton)
+      return
+    }
+    const shareAction = event.target.closest('[data-share-action]')
+    if (shareAction) {
+      const action = shareAction.dataset.shareAction
+      if (action === 'close') closeShareModal()
+      else if (action === 'download') downloadShareCard()
+      else if (action === 'whatsapp') openWhatsAppShare()
+      else if (action === 'native') await shareCommandment()
+      return
+    }
+    const themeButton = event.target.closest('[data-share-theme]')
+    if (themeButton && activeShareRecord) {
+      activeShareTheme = themeButton.dataset.shareTheme
+      document.querySelectorAll('[data-share-theme]').forEach((button) => {
+        const active = button.dataset.shareTheme === activeShareTheme
+        button.classList.toggle('is-active', active)
+        button.setAttribute('aria-pressed', String(active))
+      })
+      await refreshSharePreview()
+      return
+    }
+    if (event.target.id === 'share-card-modal') {
+      closeShareModal()
+      return
+    }
     const copyButton = event.target.closest('[data-copy-dua]')
     if (copyButton) {
       const dua = duasData && duasData.duas.find((item) => item.id === copyButton.dataset.copyDua)
@@ -826,6 +1731,27 @@
     if (!button) return
     locale = locale === 'en' ? 'ur' : 'en'
     render()
+  })
+
+  document.addEventListener('keydown', (event) => {
+    const modal = document.getElementById('share-card-modal')
+    if (!modal) return
+    if (event.key === 'Escape') {
+      closeShareModal()
+      return
+    }
+    if (event.key !== 'Tab') return
+    const focusable = [...modal.querySelectorAll('button:not([disabled])')]
+    if (!focusable.length) return
+    const first = focusable[0]
+    const last = focusable[focusable.length - 1]
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault()
+      last.focus()
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault()
+      first.focus()
+    }
   })
 
   window.addEventListener('hashchange', render)
