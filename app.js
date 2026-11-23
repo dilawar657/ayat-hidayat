@@ -136,6 +136,10 @@
       aboutEyebrow: 'About Ayat-e-Hidayat',
       aboutTitle: 'A journey toward understanding Quranic guidance.',
       aboutLead: 'Collecting Quranic commandments, Ayah by Ayah, for thoughtful reading.',
+      contactTitle: 'Talk, suggest, or contribute research',
+      contactDescription: 'If you would like to talk, share a suggestion, or offer research for consideration on Ayat-e-Hidayat, please contact Dilawar on WhatsApp.',
+      contactWhatsApp: 'Contact Dilawar on WhatsApp',
+      contactWhatsAppShort: 'WhatsApp · Dilawar',
       missionHeading: 'Our Mission',
       missionParagraphs: [
         'As Muslims, it is our responsibility to understand and follow the commandments of Allah Almighty.',
@@ -313,6 +317,10 @@
       aboutEyebrow: 'آیاتِ ہدایت',
       aboutTitle: 'قرآنی ہدایت کو سمجھنے کا سفر',
       aboutLead: 'قرآنِ پاک کے احکامات کو آیت بہ آیت پڑھنے کی ایک کاوش۔',
+      contactTitle: 'بات کریں، مشورہ دیں یا تحقیق میں حصہ لیں',
+      contactDescription: 'اگر آپ بات کرنا، کوئی مشورہ دینا، یا آیاتِ ہدایت کے لیے اپنی تحقیق زیرِ غور پیش کرنا چاہتے ہیں تو دلاور سے واٹس ایپ پر رابطہ کریں۔',
+      contactWhatsApp: 'واٹس ایپ پر دلاور سے رابطہ کریں',
+      contactWhatsAppShort: 'واٹس ایپ · دلاور',
       missionHeading: 'ہمارا مشن',
       missionParagraphs: [
         'بحیثیت مسلمان، ہم سب کی ذمہ داری ہے کہ اللہ تعالیٰ کے احکامات کو سمجھیں اور اپنی زندگیوں میں ان پر عمل کریں۔',
@@ -390,6 +398,8 @@
       closing: 'آمین۔'
     }
   }
+  const whatsappNumber = '923016728444'
+  const whatsappUrl = `https://wa.me/${whatsappNumber}`
   let locale = 'en'
   let renderId = 0
 
@@ -473,6 +483,7 @@
         <a href="${routeHref('purpose')}">${text.purpose}</a>
         <a href="${routeHref('about')}">${text.about}</a>
         <a href="${routeHref('dedication')}">${text.dedication}</a>
+        <a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">${text.contactWhatsAppShort}<span aria-hidden="true">↗</span></a>
       </nav>
       <p class="footer-note" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.footerNote}</p>
     </div></footer>`
@@ -550,6 +561,7 @@
           <div class="about-prose" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}"><p>${text.visionText}</p></div>
         </section>
         <div class="about-cta"><div><h2>${isUrdu ? 'مطالعہ شروع کرنے کے لیے تیار ہیں؟' : 'Ready to begin exploring?'}</h2><p>${isUrdu ? 'اپنی پسند کی سورت منتخب کریں۔' : 'Choose a Surah and begin your reading journey.'}</p></div><a class="button button-primary" href="${routeHref('surahs')}">${text.browse}</a></div>
+        <section class="about-contact" aria-labelledby="about-contact-title"><div><span class="eyebrow"><span class="eyebrow-line"></span>${isUrdu ? 'رابطہ' : 'Get in touch'}</span><h2 id="about-contact-title">${text.contactTitle}</h2><p lang="${locale}" dir="${isUrdu ? 'rtl' : 'ltr'}">${text.contactDescription}</p><span class="about-contact-name" dir="ltr">Dilawar · +92 301 6728444</span></div><a class="button button-primary about-contact-button" href="${whatsappUrl}" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span>${text.contactWhatsApp}</a></section>
       </div>
     </section>`
   }
