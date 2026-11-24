@@ -28,6 +28,8 @@
       shareAyah: 'Share Ayah',
       shareDownloadAyah: 'Share / Download Ayah',
       shareDownloadDua: 'Share / Download Dua',
+      copyAyahArabic: 'Copy Arabic',
+      copyAyahComplete: 'Copy full Ayah',
       shareCardTitle: 'Share a Quranic reminder',
       shareCardHelp: 'Preview the card, choose a theme, then download or share the reference.',
       cardTheme: 'Card theme',
@@ -212,6 +214,8 @@
       shareAyah: 'آیت شیئر کریں',
       shareDownloadAyah: 'آیت شیئر / ڈاؤن لوڈ کریں',
       shareDownloadDua: 'دعا شیئر / ڈاؤن لوڈ کریں',
+      copyAyahArabic: 'عربی نقل کریں',
+      copyAyahComplete: 'مکمل آیت نقل کریں',
       shareCardTitle: 'قرآنی یاد دہانی شیئر کریں',
       shareCardHelp: 'کارڈ دیکھیں، تھیم منتخب کریں، پھر تصویر ڈاؤن لوڈ یا حوالہ شیئر کریں۔',
       cardTheme: 'کارڈ کا تھیم',
@@ -850,8 +854,9 @@
     const topic = hasAyahs
       ? `<h2 class="ahkam-title" lang="ur" dir="rtl">${escapeHtml(ahkam.topicUrdu)}</h2><p class="ahkam-title-english" lang="en" dir="ltr">${escapeHtml(ahkam.topicEnglish)}</p>`
       : `<h2 class="ahkam-title" lang="ur" dir="rtl">${escapeHtml(ahkam.titleUrdu)}</h2>`
-    const verses = ayahs.map((ayah) => `<section class="ayah-block">
-      <div class="ayah-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(ayah.reference)}</span><span class="field-label">${text.quranicArabic}</span></div>
+    const verses = ayahs.map((ayah, index) => `<section class="ayah-block">
+      <div class="ayah-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(ayah.reference)}</span><div class="ayah-copy-actions">${ahkam.id ? `<button class="dua-copy-button" type="button" data-copy-ayah="${escapeHtml(ahkam.id)}" data-copy-ayah-index="${index}" data-copy-part="arabic">${text.copyAyahArabic}</button><button class="dua-copy-button" type="button" data-copy-ayah="${escapeHtml(ahkam.id)}" data-copy-ayah-index="${index}" data-copy-part="complete">${text.copyAyahComplete}</button><span class="dua-copy-status" aria-live="polite"></span>` : ''}</div></div>
+      <span class="field-label">${text.quranicArabic}</span>
       <p class="quran-text" lang="ar" dir="rtl">${escapeHtml(ayah.arabic)}</p>
       <div class="translation-block" lang="ur" dir="rtl"><p class="field-label">${hasAyahs ? text.urduMeaning : text.urduTranslation}</p><p>${escapeHtml(ayah.urduMeaning)}</p></div>
       <div class="translation-block" lang="en" dir="ltr"><p class="field-label">${hasAyahs ? text.englishMeaning : text.englishTranslation}</p><p>${escapeHtml(ayah.englishMeaning)}</p></div>
@@ -1822,6 +1827,34 @@
             `Context: ${locale === 'ur' ? dua.context.ur : dua.context.en}`,
             `Reference: ${dua.references.map((reference) => `${reference.collection} ${reference.number}`).join('; ')}`
           ].join('\n\n')
+      try {
+        if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error('Clipboard access is unavailable in this browser context')
+        await navigator.clipboard.writeText(copiedText)
+        status.textContent = copy[locale].copied
+      } catch (error) {
+        console.error(error)
+        status.textContent = copy[locale].copyFailed
+      }
+      return
+    }
+    const ayahCopyButton = event.target.closest('[data-copy-ayah]')
+    if (ayahCopyButton) {
+      const record = shareableCommandments.get(ayahCopyButton.dataset.copyAyah)
+      const commandment = record?.commandment
+      const ayahs = commandment
+        ? Array.isArray(commandment.ayahs) && commandment.ayahs.length
+          ? commandment.ayahs
+          : [{ reference: referenceText(commandment.reference || {}), arabic: commandment.arabic, urduMeaning: commandment.translationUrdu, englishMeaning: commandment.translationEnglish }]
+        : []
+      const ayah = ayahs[Number(ayahCopyButton.dataset.copyAyahIndex)]
+      const status = ayahCopyButton.closest('.ayah-block').querySelector('.dua-copy-status')
+      if (!ayah) {
+        status.textContent = copy[locale].copyFailed
+        return
+      }
+      const copiedText = ayahCopyButton.dataset.copyPart === 'arabic'
+        ? ayah.arabic
+        : [`${copy[locale].ayahReference} · ${ayah.reference}`, ayah.arabic, ayah.urduMeaning, ayah.englishMeaning].join('\n\n')
       try {
         if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error('Clipboard access is unavailable in this browser context')
         await navigator.clipboard.writeText(copiedText)
