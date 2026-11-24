@@ -728,8 +728,8 @@ main { flex: 1; }
 
 .ahkam-card { padding: 26px 29px; border: 1px solid var(--line); background: #fffefa; }
 .ahkam-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.share-card-button { min-height: 31px; display: inline-flex; align-items: center; gap: 8px; padding: 5px 10px; border: 1px solid #e4dfd1; background: #fbfaf6; color: var(--forest); cursor: pointer; font-size: 10px; }
-.share-card-button:hover { border-color: #b6a575; background: #f7f4eb; }
+.share-card-button { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 13px; border: 1px solid var(--forest); background: var(--forest); color: #fffefa; cursor: pointer; font-size: 12px; font-weight: 600; }
+.share-card-button:hover { border-color: #a1834b; background: #24513f; }
 .share-card-button:focus-visible,
 .share-modal-dialog button:focus-visible { outline: 3px solid rgba(213, 183, 121, .8); outline-offset: 3px; }
 .share-modal-backdrop { position: fixed; z-index: 30; inset: 0; display: grid; place-items: center; padding: 18px; background: rgba(17, 31, 25, .68); }
@@ -830,6 +830,7 @@ main { flex: 1; }
 .dua-card-topline { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .dua-category-label { color: #83867c; font-size: 10px; }
 .dua-copy-actions { display: flex; flex-wrap: wrap; justify-content: end; gap: 7px; }
+.dua-copy-actions .share-card-button { order: -1; }
 .dua-copy-button { min-height: 31px; padding: 5px 10px; border: 1px solid #e4dfd1; background: #fbfaf6; color: var(--forest); cursor: pointer; font-size: 10px; }
 .dua-copy-button:hover { border-color: #b6a575; background: #f7f4eb; }
 .dua-copy-status { color: var(--forest); font-size: 10px; }

@@ -26,6 +26,8 @@
       commandmentSearchError: 'Commandments could not be loaded for search. Please try again later.',
       clearSearch: 'Clear search',
       shareAyah: 'Share Ayah',
+      shareDownloadAyah: 'Share / Download Ayah',
+      shareDownloadDua: 'Share / Download Dua',
       shareCardTitle: 'Share a Quranic reminder',
       shareCardHelp: 'Preview the card, choose a theme, then download or share the reference.',
       cardTheme: 'Card theme',
@@ -36,6 +38,7 @@
       shareNative: 'Share',
       closeDialog: 'Close preview',
       shareCardError: 'The card image could not be created in this browser.',
+      shareImageFallback: 'Image downloaded. Attach it in WhatsApp to send it as a picture.',
       dailyGuidance: 'Daily Guidance',
       dailyGuidanceUrdu: 'آج کی قرآنی ہدایت',
       dailyGuidanceSubtitle: 'A reminder from the Quran to reflect upon and live by.',
@@ -207,6 +210,8 @@
       commandmentSearchError: 'تلاش کے لیے احکامات لوڈ نہیں ہو سکے۔ براہِ کرم بعد میں دوبارہ کوشش کریں۔',
       clearSearch: 'تلاش صاف کریں',
       shareAyah: 'آیت شیئر کریں',
+      shareDownloadAyah: 'آیت شیئر / ڈاؤن لوڈ کریں',
+      shareDownloadDua: 'دعا شیئر / ڈاؤن لوڈ کریں',
       shareCardTitle: 'قرآنی یاد دہانی شیئر کریں',
       shareCardHelp: 'کارڈ دیکھیں، تھیم منتخب کریں، پھر تصویر ڈاؤن لوڈ یا حوالہ شیئر کریں۔',
       cardTheme: 'کارڈ کا تھیم',
@@ -217,6 +222,7 @@
       shareNative: 'شیئر کریں',
       closeDialog: 'پیش منظر بند کریں',
       shareCardError: 'اس براؤزر میں کارڈ کی تصویر نہیں بن سکی۔',
+      shareImageFallback: 'تصویر ڈاؤن لوڈ ہو گئی۔ بھیجنے کے لیے اسے واٹس ایپ میں منسلک کریں۔',
       dailyGuidance: 'آج کی قرآنی ہدایت',
       dailyGuidanceUrdu: 'آج کی قرآنی ہدایت',
       dailyGuidanceSubtitle: 'قرآن کی ایک یاد دہانی جس پر غور کریں اور عمل کریں۔',
@@ -667,6 +673,7 @@
       : ''
     return `<article class="dua-card" data-dua-card data-category-id="${escapeHtml(category.id)}">
       <div class="dua-card-topline"><span class="dua-category-label">${escapeHtml(locale === 'ur' ? category.title.ur : category.title.en)}</span><div class="dua-copy-actions">
+        <button class="share-card-button" type="button" data-share-dua="${cardId}" aria-haspopup="dialog">${text.shareDownloadDua}</button>
         <button class="dua-copy-button" type="button" data-copy-dua="${cardId}" data-copy-part="arabic">${text.copyArabic}</button>
         <button class="dua-copy-button" type="button" data-copy-dua="${cardId}" data-copy-part="complete">${text.copyComplete}</button>
         <span class="dua-copy-status" aria-live="polite"></span>
@@ -855,7 +862,7 @@
       ? `<div class="entry-editorial-note" lang="ur" dir="rtl"><p class="field-label">${text.editorialNote}</p><p>${escapeHtml(ahkam.editorialNoteUrdu)}</p></div>`
       : ''
     return `<article class="ahkam-card"${ahkam.id ? ` id="commandment-${escapeHtml(ahkam.id)}"` : ''}>
-      <div class="ahkam-card-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(references)}</span>${ahkam.id && recordSurah ? `<button class="share-card-button" type="button" data-share-commandment="${escapeHtml(ahkam.id)}" aria-haspopup="dialog" aria-label="${text.shareAyah}: ${escapeHtml(references)}">${text.shareAyah}<span aria-hidden="true">↗</span></button>` : ''}</div>
+      <div class="ahkam-card-heading"><span class="reference-chip">${text.ayahReference} · ${escapeHtml(references)}</span>${ahkam.id && recordSurah ? `<button class="share-card-button" type="button" data-share-commandment="${escapeHtml(ahkam.id)}" aria-haspopup="dialog" aria-label="${text.shareDownloadAyah}: ${escapeHtml(references)}">${text.shareDownloadAyah}<span aria-hidden="true">↗</span></button>` : ''}</div>
       ${topic}
       ${verses}
       ${options.includeEditorial === false ? '' : hasAyahs ? editorialNote : `<div class="explanation-grid">
@@ -1069,6 +1076,57 @@
     return layout
   }
 
+  function drawDuaShareCard(canvas, record, theme) {
+    const dua = record.dua
+    const width = 1080
+    const height = 2200
+    canvas.width = width
+    canvas.height = height
+    const context = canvas.getContext('2d')
+    const palette = theme === 'light'
+      ? { background: '#f4f0e5', foreground: '#183e30', muted: '#596258', accent: '#a1834b', border: '#d5b779' }
+      : { background: '#153f32', foreground: '#f4f0e5', muted: '#d6dfd4', accent: '#d5b779', border: '#d5b779' }
+    context.fillStyle = palette.background
+    context.fillRect(0, 0, width, height)
+    context.strokeStyle = palette.border
+    context.lineWidth = 2
+    context.strokeRect(28, 28, width - 56, height - 56)
+    const drawBlock = (value, label, font, size, direction, y, color = palette.foreground) => {
+      context.textAlign = 'center'
+      context.direction = 'ltr'
+      context.fillStyle = palette.accent
+      context.font = `600 17px ${shareCardFonts.english}`
+      context.fillText(label, width / 2, y)
+      const lines = wrapCardText(context, value, width - 160, `400 ${size}px ${font}`, direction)
+      context.direction = direction
+      context.fillStyle = color
+      context.font = `400 ${size}px ${font}`
+      let lineY = y + size + 14
+      for (const line of lines) { context.fillText(line, width / 2, lineY); lineY += size * 1.65 }
+      return lineY + 20
+    }
+    context.textAlign = 'center'
+    context.fillStyle = palette.accent
+    context.direction = 'rtl'
+    context.font = `500 30px ${shareCardFonts.urdu}`
+    context.fillText('آیاتِ ہدایت', width / 2, 100)
+    context.direction = 'ltr'
+    context.fillStyle = palette.muted
+    context.font = `600 16px ${shareCardFonts.english}`
+    context.fillText('PROPHETIC DUA', width / 2, 136)
+    let y = 210
+    y = drawBlock(dua.title, 'SUPPLICATION', shareCardFonts.english, 34, 'ltr', y)
+    y = drawBlock(dua.arabic, 'ARABIC', shareCardFonts.arabic, 48, 'rtl', y)
+    y = drawBlock(dua.transliteration, 'TRANSLITERATION', shareCardFonts.english, 24, 'ltr', y, palette.muted)
+    y = drawBlock(dua.urdu, 'URDU MEANING', shareCardFonts.urdu, 27, 'rtl', y)
+    y = drawBlock(dua.english, 'ENGLISH MEANING', shareCardFonts.english, 25, 'ltr', y)
+    if (y < height - 125) drawBlock(locale === 'ur' ? dua.context.ur : dua.context.en, 'WHEN TO RECITE', shareCardFonts.english, 19, 'ltr', y, palette.muted)
+    context.fillStyle = palette.accent
+    context.font = `500 17px ${shareCardFonts.english}`
+    context.direction = 'ltr'
+    context.fillText(`Ayat-e-Hidayat · ${dua.references.map((item) => `${item.collection} ${item.number}`).join(' · ')}`, width / 2, height - 75)
+  }
+
   function shareableUrl(record) {
     const fragment = routeHref(`surah/${record.surah.number}?commandment=${encodeURIComponent(record.commandment.id)}`)
     return new URL(fragment, window.location.href).href
@@ -1088,10 +1146,11 @@
     try {
       if (document.fonts && document.fonts.ready) await document.fonts.ready
       if (!preview || !activeShareRecord || !document.getElementById('share-card-modal')) return
-      drawShareCard(canvas, activeShareRecord, activeShareTheme)
+      if (activeShareRecord.kind === 'dua') drawDuaShareCard(canvas, activeShareRecord, activeShareTheme)
+      else drawShareCard(canvas, activeShareRecord, activeShareTheme)
       activeShareCanvas = canvas
       preview.src = canvas.toDataURL('image/png')
-      preview.alt = `${activeShareRecord.surah.nameEnglish} ${copy[locale].ayahReference} share card preview`
+      preview.alt = activeShareRecord.kind === 'dua' ? `${activeShareRecord.dua.title} dua share card preview` : `${activeShareRecord.surah.nameEnglish} ${copy[locale].ayahReference} share card preview`
       const size = document.getElementById('share-card-dimensions')
       if (size) size.textContent = `${canvas.width} × ${canvas.height}px`
     } catch (error) {
@@ -1140,11 +1199,15 @@
         return
       }
       const anchor = document.createElement('a')
-      const surahSlug = record.surah.nameEnglish.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-      const ayahs = Array.isArray(record.commandment.ayahs) ? record.commandment.ayahs : []
-      const references = record.commandment.references || ayahs.map((ayah) => ayah.reference)
-      const ref = references.join('-').replace(/[^0-9a-z-]+/gi, '-')
-      anchor.download = `ayat-hidayat-${surahSlug}-${ref}.png`
+      if (record.kind === 'dua') {
+        anchor.download = `ayat-hidayat-dua-${record.dua.id}.png`
+      } else {
+        const surahSlug = record.surah.nameEnglish.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+        const ayahs = Array.isArray(record.commandment.ayahs) ? record.commandment.ayahs : []
+        const references = record.commandment.references || ayahs.map((ayah) => ayah.reference)
+        const ref = references.join('-').replace(/[^0-9a-z-]+/gi, '-')
+        anchor.download = `ayat-hidayat-${surahSlug}-${ref}.png`
+      }
       const objectUrl = URL.createObjectURL(blob)
       anchor.href = objectUrl
       document.body.append(anchor)
@@ -1156,12 +1219,36 @@
 
   function openWhatsAppShare() {
     if (!activeShareRecord) return
-    const url = `https://wa.me/?text=${encodeURIComponent(shareMessage(activeShareRecord))}`
-    window.open(url, '_blank', 'noopener,noreferrer')
+    shareImageToWhatsApp()
+  }
+
+  async function shareImageToWhatsApp() {
+    if (!activeShareCanvas || !activeShareRecord) return
+    const status = document.getElementById('share-card-status')
+    const blob = await new Promise((resolve) => activeShareCanvas.toBlob(resolve, 'image/png'))
+    if (!blob) {
+      if (status) status.textContent = copy[locale].shareCardError
+      return
+    }
+    const file = new File([blob], 'ayat-hidayat.png', { type: 'image/png' })
+    if (typeof navigator.share === 'function' && typeof navigator.canShare === 'function' && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: copy[locale].shareCardTitle, text: activeShareRecord.kind === 'dua' ? activeShareRecord.dua.title : shareMessage(activeShareRecord) })
+        return
+      } catch (error) { if (error.name === 'AbortError') return }
+    }
+    downloadShareCard()
+    const url = activeShareRecord.kind === 'dua' ? window.location.href : shareableUrl(activeShareRecord)
+    window.open(`https://wa.me/?text=${encodeURIComponent(url)}`, '_blank', 'noopener,noreferrer')
+    if (status) status.textContent = copy[locale].shareImageFallback
   }
 
   async function shareCommandment() {
     if (!activeShareRecord) return
+    if (activeShareRecord.kind === 'dua') {
+      await shareImageToWhatsApp()
+      return
+    }
     const payload = {
       title: `Quranic reminder — ${activeShareRecord.surah.nameEnglish}`,
       text: shareMessage(activeShareRecord),
@@ -1683,6 +1770,12 @@
     if (shareButton) {
       const record = shareableCommandments.get(shareButton.dataset.shareCommandment)
       if (record) await openShareModal(record, shareButton)
+      return
+    }
+    const duaShareButton = event.target.closest('[data-share-dua]')
+    if (duaShareButton) {
+      const dua = duasData?.duas.find((item) => item.id === duaShareButton.dataset.shareDua)
+      if (dua) await openShareModal({ kind: 'dua', dua }, duaShareButton)
       return
     }
     const shareAction = event.target.closest('[data-share-action]')
