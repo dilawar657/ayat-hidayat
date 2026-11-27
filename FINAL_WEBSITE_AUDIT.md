@@ -4,37 +4,34 @@ Audit date: 2026-11-27
 
 ## Release decision
 
-**Ready to release; final deployment verification pending.** Local application and offline checks passed. The disputed grading notes attribute traceable grades separately; the unsupported Abu Dawud 5090 grading source is explicitly marked unverified in the Dua details and report. That limitation does not block release. The current production deployment is reachable but stale, so publish the verified workspace and then recheck it.
+**PASS.** The verified release was committed to `main`, pushed without force, built by Netlify's Git integration, and checked on the live site. One unsupported grading attribution is explicitly disclosed as unverified and does not affect the sourced primary grade.
 
 ## Verification matrix
 
 | Area | Status | Evidence |
 |---|---|---|
-| Git changes preserved; unrelated Baqarah draft excluded | PASS | Existing files retained; draft left untouched and excluded from release scope. |
-| JSON/content integrity and Unicode scan | PASS | All catalogs parse; 129 commandment records validate; 38 unique Duas across seven categories; topic and Dua category links resolve; no corruption markers. |
-| Daily Guidance/offline manifest generation | PASS | 129 Daily Guidance records and 118 offline package files; build ID `e12dee5f287736c2`. |
-| Desktop/mobile route rendering | PASS | Chrome headless direct-launch rendering checks at 390px and 1440px for home, Surah directory, Al-Anfal, Al-Jathiyah, topics, topic detail, Duas, search, Dedication, Purpose, and About. No horizontal overflow. |
-| All populated Surah routes | PASS | All 12 populated Surahs render expected commandment counts. |
-| Arabic/Urdu/English rendering | PASS | Al-Anfal and Al-Jathiyah rendered text matches the source data; Arabic/Urdu direction is RTL, English LTR. Screenshots show shaped Arabic/Urdu script. No question-mark corruption found. |
-| Search, language switching, keyboard, navigation, share image | PASS | Arabic/Urdu/English search; English/Urdu switching; keyboard activation and Escape menu close; PNG share-card preview generated. |
-| Browser console and failed requests | PASS | Clean run reported no runtime/console errors, HTTP failures, or failed requests. |
-| PWA manifest/service worker/offline package | PASS | Manifest and three icons load; service worker activates; 118 JSON files download and validate. |
-| Offline usage and update safety | PASS | Offline Surah, Dua, topic, search, and Daily Guidance routes; shell reload; reconnect content sync; failed update keeps prior package; app update preserves route. |
-| WhatsApp Community integration | PASS | Homepage, site banner, footer; all three CTAs use the exact URL, open a new tab safely, and have accessible labels. Urdu presentation and RTL checked. |
-| Dua reference/text/translation review | PASS | 38 record-by-record findings and cited source links are in [DUA_SOURCE_VERIFICATION.md](DUA_SOURCE_VERIFICATION.md). Quranic text checked against Quran.com; Hadith text against linked Sunnah.com entries. English and Urdu were semantically reviewed, not certified translations. |
-| Dua grading conflicts | PASS with limitation | Abu Dawud 5090: Al-Albani's Hasan-in-chain grade is retained; Hadith.net attributes Da'if to Zubair Ali Zai but gives no underlying primary citation, so the attribution is marked unverified. Abu Dawud 1554: Al-Albani's Sahih and Zubair Ali Zai's Da'if grades are separately attributed; Tohed cites Anwar al-Sahifa, p. 61. The site describes these as scholar-specific differences, not consensus. |
-| Production DNS and HTTPS | PASS | DNS resolves; an outbound HTTPS request returned HTTP 200 for the production URL. |
-| Existing production content baseline | FAIL (stale deployment) | The live app bundle did not contain the exact WhatsApp invite; live Surah 8 and 45 JSON each had 0 entries; `/manifest.webmanifest` and `/sw.js` returned 404. The site is reachable but lacks the verified workspace changes. |
-| GitHub push / Netlify deployment | NOT TESTED | Pending the verified release commit and push. |
+| Source, content, and Unicode integrity | PASS | All JSON catalogs parse; 129 commandment records validate; no suspicious encoding markers. The Baqarah draft was excluded. |
+| Dua catalog and attribution | PASS with disclosed limitation | 38 unique Duas across seven categories; all records and linked sources are in [DUA_SOURCE_VERIFICATION.md](DUA_SOURCE_VERIFICATION.md). Abu Dawud 5090 retains Al-Albani's Hasan-in-chain grade; Zubair Ali Zai's Da'if attribution is identified as unverified because its original citation was not available. Abu Dawud 1554 lists Al-Albani's Sahih and Zubair Ali Zai's Da'if assessments with Tohed's citation. |
+| Daily Guidance and offline build | PASS | 129 index records; 118 package files. Workspace build ID `e12dee5f287736c2`; Netlify-generated production worker ID `a84ca85889daae3c` (the generator hashes platform-specific checked-out bytes). |
+| Local browser routes and rendering | PASS | Chrome checks passed on desktop/mobile for home, Surahs, Al-Anfal, Al-Jathiyah, topics, topic detail, Duas, search, Dedication, Purpose, and About. All 12 populated Surahs rendered their expected card counts; no horizontal overflow at tested widths. |
+| Arabic, Urdu, and English | PASS | Live/local rendered text matched the data; Arabic and Urdu directions are RTL, English LTR. Screenshots show shaped Arabic and Urdu. |
+| Search, navigation, keyboard, share, WhatsApp | PASS | Arabic/Urdu/English search; language toggle; mobile menu and Escape; share-card image. All three community links use the exact invite URL and work in English and Urdu. |
+| Browser console/network diagnostics | PASS | Live route check reported no console/runtime errors or failed requests. |
+| Local PWA/offline behavior | PASS | Manifest, icons, download, sync, failed-update preservation, app update, and offline Surah/Dua/topic/search/Daily Guidance checks passed. |
+| Live production endpoints | PASS | Homepage HTTP 200. App, CSS, Al-Anfal (14 entries), Al-Jathiyah (9 entries), Dua catalog (38), manifest, and service worker returned successfully. |
+| Live production browser rendering | PASS | Chrome tested all requested routes at 390px and 1440px; Al-Anfal/Jathiyah at widths 320–1440px; community links, search, language switching, keyboard, and share-card generation passed. |
+| Live production PWA/offline behavior | PASS | Service worker activated; all 118 content files downloaded; offline Al-Anfal, Al-Jathiyah, Dua catalog (38 unique records), topics (12), search, and Daily Guidance rendered; connection was restored. |
+| GitHub push | PASS | Release commit `cdadd54` pushed to `origin/main` as a fast-forward (`59bcc14..cdadd54`). No force push. |
+| Netlify deployment | PASS | Git-triggered build completed; production manifest/worker and updated content are live. The earlier stale deployment had empty Surah 8/45 data and missing PWA assets; those endpoints now return the released files. |
 
 ## Browser evidence
 
-Browser automation used the installed Chrome executable launched directly with fresh temporary profiles. Existing checks were extended to capture console/runtime errors and failed requests and to check every populated Surah and route layout. Captured and inspected [homepage desktop](audit-evidence/homepage-desktop.png), [Al-Anfal desktop](audit-evidence/surah-al-anfal-desktop.png), and [Al-Jathiyah mobile](audit-evidence/surah-al-jathiyah-mobile.png) screenshots.
+Captured and inspected [homepage desktop](audit-evidence/homepage-desktop.png), [Al-Anfal desktop](audit-evidence/surah-al-anfal-desktop.png), and [Al-Jathiyah mobile](audit-evidence/surah-al-jathiyah-mobile.png) screenshots.
 
-## Dua review note
+## Dua grading note
 
-Both scholars' grades for Abu Dawud 1554 are attributed as differing assessments, with Tohed's cited page and reference recorded. For Abu Dawud 5090, Al-Albani's Hasan-in-chain grade is attributed; the Zubair Ali Zai Da'if attribution is shown as unverified because Hadith.net's grader list does not provide the primary grading citation.
+Abu Dawud 5090: Al-Albani's Hasan-in-chain grade is retained. Hadith.net lists a Da'if grade attributed to Zubair Ali Zai but does not show his original grading citation; the website marks that attribution unverified. Abu Dawud 1554: Al-Albani's Sahih and Zubair Ali Zai's Da'if grades are attributed separately, with Tohed citing *Anwar al-Sahifa*, p. 61. The site presents these as scholar-specific differences, not a consensus ruling.
 
-## Workspace and next step
+## Workspace
 
-All existing project work remains in the working tree. The untracked Baqarah draft is unchanged and excluded. Stage only intended project files, commit, and push to `main`; Netlify's configured Git build runs `node scripts/build-daily-guidance-index.mjs`. Then verify that deployment replaces the stale production content and test the live routes in a browser.
+All intended website, content, PWA, test, and audit files were committed. Audit screenshots are included as documentation. The unrelated untracked Baqarah draft remains untouched and excluded.
