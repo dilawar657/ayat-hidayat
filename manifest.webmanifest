@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Ayat-e-Hidayat — آیاتِ ہدایت",
+  "short_name": "Ayat-e-Hidayat",
+  "description": "Explore Quranic commandments and Prophetic Duas.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f0e5",
+  "theme_color": "#f4f0e5",
+  "icons": [
+    { "src": "icons/ayat-icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/ayat-icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/ayat-icon-maskable.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

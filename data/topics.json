@@ -115,6 +115,55 @@
                                                 "id":  "nisa-reflect-quran-020",
                                                 "surahNumber":  4
                                             }
+                                        ,
+                                            {
+                                                "id":  "anfal-taqwa-reconcile-obey-001",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-believers-rely-on-allah-002",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-establish-prayer-spend-003",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-obey-allah-messenger-020",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-respond-to-allah-messenger-024",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-taqwa-discernment-029",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-steadfastness-remembrance-045",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-obedience-unity-patience-046",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-trust-in-allah-049",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "jathiyah-gratitude-to-allah-012",
+                                                "surahNumber":  45
+                                            },
+                                            {
+                                                "id":  "jathiyah-do-not-follow-desire-023",
+                                                "surahNumber":  45
+                                            },
+                                            {
+                                                "id":  "jathiyah-praise-allah-lord-of-worlds-036-037",
+                                                "surahNumber":  45
+                                            }
                                         ]
                    },
                    {
@@ -407,6 +456,23 @@
                                                 "id":  "hujurat-diversity-recognition-righteousness-013",
                                                 "surahNumber":  49
                                             }
+                                        ,
+                                            {
+                                                "id":  "anfal-taqwa-reconcile-obey-001",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-honour-trusts-027",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-obedience-unity-patience-046",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "jathiyah-believers-forgive-014",
+                                                "surahNumber":  45
+                                            }
                                         ]
                    },
                    {
@@ -451,6 +517,19 @@
                                             {
                                                 "id":  "fatir-remember-allah-blessings-003",
                                                 "surahNumber":  35
+                                            }
+                                        ,
+                                            {
+                                                "id":  "anfal-steadfastness-remembrance-045",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "anfal-obedience-unity-patience-046",
+                                                "surahNumber":  8
+                                            },
+                                            {
+                                                "id":  "jathiyah-gratitude-to-allah-012",
+                                                "surahNumber":  45
                                             }
                                         ]
                    },
@@ -606,6 +685,11 @@
                                                 "id":  "hujurat-suspicion-spying-backbiting-012",
                                                 "surahNumber":  49
                                             }
+                                        ,
+                                            {
+                                                "id":  "anfal-honour-trusts-027",
+                                                "surahNumber":  8
+                                            }
                                         ]
                    },
                    {
@@ -691,6 +775,11 @@
                                             {
                                                 "id":  "fatir-recite-pray-charity-029-030",
                                                 "surahNumber":  35
+                                            }
+                                        ,
+                                            {
+                                                "id":  "anfal-establish-prayer-spend-003",
+                                                "surahNumber":  8
                                             }
                                         ]
                    },

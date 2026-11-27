@@ -3,6 +3,9 @@
   const copy = {
     en: {
       home: 'Home',
+      skipToContent: 'Skip to main content',
+      openMenu: 'Open navigation menu',
+      closeMenu: 'Close navigation menu',
       surahs: 'Surahs',
       topics: 'Explore by Topic',
       topicsUrdu: 'موضوعات کے لحاظ سے احکامات',
@@ -145,6 +148,11 @@
       contactDescription: 'If you would like to talk, share a suggestion, or offer research for consideration on Ayat-e-Hidayat, please contact Dilawar on WhatsApp.',
       contactWhatsApp: 'Contact Dilawar on WhatsApp',
       contactWhatsAppShort: 'WhatsApp · Dilawar',
+      communityHeading: 'Join the Ayat-e-Hidayat Community',
+      communityDescription: 'Stay connected with the Ayat-e-Hidayat community. Join us to receive updates, explore Quranic guidance, share beneficial reminders, and grow together in understanding and applying the teachings of the Quran.',
+      communityJoin: 'Join Our WhatsApp Community',
+      communityJoinShort: 'Join our WhatsApp Community',
+      communityLinkLabel: 'Join the Ayat-e-Hidayat WhatsApp Community (opens in a new tab)',
       missionHeading: 'Our Mission',
       missionParagraphs: [
         'As Muslims, it is our responsibility to understand and follow the commandments of Allah Almighty.',
@@ -189,6 +197,9 @@
     },
     ur: {
       home: 'صفحۂ اول',
+      skipToContent: 'مرکزی مواد پر جائیں',
+      openMenu: 'نیویگیشن مینو کھولیں',
+      closeMenu: 'نیویگیشن مینو بند کریں',
       surahs: 'سورتیں',
       topics: 'موضوعات کے لحاظ سے',
       topicsUrdu: 'موضوعات کے لحاظ سے احکامات',
@@ -331,6 +342,11 @@
       contactDescription: 'اگر آپ بات کرنا، کوئی مشورہ دینا، یا آیاتِ ہدایت کے لیے اپنی تحقیق زیرِ غور پیش کرنا چاہتے ہیں تو دلاور سے واٹس ایپ پر رابطہ کریں۔',
       contactWhatsApp: 'واٹس ایپ پر دلاور سے رابطہ کریں',
       contactWhatsAppShort: 'واٹس ایپ · دلاور',
+      communityHeading: 'آیاتِ ہدایت کمیونٹی میں شامل ہوں',
+      communityDescription: 'آیاتِ ہدایت کمیونٹی سے جڑے رہیں۔ تازہ معلومات حاصل کرنے، قرآن کی رہنمائی جاننے، مفید یاددہانیاں بانٹنے، اور قرآن کی تعلیمات کو سمجھنے اور ان پر عمل کرنے میں ایک دوسرے کے ساتھ آگے بڑھنے کے لیے ہماری کمیونٹی میں شامل ہوں۔',
+      communityJoin: 'ہماری واٹس ایپ کمیونٹی میں شامل ہوں',
+      communityJoinShort: 'ہماری واٹس ایپ کمیونٹی',
+      communityLinkLabel: 'آیاتِ ہدایت واٹس ایپ کمیونٹی میں شامل ہوں (نئے ٹیب میں کھلے گا)',
       missionHeading: 'ہمارا مشن',
       missionParagraphs: [
         'بحیثیت مسلمان، ہم سب کی ذمہ داری ہے کہ اللہ تعالیٰ کے احکامات کو سمجھیں اور اپنی زندگیوں میں ان پر عمل کریں۔',
@@ -379,8 +395,9 @@
   let duasData = null
   let topicsData = null
   let searchIndexPromise = null
-  const commandmentCache = new Map()
+  const surahDataCache = new Map()
   const shareableCommandments = new Map()
+  let dailyGuidanceIndexPromise = null
   let shareReturnFocus = null
   let activeShareCanvas = null
   let activeShareRecord = null
@@ -410,6 +427,7 @@
   }
   const whatsappNumber = '923016728444'
   const whatsappUrl = `https://wa.me/${whatsappNumber}`
+  const communityUrl = 'https://chat.whatsapp.com/G59zMmNWFcD20steVXYVvA'
   let locale = 'en'
   let renderId = 0
 
@@ -430,10 +448,31 @@
 
   const routeHref = (path) => `#/${path}`
 
+  function setMobileMenuOpen(open, returnFocus = false) {
+    const button = document.getElementById('mobile-menu-toggle')
+    const navigation = document.getElementById('main-nav')
+    if (!button || !navigation) return
+    button.setAttribute('aria-expanded', String(open))
+    button.setAttribute('aria-label', open ? copy[locale].closeMenu : copy[locale].openMenu)
+    navigation.classList.toggle('is-open', open)
+    if (open) requestAnimationFrame(() => navigation.querySelector('a')?.focus())
+    else if (returnFocus) button.focus()
+  }
+
   function dedicationBanner() {
     const text = copy[locale]
     const isUrdu = locale === 'ur'
     return `<aside class="dedication-banner" lang="${locale}" dir="${isUrdu ? 'rtl' : 'ltr'}"><p>${text.dedicationBanner}</p><a href="${routeHref('dedication')}">${text.readDedication}<span aria-hidden="true">↗</span></a></aside>`
+  }
+
+  function whatsappCommunityIcon() {
+    return `<svg class="community-whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.5 3.5A11.8 11.8 0 0 0 2.1 17.7L.7 23.3l5.8-1.5a11.8 11.8 0 0 0 5.6 1.4h.1a11.8 11.8 0 0 0 8.3-20.2ZM12 21.2a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.4.9.9-3.3-.2-.4A9.8 9.8 0 1 1 12 21.2Z"/><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.2-.1-.4-.1-.6.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.2-1.4-.8-.7-1.3-1.5-1.5-1.8-.2-.3 0-.4.1-.6l.5-.5c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .2.2 2 3.1 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>`
+  }
+
+  function communityBanner() {
+    const text = copy[locale]
+    const direction = locale === 'ur' ? 'rtl' : 'ltr'
+    return `<aside class="community-banner" lang="${locale}" dir="${direction}"><span>${text.communityJoinShort}</span><a href="${communityUrl}" target="_blank" rel="noopener noreferrer" aria-label="${text.communityLinkLabel}">${whatsappCommunityIcon()}${text.communityJoin}<span aria-hidden="true">↗</span></a></aside>`
   }
 
   function brand(compact = false) {
@@ -463,8 +502,10 @@
   function header() {
     const text = copy[locale]
     return `<header class="site-header"><div class="header-inner page-container">
+      <a class="skip-link" href="#main-content" data-skip-to-main>${text.skipToContent}</a>
       ${brand()}
-      <nav class="main-nav" aria-label="${locale === 'ur' ? 'بنیادی نیویگیشن' : 'Main navigation'}">
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="${text.openMenu}"><span class="mobile-menu-icon" aria-hidden="true"><span></span><span></span><span></span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="${locale === 'ur' ? 'بنیادی نیویگیشن' : 'Main navigation'}">
         <a href="${routeHref('')}" data-route="home">${text.home}</a>
         <a href="${routeHref('surahs')}" data-route="surahs">${text.surahs}</a>
         <a href="${routeHref('topics')}" data-route="topics">${text.topics}</a>
@@ -472,12 +513,13 @@
         <a href="${routeHref('purpose')}" data-route="purpose">${text.purpose}</a>
         <a href="${routeHref('about')}" data-route="about">${text.about}</a>
         <a class="main-nav-search" href="${routeHref('search')}" data-route="search">⌕ ${text.commandmentSearch}</a>
+        <a class="mobile-nav-only" href="${routeHref('dedication')}" data-route="dedication">${text.dedication}</a>
       </nav>
       <div class="header-actions">
         <button class="language-toggle" type="button" data-action="toggle-language" aria-label="${locale === 'en' ? 'اردو میں دیکھیں' : 'Switch to English'}">${locale === 'en' ? 'اردو' : 'EN'}</button>
         <a class="header-cta" href="${routeHref('surahs')}">${text.explore}<span aria-hidden="true">↗</span></a>
       </div>
-    </div></header>${dedicationBanner()}`
+    </div></header>${dedicationBanner()}${communityBanner()}`
   }
 
   function footer() {
@@ -493,6 +535,7 @@
         <a href="${routeHref('purpose')}">${text.purpose}</a>
         <a href="${routeHref('about')}">${text.about}</a>
         <a href="${routeHref('dedication')}">${text.dedication}</a>
+        <a class="footer-community-link" href="${communityUrl}" target="_blank" rel="noopener noreferrer" aria-label="${text.communityLinkLabel}">${whatsappCommunityIcon()}${text.communityJoinShort}<span aria-hidden="true">↗</span></a>
         <a href="${whatsappUrl}" target="_blank" rel="noopener noreferrer">${text.contactWhatsAppShort}<span aria-hidden="true">↗</span></a>
       </nav>
       <p class="footer-note" lang="${locale}" dir="${locale === 'ur' ? 'rtl' : 'ltr'}">${text.footerNote}</p>
@@ -530,6 +573,7 @@
       </div>
     </section>
     <section class="daily-guidance-section"><div class="page-container"><header class="daily-guidance-heading">${pageHeader(text.dailyGuidance)}<h2>${text.dailyGuidance}</h2><p lang="ur" dir="rtl">${text.dailyGuidanceUrdu}</p><span>${text.dailyGuidanceSubtitle}</span></header><div class="daily-guidance-content" id="daily-guidance-content" aria-live="polite"><p class="daily-guidance-status">${text.dailyLoading}</p></div></div></section>
+    <section class="community-section section-pad" aria-labelledby="community-section-title"><div class="page-container"><div class="community-panel" lang="${locale}" dir="${isUrdu ? 'rtl' : 'ltr'}">${whatsappCommunityIcon()}<div class="community-copy"><span class="eyebrow"><span class="eyebrow-line"></span>${text.communityJoinShort}</span><h2 id="community-section-title">${text.communityHeading}</h2><p>${text.communityDescription}</p></div><a class="button button-community" href="${communityUrl}" target="_blank" rel="noopener noreferrer" aria-label="${text.communityLinkLabel}">${whatsappCommunityIcon()}${text.communityJoin}<span aria-hidden="true">↗</span></a></div></div></section>
     <section class="commandment-search-section"><div class="page-container"><div class="commandment-search-heading">${pageHeader(text.commandmentSearch)}<h2>${text.commandmentSearchTitle}</h2><p>${text.commandmentSearchDescription}</p></div>${commandmentSearchMarkup()}</div></section>
     <section class="purpose-section section-pad" id="purpose"><div class="page-container purpose-grid">
       <div><span class="eyebrow"><span class="eyebrow-line"></span>${text.purposeEyebrow}</span><h2 class="section-title">${text.purposeTitle}</h2></div>
@@ -624,7 +668,7 @@
   }
 
   function validateDuaCatalog(data) {
-    if (!data || !Array.isArray(data.categories) || !Array.isArray(data.duas) || data.categories.length !== 7) {
+    if (!data || !Array.isArray(data.categories) || !data.categories.length || !Array.isArray(data.duas)) {
       throw new Error('Invalid Prophetic Duas catalog structure')
     }
     const duaIds = new Set()
@@ -1286,12 +1330,7 @@
   function buildCommandmentSearchIndex() {
     if (searchIndexPromise) return searchIndexPromise
     const request = Promise.all(surahs.map(async (surah) => {
-      const response = await fetch(`data/ahkamat/surah-${surah.number}.json`)
-      if (!response.ok) throw new Error(`Could not load Surah ${surah.number} for search: HTTP ${response.status}`)
-      const data = await response.json()
-      if (Number(data.surahNumber) !== surah.number || !Array.isArray(data.ahkamat)) {
-        throw new Error(`Invalid Ahkamat data for Surah ${surah.number}`)
-      }
+      const data = await loadSurahData(surah.number)
       return data.ahkamat.map((commandment) => {
         const ayahs = Array.isArray(commandment.ayahs) ? commandment.ayahs : []
         const references = Array.isArray(commandment.references)
@@ -1361,9 +1400,33 @@
     )
   }
 
+  function loadDailyGuidanceIndex() {
+    if (!dailyGuidanceIndexPromise) {
+      dailyGuidanceIndexPromise = fetch('data/daily-guidance-index.json')
+        .then((response) => {
+          if (!response.ok) throw new Error(`Could not load Daily Guidance index: HTTP ${response.status}`)
+          return response.json()
+        })
+        .then((data) => {
+          if (data?.version !== 1 || !Array.isArray(data.records)) throw new Error('Invalid Daily Guidance index')
+          const ids = new Set()
+          return data.records.map((item) => {
+            const surah = surahs.find((candidate) => candidate.number === Number(item.surahNumber))
+            if (!item.id || ids.has(item.id) || !surah) throw new Error(`Invalid Daily Guidance index record: ${item.id || 'missing ID'}`)
+            ids.add(item.id)
+            return { surah, commandment: { id: item.id } }
+          })
+        })
+        .catch((error) => {
+          dailyGuidanceIndexPromise = null
+          throw error
+        })
+    }
+    return dailyGuidanceIndexPromise
+  }
+
   function selectDailyCommandment(records, dateKey) {
     const pool = records
-      .filter(commandmentIsCompleteForDailyGuidance)
       .slice()
       .sort((left, right) => left.commandment.id < right.commandment.id ? -1 : left.commandment.id > right.commandment.id ? 1 : 0)
     if (!pool.length) return null
@@ -1399,25 +1462,30 @@
     const container = document.getElementById('daily-guidance-content')
     if (!container) return
     try {
-      const records = await buildCommandmentSearchIndex()
+      const records = await loadDailyGuidanceIndex()
       if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
-      const validRecords = records.filter(commandmentIsCompleteForDailyGuidance)
-      if (!validRecords.length) {
+      if (!records.length) {
         container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyEmpty}</p>`
         return
       }
       let topicData = null
       try { topicData = await loadTopics() } catch { /* Daily guidance remains available when topic metadata fails. */ }
       if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
-      const updateForToday = () => {
+      const updateForToday = async () => {
         if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
         try {
           const dateKey = karachiDateKey()
-          const entry = selectDailyCommandment(validRecords, dateKey)
-          if (!entry) {
+          const selected = selectDailyCommandment(records, dateKey)
+          if (!selected) {
             container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyEmpty}</p>`
             return
           }
+          const commandments = await loadCommandmentsForSurah(selected.surah.number)
+          const commandment = commandments.find((item) => item.id === selected.commandment.id)
+          if (!commandment || requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
+          if (!commandmentIsCompleteForDailyGuidance({ commandment, surah: selected.surah })) throw new Error(`Daily Guidance commandment ${commandment.id} is incomplete`)
+          if (karachiDateKey() !== dateKey) return updateForToday()
+          const entry = { surah: selected.surah, commandment }
           activeDailyDateKey = dateKey
           renderDailyGuidance(entry, dateKey, topicData)
         } catch (error) {
@@ -1425,7 +1493,8 @@
           container.innerHTML = `<p class="daily-guidance-status">${copy[locale].dailyUnavailable}</p>`
         }
       }
-      updateForToday()
+      await updateForToday()
+      if (requestId !== renderId || document.getElementById('daily-guidance-content') !== container) return
       if (dailyGuidanceTimer) window.clearInterval(dailyGuidanceTimer)
       dailyGuidanceTimer = window.setInterval(() => {
         try {
@@ -1434,7 +1503,7 @@
             dailyGuidanceTimer = null
             return
           }
-          if (karachiDateKey() !== activeDailyDateKey) updateForToday()
+          if (karachiDateKey() !== activeDailyDateKey) void updateForToday()
         } catch (error) {
           console.error(error)
         }
@@ -1551,13 +1620,8 @@
     const loading = `<section class="surah-detail-page page-container"><a class="back-link" href="${routeHref('surahs')}">← ${text.allSurahs}</a><header class="surah-detail-heading"><span class="surah-detail-number">${String(surah.number).padStart(3, '0')}</span><div><h1 class="detail-arabic" lang="ar" dir="rtl">${escapeHtml(surah.nameArabic)}</h1><p class="detail-title"><span lang="en" dir="ltr">${escapeHtml(surah.nameEnglish)}</span><span lang="ur" dir="rtl">${escapeHtml(surah.nameUrdu)}</span></p></div></header><div class="detail-content"><p>${text.loading}</p></div></section>`
     app.innerHTML = `${header()}<main>${loading}</main>${footer()}`
     try {
-      const response = await fetch(`data/ahkamat/surah-${surah.number}.json`)
-      if (!response.ok) throw new Error(`Could not load Surah ${surah.number}: HTTP ${response.status}`)
-      const content = await response.json()
+      const content = await loadSurahData(surah.number)
       if (requestId !== renderId) return
-      if (Number(content.surahNumber) !== surah.number || !Array.isArray(content.ahkamat)) {
-        throw new Error(`Invalid Ahkamat data for Surah ${surah.number}`)
-      }
       const ahkamat = content.ahkamat
       const disclaimer = editorialDisclaimer(content.editorialNote)
       const body = ahkamat.length
@@ -1612,7 +1676,11 @@
   }
 
   async function loadCommandmentsForSurah(number) {
-    if (!commandmentCache.has(number)) {
+    return (await loadSurahData(number)).ahkamat
+  }
+
+  async function loadSurahData(number) {
+    if (!surahDataCache.has(number)) {
       const request = fetch(`data/ahkamat/surah-${number}.json`).then((response) => {
         if (!response.ok) throw new Error(`Could not load Surah ${number}: HTTP ${response.status}`)
         return response.json()
@@ -1620,11 +1688,14 @@
         if (Number(content.surahNumber) !== number || !Array.isArray(content.ahkamat)) {
           throw new Error(`Invalid Ahkamat data for Surah ${number}`)
         }
-        return content.ahkamat
+        return content
+      }).catch((error) => {
+        surahDataCache.delete(number)
+        throw error
       })
-      commandmentCache.set(number, request)
+      surahDataCache.set(number, request)
     }
-    return commandmentCache.get(number)
+    return surahDataCache.get(number)
   }
 
   async function topicsPage(topicId, requestId) {
@@ -1676,6 +1747,7 @@
   }
 
   async function render() {
+    setMobileMenuOpen(false)
     if (document.getElementById('share-card-modal')) closeShareModal(false)
     if (dailyGuidanceTimer) {
       window.clearInterval(dailyGuidanceTimer)
@@ -1744,6 +1816,7 @@
     if (page === 'dedication') {
       app.innerHTML = `${header()}<main>${dedicationPage()}</main>${footer()}`
       document.title = `${copy[locale].dedication} | Ayat-e-Hidayat`
+      setActiveNav('dedication')
       return
     }
     app.innerHTML = `${header()}<main><section class="not-found-page page-container"><span class="not-found-code">404</span><h1>${copy[locale].notFound}</h1><p>${copy[locale].notFoundText}</p><a class="button button-primary" href="${routeHref('')}">${copy[locale].returnHome}</a></section></main>${footer()}`
@@ -1771,6 +1844,27 @@
   }
 
   app.addEventListener('click', async (event) => {
+    const skipLink = event.target.closest('[data-skip-to-main]')
+    if (skipLink) {
+      event.preventDefault()
+      const main = app.querySelector('main')
+      if (main) {
+        main.tabIndex = -1
+        main.focus({ preventScroll: true })
+        main.scrollIntoView({ block: 'start' })
+      }
+      return
+    }
+    const menuToggle = event.target.closest('#mobile-menu-toggle')
+    if (menuToggle) {
+      setMobileMenuOpen(menuToggle.getAttribute('aria-expanded') !== 'true')
+      return
+    }
+    const mobileNavLink = event.target.closest('#main-nav a')
+    if (mobileNavLink && window.matchMedia('(max-width: 1024px)').matches) {
+      setMobileMenuOpen(false)
+      return
+    }
     const shareButton = event.target.closest('[data-share-commandment]')
     if (shareButton) {
       const record = shareableCommandments.get(shareButton.dataset.shareCommandment)
@@ -1873,11 +1967,12 @@
 
   document.addEventListener('keydown', (event) => {
     const modal = document.getElementById('share-card-modal')
-    if (!modal) return
     if (event.key === 'Escape') {
-      closeShareModal()
+      if (modal) closeShareModal()
+      else if (document.getElementById('mobile-menu-toggle')?.getAttribute('aria-expanded') === 'true') setMobileMenuOpen(false, true)
       return
     }
+    if (!modal) return
     if (event.key !== 'Tab') return
     const focusable = [...modal.querySelectorAll('button:not([disabled])')]
     if (!focusable.length) return
@@ -1890,6 +1985,17 @@
       event.preventDefault()
       first.focus()
     }
+  })
+
+  document.addEventListener('pointerdown', (event) => {
+    const toggle = document.getElementById('mobile-menu-toggle')
+    if (toggle?.getAttribute('aria-expanded') === 'true' && !event.target.closest('.site-header')) {
+      setMobileMenuOpen(false)
+    }
+  })
+
+  window.addEventListener('resize', () => {
+    if (!window.matchMedia('(max-width: 1024px)').matches) setMobileMenuOpen(false)
   })
 
   window.addEventListener('hashchange', render)

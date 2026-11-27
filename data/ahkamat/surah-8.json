@@ -1,8 +1,328 @@
 {
-    "surahNumber":  8,
-    "surahNameArabic":  "الأنفال",
-    "surahNameEnglish":  "Al-Anfal",
-    "ahkamat":  [
-
-                ]
+  "surahNumber": 8,
+  "surahNameArabic": "الأنفال",
+  "surahNameEnglish": "Al-Anfal",
+  "ahkamat": [
+    {
+      "id": "anfal-taqwa-reconcile-obey-001",
+      "topicUrdu": "اللہ کا تقویٰ اختیار کرو، آپس کے معاملات درست کرو اور اللہ اور رسول کی اطاعت کرو",
+      "topicEnglish": "Be Mindful of Allah, Reconcile, and Obey Allah and the Messenger",
+      "references": [
+        "8:1"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:1",
+          "arabic": "يَسْـَٔلُونَكَ عَنِ ٱلْأَنفَالِ ۖ قُلِ ٱلْأَنفَالُ لِلَّهِ وَٱلرَّسُولِ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَصْلِحُوا۟ ذَاتَ بَيْنِكُمْ ۖ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥٓ إِن كُنتُم مُّؤْمِنِينَ",
+          "urduMeaning": "(اے نبی ﷺ) یہ لوگ آپ سے اموالِ غنیمت کے بارے میں پوچھ رہے ہیں۔ آپ کہیے کہ اموالِ غنیمت کل کے کل اللہ اور رسول ﷺ کے ہیں، پس تم اللہ کا تقویٰ اختیار کرو، اپنے آپس کے معاملات درست کرو اور اللہ اور اس کے رسول ﷺ کی اطاعت کرو اگر تم مومن ہو۔",
+          "englishMeaning": "They ask you ˹O Prophet˺ regarding the spoils of war. Say, “Their distribution is decided by Allah and His Messenger. So be mindful of Allah, settle your affairs, and obey Allah and His Messenger if you are ˹true˺ believers.”"
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/1",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-believers-rely-on-allah-002",
+      "topicUrdu": "مومن صرف اللہ پر توکل کرتے ہیں",
+      "topicEnglish": "Believers Rely upon Allah",
+      "references": [
+        "8:2"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:2",
+          "arabic": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ ءَايَـٰتُهُۥ زَادَتْهُمْ إِيمَـٰنًۭا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+          "urduMeaning": "حقیقی مؤمن تو وہی ہیں کہ جب اللہ کا ذکر کیا جاتا ہے تو ان کے دل لرز جاتے ہیں، اور جب انہیں اس کی آیات پڑھ کر سنائی جاتی ہیں تو ان کے ایمان میں اضافہ ہو جاتا ہے اور وہ اپنے رب ہی پر توکل کرتے ہیں۔",
+          "englishMeaning": "The ˹true˺ believers are only those whose hearts tremble at the remembrance of Allah, whose faith increases when His revelations are recited to them, and who put their trust in their Lord."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/2",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-establish-prayer-spend-003",
+      "topicUrdu": "نماز قائم کرو اور اللہ کے دیے ہوئے رزق میں سے خرچ کرو",
+      "topicEnglish": "Establish Prayer and Spend from What Allah Has Provided",
+      "references": [
+        "8:3"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:3",
+          "arabic": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+          "urduMeaning": "جو نماز قائم رکھتے ہیں اور جو کچھ ہم نے انہیں دیا ہے اس میں سے خرچ کرتے ہیں۔",
+          "englishMeaning": "˹They are˺ those who establish prayer and donate from what We have provided for them."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/3",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-battlefield-steadfastness-015-016",
+      "topicUrdu": "میدانِ جنگ میں کافروں کے مقابلے میں پیٹھ نہ پھیرو",
+      "topicEnglish": "Do Not Turn Your Backs in the Battlefield",
+      "references": [
+        "8:15",
+        "8:16"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:15",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ زَحْفًۭا فَلَا تُوَلُّوهُمُ ٱلْأَدْبَارَ",
+          "urduMeaning": "اے اہلِ ایمان! جب تمہارا مقابلہ میدانِ جنگ میں کافروں سے ہو تو ان سے پیٹھ مت پھیرنا۔",
+          "englishMeaning": "O believers! When you face the disbelievers in battle, never turn your backs to them."
+        },
+        {
+          "reference": "8:16",
+          "arabic": "وَمَن يُوَلِّهِمْ يَوْمَئِذٍۢ دُبُرَهُۥٓ إِلَّا مُتَحَرِّفًۭا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍۢ فَقَدْ بَآءَ بِغَضَبٍۢ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+          "urduMeaning": "اور جو کوئی بھی اس دن ان سے اپنی پیٹھ پھیرے، سوائے اس کے کہ وہ جنگ کے لیے کوئی داؤ لگا رہا ہو یا کسی دوسری جمعیت سے جا ملنا ہو، تو وہ اللہ کا غضب لے کر لوٹا اور اس کا ٹھکانا جہنم ہے، اور وہ بہت برا ٹھکانا ہے۔",
+          "englishMeaning": "And whoever does so on such an occasion—unless it is a manoeuvre or to join their own troops—will earn the displeasure of Allah, and their home will be Hell. What an evil destination!"
+        }
+      ],
+      "editorialNoteUrdu": "یہ آیات جنگ کے مخصوص سیاق میں ہیں؛ انہیں افراد یا غیر ریاستی گروہوں کے لیے عام ہدایت کے طور پر پیش نہ کیا جائے۔",
+      "sources": [
+        "https://quran.com/8/15",
+        "https://quran.com/8/16",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-obey-allah-messenger-020",
+      "topicUrdu": "اللہ اور رسول کی اطاعت کرو",
+      "topicEnglish": "Obey Allah and the Messenger and Do Not Turn Away",
+      "references": [
+        "8:20"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:20",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ أَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَوَلَّوْا۟ عَنْهُ وَأَنتُمْ تَسْمَعُونَ",
+          "urduMeaning": "اے اہلِ ایمان! اللہ اور اس کے رسول ﷺ کی اطاعت کرو اور اس سے منہ نہ موڑو جبکہ تم سن رہے ہو۔",
+          "englishMeaning": "O believers! Obey Allah and His Messenger and do not turn away from him while you hear ˹his call˺."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/20",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-respond-to-allah-messenger-024",
+      "topicUrdu": "اللہ اور رسول کی پکار پر لبیک کہا کرو",
+      "topicEnglish": "Respond to the Call of Allah and the Messenger",
+      "references": [
+        "8:24"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:24",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَجِيبُوا۟ لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَحُولُ بَيْنَ ٱلْمَرْءِ وَقَلْبِهِۦ وَأَنَّهُۥٓ إِلَيْهِ تُحْشَرُونَ",
+          "urduMeaning": "اے اہلِ ایمان! لبیک کہا کرو اللہ اور رسول ﷺ کی پکار پر جب وہ تمہیں اس چیز کے لیے پکاریں جو تمہیں زندگی بخشنے والی ہے، اور جان لو کہ تم سب کو یقیناً اسی کی طرف جمع کیا جانا ہے۔",
+          "englishMeaning": "O believers! Respond to Allah and His Messenger when he calls you to that which gives you life. And know that Allah stands between a person and their heart, and that to Him you will all be gathered."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/24",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-honour-trusts-027",
+      "topicUrdu": "خیانت نہ کرو",
+      "topicEnglish": "Do Not Betray Allah, the Messenger, or Your Trusts",
+      "references": [
+        "8:27"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:27",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَخُونُوا۟ ٱللَّهَ وَٱلرَّسُولَ وَتَخُونُوٓا۟ أَمَـٰنَـٰتِكُمْ وَأَنتُمْ تَعْلَمُونَ",
+          "urduMeaning": "اے اہلِ ایمان! اللہ اور رسول ﷺ سے خیانت نہ کرو اور نہ ہی اپنی (آپس کی) امانتوں میں خیانت کرو، جانتے بوجھتے۔",
+          "englishMeaning": "O believers! Do not betray Allah and the Messenger, nor betray your trusts knowingly."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/27",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-wealth-children-test-028",
+      "topicUrdu": "اولاد اور مال بڑے فتنے ہیں",
+      "topicEnglish": "Remember That Wealth and Children Are a Test",
+      "references": [
+        "8:28"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:28",
+          "arabic": "وَٱعْلَمُوٓا۟ أَنَّمَآ أَمْوَٰلُكُمْ وَأَوْلَـٰدُكُمْ فِتْنَةٌۭ وَأَنَّ ٱللَّهَ عِندَهُۥٓ أَجْرٌ عَظِيمٌۭ",
+          "urduMeaning": "اور جان لو کہ تمہارے اموال اور تمہاری اولاد فتنہ ہیں، اور یہ کہ اللہ ہی کے پاس بڑا اجر ہے۔",
+          "englishMeaning": "And know that your wealth and your children are only a test and that with Allah is a great reward."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/28",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-taqwa-discernment-029",
+      "topicUrdu": "تقویٰ اختیار کرو",
+      "topicEnglish": "Be Mindful of Allah",
+      "references": [
+        "8:29"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:29",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ إِن تَتَّقُوا۟ ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًۭا وَيُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+          "urduMeaning": "اے اہلِ ایمان! اگر تم اللہ کا تقویٰ اختیار کرو گے تو وہ تمہارے لیے فرقان پیدا کر دے گا، تم سے تمہاری برائیاں دور کرے گا اور تمہیں بخش دے گا۔ اور اللہ بڑے فضل والا ہے۔",
+          "englishMeaning": "O believers! If you are mindful of Allah, He will grant you a decisive authority, absolve you of your sins, and forgive you. And Allah is the Lord of infinite bounty."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/29",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-fighting-context-039",
+      "topicUrdu": "کافروں سے قتال کرو یہاں تک کہ فتنہ باقی نہ رہے",
+      "topicEnglish": "Fight until persecution ceases and religion is for Allah",
+      "references": [
+        "8:39"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:39",
+          "arabic": "وَقَـٰتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌۭ وَيَكُونَ ٱلدِّينُ كُلُّهُۥ لِلَّهِ ۚ فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ بَصِيرٌۭ",
+          "urduMeaning": "اور (اے مسلمانو!) ان سے جنگ کرتے رہو یہاں تک کہ فتنہ (کفر) باقی نہ رہے اور دین کل کا کل اللہ ہی کا ہو جائے، پھر اگر وہ باز آ جائیں تو جو کچھ وہ کر رہے ہیں اللہ یقیناً اسے دیکھ رہا ہے۔",
+          "englishMeaning": "Fight against them until there is no more persecution—and ˹your˺ devotion will be entirely to Allah. But if they desist, then surely Allah is All-Seeing of what they do."
+        }
+      ],
+      "editorialNoteUrdu": "یہ آیت جنگ اور اس کے گرد موجود مکمل قرآنی سیاق میں ہے؛ اسے افراد یا گروہوں کے لیے غیر مشروط یا نجی تشدد کی ہدایت نہ بنایا جائے۔",
+      "sources": [
+        "https://quran.com/8/39",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-steadfastness-remembrance-045",
+      "topicUrdu": "جب کسی گروہ سے مقابلہ ہو تو ثابت قدم رہو اور کثرت سے اللہ کا ذکر کرتے رہو",
+      "topicEnglish": "Remain Steadfast and Remember Allah Often",
+      "references": [
+        "8:45"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:45",
+          "arabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا لَقِيتُمْ فِئَةًۭ فَٱثْبُتُوا۟ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًۭا لَّعَلَّكُمْ تُفْلِحُونَ",
+          "urduMeaning": "اے اہلِ ایمان! جب بھی تمہارا مقابلہ ہو کسی گروہ سے تو ثابت قدم رہو اور اللہ کا ذکر کثرت کے ساتھ کرتے رہو تاکہ تم فلاح پاؤ۔",
+          "englishMeaning": "O believers! When you face an enemy, stand firm and remember Allah often so you may triumph."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/45",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-obedience-unity-patience-046",
+      "topicUrdu": "اللہ اور رسول کی اطاعت کرو، آپس میں نہ جھگڑو اور صبر کرو",
+      "topicEnglish": "Obey, Avoid Dispute, and Be Patient",
+      "references": [
+        "8:46"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:46",
+          "arabic": "وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَنَـٰزَعُوا۟ فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ ۖ وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ",
+          "urduMeaning": "اور حکم مانو اللہ کا اور اس کے رسول ﷺ کا اور آپس میں جھگڑا نہ کرو ورنہ تم ڈھیلے پڑ جاؤ گے اور تمہاری ہوا اکھڑ جائے گی، اور ثابت قدم رہو۔ یقیناً اللہ ثابت قدم رہنے والوں کے ساتھ ہے۔",
+          "englishMeaning": "Obey Allah and His Messenger and do not dispute with one another, or you would be discouraged and weakened. Persevere! Surely Allah is with those who persevere."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/46",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-trust-in-allah-049",
+      "topicUrdu": "اللہ پر توکل کرو، بے شک اللہ زبردست اور حکمت والا ہے",
+      "topicEnglish": "Rely upon Allah; He Is Almighty and Wise",
+      "references": [
+        "8:49"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:49",
+          "arabic": "إِذْ يَقُولُ ٱلْمُنَـٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ غَرَّ هَـٰٓؤُلَآءِ دِينُهُمْ ۗ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَإِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌۭ",
+          "urduMeaning": "جب کہہ رہے تھے منافقین اور وہ لوگ جن کے دلوں میں روگ تھا کہ ان مسلمانوں کو ان کے دین نے بالکل دھوکے میں ڈال دیا ہے؛ اور جو کوئی اللہ پر توکل کرتا ہے تو اللہ زبردست، حکمت والا ہے۔",
+          "englishMeaning": "˹Remember˺ when the hypocrites and those with sickness in their hearts said, “These ˹believers˺ are deluded by their faith.” But whoever puts their trust in Allah, surely Allah is Almighty, All-Wise."
+        }
+      ],
+      "sources": [
+        "https://quran.com/8/49",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    },
+    {
+      "id": "anfal-muhajirun-ansar-relationship-072-074",
+      "topicUrdu": "جن لوگوں نے ہجرت کی، اللہ کی راہ میں جدوجہد کی اور جنہوں نے انہیں پناہ دی اور مدد کی، وہ سچے مومن ہیں",
+      "topicEnglish": "The Faith, Migration, Struggle, and Mutual Support of the Muhajirun and Ansar",
+      "references": [
+        "8:72",
+        "8:73",
+        "8:74"
+      ],
+      "ayahs": [
+        {
+          "reference": "8:72",
+          "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَـٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَـٰٓئِكَ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍۢ ۚ وَٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يُهَاجِرُوا۟ مَا لَكُم مِّن وَلَـٰيَتِهِم مِّن شَىْءٍ حَتَّىٰ يُهَاجِرُوا۟ ۚ وَإِنِ ٱسْتَنصَرُوكُمْ فِى ٱلدِّينِ فَعَلَيْكُمُ ٱلنَّصْرُ إِلَّا عَلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَـٰقٌۭ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ",
+          "urduMeaning": "یقیناً وہ لوگ جو ایمان لائے اور جنہوں نے ہجرت کی اور جہاد کیا اپنے مالوں اور اپنی جانوں کے ساتھ اللہ کی راہ میں، اور وہ لوگ جنہوں نے انہیں پناہ دی اور ان کی مدد کی، یہ سب لوگ ایک دوسرے کے ساتھی ہیں۔ اور وہ لوگ جو ایمان لائے لیکن انہوں نے ہجرت نہیں کی، تمہارا ان کے ساتھ کوئی تعلق نہیں حتیٰ کہ وہ ہجرت کریں۔ اور اگر وہ تم سے دین کے معاملے میں مدد مانگیں تو ان کی مدد کرنا تم پر واجب ہے، مگر ایسی قوم کے خلاف نہیں کہ ان کے اور تمہارے درمیان معاہدہ ہو۔ جو کچھ تم کر رہے ہو اللہ اسے دیکھ رہا ہے۔",
+          "englishMeaning": "Those who believed, emigrated, and strived with their wealth and lives in the cause of Allah, as well as those who gave them shelter and help—they are truly guardians of one another. As for those who believed but did not emigrate, you have no obligations to them until they emigrate. But if they seek your help ˹against persecution˺ in faith, it is your obligation to help them, except against people bound with you in a treaty. Allah is All-Seeing of what you do."
+        },
+        {
+          "reference": "8:73",
+          "arabic": "وَٱلَّذِينَ كَفَرُوا۟ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ إِلَّا تَفْعَلُوهُ تَكُن فِتْنَةٌۭ فِى ٱلْأَرْضِ وَفَسَادٌۭ كَبِيرٌۭ",
+          "urduMeaning": "اور وہ لوگ جنہوں نے کفر کیا وہ آپس میں ایک دوسرے کے ساتھی ہیں۔ اگر تم یہ (ان قواعد و ضوابط کی پابندی) نہیں کرو گے تو زمین میں فتنہ اور بڑا فساد برپا ہو جائے گا۔",
+          "englishMeaning": "As for the disbelievers, they are guardians of one another. And unless you ˹believers˺ act likewise, there will be great oppression and corruption in the land."
+        },
+        {
+          "reference": "8:74",
+          "arabic": "وَٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَـٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَـٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُم مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ",
+          "urduMeaning": "اور جو لوگ ایمان لائے، ہجرت کی اور اللہ کی راہ میں جہاد کیا، اور جن لوگوں نے پناہ دی اور مدد کی، یہی سچے مومن ہیں۔ ان کے لیے مغفرت اور عزت والا رزق ہے۔",
+          "englishMeaning": "Those who believed, migrated, and struggled in the cause of Allah, and those who gave ˹them˺ shelter and help, they are the true believers. They will have forgiveness and an honourable provision."
+        }
+      ],
+      "editorialNoteUrdu": "یہ آیات مہاجرین و انصار اور ابتدائی مسلم معاشرے کے تاریخی تعلقات، ہجرت، باہمی نصرت اور معاہدوں کے سیاق میں ہیں۔ آیت 74 انہیں سچے مومن قرار دیتی ہے؛ اس مجموعے کو آج کے حالات پر بے سیاق حکم نہ بنایا جائے۔",
+      "sources": [
+        "https://quran.com/8/72",
+        "https://quran.com/8/73",
+        "https://quran.com/8/74",
+        "https://quran.com/al-anfal/translations/ur",
+        "https://quran.com/al-anfal/translations/en"
+      ]
+    }
+  ]
 }

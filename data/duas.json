@@ -163,7 +163,7 @@
         }
       ],
       "narrator": "Ibn Abbas",
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih al-Bukhari 4563 (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited",
         "Dua of another Prophet"
@@ -189,7 +189,7 @@
         }
       ],
       "narrator": "Anas ibn Malik",
-      "authenticity": "Hasan (as cited in the supplied research)",
+      "authenticity": "Hasan (Darussalam, Jami' at-Tirmidhi 3524).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -213,7 +213,7 @@
         }
       ],
       "narrator": "Ibn Abbas",
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih al-Bukhari 6345 (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -237,7 +237,7 @@
         }
       ],
       "narrator": "Anas",
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih al-Bukhari 6369 (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -260,7 +260,7 @@
           "url": "https://sunnah.com/abudawud:5090"
         }
       ],
-      "authenticity": "Disputed: Al-Albani graded it Hasan; Zubair Ali Zai graded it Da'if (as supplied).",
+      "authenticity": "Hasan in chain (Al-Albani, Sunan Abi Dawud 5090). A Da'if grade is also attributed to Zubair Ali Zai by Hadith.net's grader listing; its primary grading citation is not shown there, so that attribution remains unverified.",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -289,7 +289,7 @@
         }
       ],
       "narrator": "Sa'd ibn Abi Waqqas (hadith concerning its virtue)",
-      "authenticity": "Sahih according to the cited Darussalam grading (as supplied).",
+      "authenticity": "Sahih (Darussalam, Jami' at-Tirmidhi 3505).",
       "classification": [
         "Quranic supplication",
         "Dua of another Prophet",
@@ -315,7 +315,7 @@
           "url": "https://sunnah.com/bukhari:6306"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih al-Bukhari 6306 (Sahih collection).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -339,7 +339,7 @@
         }
       ],
       "narrator": "Abu Bakr",
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih al-Bukhari 834 (Sahih collection).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -352,17 +352,22 @@
       "urdu": "میں اللہ سے بخشش مانگتا ہوں اور اسی کی طرف توبہ کرتا ہوں۔",
       "english": "I seek forgiveness from Allah and turn to Him in repentance.",
       "context": {
-        "en": "The Prophet ﷺ sought repentance from Allah a hundred times a day, as reported in Sahih Muslim. This reported count describes his practice and is not presented here as a mandatory count for everyone.",
-        "ur": "صحیح مسلم میں ہے کہ رسول اللہ ﷺ دن میں سو مرتبہ اللہ سے توبہ کرتے تھے۔ یہ آپ ﷺ کے معمول کی روایت کردہ تعداد ہے، ہر شخص کے لیے لازم تعداد نہیں۔"
+        "en": "The wording appears in Sahih al-Bukhari 6307 (more than seventy times daily) and Sunan Ibn Majah 3815 (one hundred times daily). These narrations report Prophetic practice, not a required count for everyone.",
+        "ur": "ان روایات میں نبی ﷺ کا دن میں ستر سے زیادہ اور سو مرتبہ استغفار و توبہ کرنا بیان ہوا ہے۔ یہ آپ ﷺ کے معمول کی روایت کردہ تعداد ہے، ہر شخص کے لیے لازم تعداد نہیں۔"
       },
       "references": [
         {
-          "collection": "Sahih Muslim",
-          "number": "2702",
-          "url": "https://sunnah.com/muslim:2702"
+          "collection": "Sahih al-Bukhari",
+          "number": "6307",
+          "url": "https://sunnah.com/bukhari:6307"
+        },
+        {
+          "collection": "Sunan Ibn Majah",
+          "number": "3815",
+          "url": "https://sunnah.com/ibnmajah:3815"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "The wording appears in Sahih al-Bukhari 6307 (more than seventy times daily) and Sunan Ibn Majah 3815 (Hasan, Darussalam; one hundred times daily). These narrations report Prophetic practice, not a required count for everyone.",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -391,7 +396,7 @@
         }
       ],
       "narrator": "Abdullah ibn Umar (Sunan Abi Dawud 1516)",
-      "authenticity": "Al-Albani graded it authentic (as supplied).",
+      "authenticity": "Sahih (Al-Albani, Sunan Abi Dawud 1516); Sahih (Darussalam, Jami' at-Tirmidhi 3434).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -415,7 +420,7 @@
         }
       ],
       "narrator": "Zayd (as supplied on the linked source)",
-      "authenticity": "Sahih according to Al-Albani (as supplied).",
+      "authenticity": "Sahih (Al-Albani, Sunan Abi Dawud 1517).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -438,7 +443,7 @@
           "url": "https://sunnah.com/muslim:2708"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2708 (Sahih collection).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -466,7 +471,7 @@
           "url": "https://sunnah.com/tirmidhi:3388"
         }
       ],
-      "authenticity": "Hasan Sahih according to the cited grading (as supplied).",
+      "authenticity": "Sahih (Al-Albani, Sunan Abi Dawud 5088); Hasan (Darussalam, Jami' at-Tirmidhi 3388). Al-Tirmidhi's wording gives Hasan Sahih Gharib.",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -490,7 +495,7 @@
         }
       ],
       "narrator": "Abu Hurayrah (Abu Bakr asked for the supplication)",
-      "authenticity": "Not supplied; verify against the source before assigning a grade.",
+      "authenticity": "Sahih (Al-Albani, Sunan Abi Dawud 5067).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -513,7 +518,7 @@
           "url": "https://sunnah.com/tirmidhi:3591"
         }
       ],
-      "authenticity": "Hasan Gharib according to the cited Tirmidhi grading (as supplied).",
+      "authenticity": "Al-Tirmidhi described it as Hasan Gharib; the Darussalam edition grades it Sahih (Jami' at-Tirmidhi 3591).",
       "classification": [
         "Prophet ﷺ recited",
         "Prophet ﷺ taught"
@@ -542,7 +547,7 @@
           "url": "https://sunnah.com/tirmidhi:3492"
         }
       ],
-      "authenticity": "Hasan according to the cited grading in Riyad as-Salihin (as supplied).",
+      "authenticity": "Sunan Abi Dawud 1551 is graded Sahih by Al-Albani. Jami' at-Tirmidhi 3492 is graded Hasan by Darussalam; Al-Tirmidhi described it as Hasan Gharib.",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -565,7 +570,7 @@
           "url": "https://sunnah.com/riyadussalihin:1481"
         }
       ],
-      "authenticity": "Hasan Sahih as cited in Riyad as-Salihin (as supplied).",
+      "authenticity": "Riyad as-Salihin 1481 cites the grading Hasan Sahih and attributes the report to Abu Dawud and at-Tirmidhi.",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -589,7 +594,7 @@
         }
       ],
       "narrator": "Anas ibn Malik",
-      "authenticity": "Sahih according to the cited grading (as supplied).",
+      "authenticity": "Hasan (Al-Tirmidhi's assessment in Jami' at-Tirmidhi 2140).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -612,7 +617,7 @@
           "url": "https://sunnah.com/muslim:2721"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2721 (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -635,7 +640,7 @@
           "url": "https://sunnah.com/muslim:2725"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2725 (Sahih collection).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -658,7 +663,7 @@
           "url": "https://sunnah.com/muslim:2697"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2697 (Sahih collection).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -703,7 +708,7 @@
           "url": "https://sunnah.com/tirmidhi:3563"
         }
       ],
-      "authenticity": "Hasan (as supplied)",
+      "authenticity": "Hasan (Darussalam, Jami' at-Tirmidhi 3563); Al-Tirmidhi's wording gives Hasan Gharib.",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -726,7 +731,7 @@
           "url": "https://sunnah.com/muslim:2713"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2713 (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -772,7 +777,7 @@
           "url": "https://sunnah.com/ibnmajah:925"
         }
       ],
-      "authenticity": "Sahih according to the cited Al-Albani grading (as supplied).",
+      "authenticity": "Sahih (Darussalam, Sunan Ibn Majah 925).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -795,7 +800,7 @@
           "url": "https://sunnah.com/muslim:2739"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2739 (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -955,7 +960,7 @@
         }
       ],
       "narrator": "Aisha",
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2191c (Sahih collection).",
       "classification": [
         "Prophet ﷺ recited"
       ]
@@ -978,7 +983,7 @@
           "url": "https://sunnah.com/muslim:2202"
         }
       ],
-      "authenticity": "Sahih (as supplied)",
+      "authenticity": "Sahih Muslim 2202 (Sahih collection).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -1001,7 +1006,7 @@
           "url": "https://sunnah.com/abudawud:3106"
         }
       ],
-      "authenticity": "Sahih according to Al-Albani (as supplied).",
+      "authenticity": "Sahih (Al-Albani, Sunan Abi Dawud 3106).",
       "classification": [
         "Prophet ﷺ taught"
       ]
@@ -1048,7 +1053,7 @@
         }
       ],
       "narrator": "Anas ibn Malik",
-      "authenticity": "Disputed: some scholars authenticated the narration, while other assessments classify it as weak (as supplied).",
+      "authenticity": "Sahih (Al-Albani, Sunan Abi Dawud 1554); Da'if (Zubair Ali Zai, as reported by Tohed, citing Anwar al-Sahifa, p. 61; Tohed notes Qatadah's 'an'anah). These are differing scholar-specific grades, not a consensus label.",
       "classification": [
         "Prophet ﷺ recited",
         "Prophet ﷺ taught"

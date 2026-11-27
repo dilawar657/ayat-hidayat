@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4f0e5">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Ayat-e-Hidayat">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="description" content="Explore Quranic commandments, thoughtfully organized Surah by Surah.">
     <title>Ayat-e-Hidayat — آیاتِ ہدایت</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="alternate icon" href="favicon.svg">
+    <link rel="apple-touch-icon" href="icons/ayat-icon-192.svg">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
   </head>
@@ -15,5 +21,12 @@
     <div id="app">
       <noscript>This website needs JavaScript enabled to display its Quran and dua collections.</noscript>
     </div>
+    <aside class="pwa-tools" id="pwa-tools" aria-label="Offline reading and app updates" hidden>
+      <p id="pwa-status" role="status" aria-live="polite">Checking offline availability…</p>
+      <button id="pwa-download" type="button">Download for Offline Reading</button>
+      <button id="pwa-update" type="button" hidden>Update Now</button>
+      <button id="pwa-install" type="button" hidden>Install App</button>
+    </aside>
+    <script src="pwa-client.js" defer></script>
   </body>
 </html>
